@@ -1,21 +1,42 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
+import { graphql } from "gatsby"
+import { Row, Container } from "react-bootstrap"
+import Banner from "../components/Banner"
+import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = props => {
+  console.log("PROPS", props)
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Banner img={props.data.image1.childImageSharp.fluid} title="2Taps" />
+      <Container>
+        <Row>
+          <h1>Hi people</h1>
+          <p>Welcome to your new Gatsby site.</p>
+          <p>Now go build something great.</p>
+        </Row>
+      </Container>
+    </Layout>
+  )
+}
 
 export default IndexPage
+
+export const indexImage = graphql`
+  fragment indexImage on File {
+    childImageSharp {
+      fluid(maxWidth: 2400) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+export const query = graphql`
+  query {
+    image1: file(relativePath: { eq: "bannerOne.jpg" }) {
+      ...indexImage
+    }
+  }
+`

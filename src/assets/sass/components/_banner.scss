@@ -1,0 +1,56 @@
+.bg-image-hero:after {
+  background: #05050b;
+  background: -webkit-linear-gradient(#110f24 0%, #05050b 100%);
+  background: -moz-linear-gradient(#110f24 0%, #05050b 100%);
+  background: -ms-linear-gradient(#110f24 0%, #05050b 100%);
+  background: -o-linear-gradient(#110f24 0%, #05050b 100%);
+  background: linear-gradient(#110f24 0%, #05050b 100%);
+}
+
+.overlay-hero:before {
+  // background: url(../img/shape-hero.svg);
+  background-position: center;
+}
+
+.particles-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-title {
+  animation: fadein 2s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+.hero-title_caroursel {
+  margin-top: 40px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.banner_image {
+  max-height: 100vh;
+  h2 {
+    font-size: 3rem;
+  }
+  img {
+    // opacity: 0.8;
+    filter: brightness(50%);
+    min-width: 100%;
+  }
+}
+.carousel-caption {
+  bottom: 14%;
+}
