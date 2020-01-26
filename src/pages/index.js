@@ -12,11 +12,7 @@ const IndexPage = props => {
       <SEO title="Home" />
       <Banner img={props.data.image1.childImageSharp.fluid} title="2Taps" />
       <Container>
-        <Row>
-          <h1>Hi people</h1>
-          <p>Welcome to your new Gatsby site.</p>
-          <p>Now go build something great.</p>
-        </Row>
+        <Row></Row>
       </Container>
     </Layout>
   )

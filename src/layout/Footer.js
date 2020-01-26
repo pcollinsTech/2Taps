@@ -18,12 +18,12 @@ const Footer = () => (
               Copyright @ 2Taps Winebar. All rights reserved{" "}
               {new Date().getFullYear()}.
             </p>
-            <span>
+            {/* <span>
               Built by{" "}
               <a href="https://pcollins.tech" target="__blank">
                 Phil
               </a>
-            </span>
+            </span> */}
           </div>
           <div className="col-sm-2">
             <h5>Site Map</h5>
