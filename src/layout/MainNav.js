@@ -1,36 +1,36 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { Navbar, Nav, Container, Row } from "react-bootstrap"
+import { Navbar, Container, Row } from "react-bootstrap"
 import logo from "../assets/images/logo/logo.png"
-import SideNav from "./SideNav"
+// import SideNav from "./SideNav"
 
 class NavBar extends Component {
-  componentDidMount() {
-    let elem = document.getElementById("navbar")
-    // if (this.props.router.location.pathname === "/") {
-    document.addEventListener("scroll", () => {
-      if (window.scrollY > 170) {
-        elem.classList.add("is-sticky")
-      } else {
-        elem.classList.remove("is-sticky")
-      }
-    })
-    let scrollWithOffset = (el, offset) => {
-      const elementPosition = el.offsetTop - offset
-      window.scroll({
-        top: elementPosition,
-        left: 0,
-        behavior: "smooth",
-      })
-    }
-    this.setState({ scrollWithOffset })
-  }
+  // componentDidMount() {
+  //   let elem = document.getElementById("navbar")
+  //   // if (this.props.router.location.pathname === "/") {
+  //   document.addEventListener("scroll", () => {
+  //     if (window.scrollY > 170) {
+  //       elem.classList.add("is-sticky")
+  //     } else {
+  //       elem.classList.remove("is-sticky")
+  //     }
+  //   })
+  //   let scrollWithOffset = (el, offset) => {
+  //     const elementPosition = el.offsetTop - offset
+  //     window.scroll({
+  //       top: elementPosition,
+  //       left: 0,
+  //       behavior: "smooth",
+  //     })
+  //   }
+  //   this.setState({ scrollWithOffset })
+  // }
 
-  closeNavbar() {
-    if (window.matchMedia("screen and (max-width: 991px)").matches) {
-      document.getElementById("collaspe-btn").click()
-    }
-  }
+  // closeNavbar() {
+  //   if (window.matchMedia("screen and (max-width: 991px)").matches) {
+  //     document.getElementById("collaspe-btn").click()
+  //   }
+  // }
   render() {
     return (
       <div className="nav-wrapper">
@@ -48,7 +48,7 @@ class NavBar extends Component {
                   <img src={logo} alt="logo" style={{ maxWidth: "150px" }} />
                 </Link>
               </Navbar.Brand>
-              <Navbar.Toggle
+              {/* <Navbar.Toggle
                 aria-controls="basic-navbar-nav"
                 id="collaspe-btn"
               />
@@ -96,11 +96,11 @@ class NavBar extends Component {
                   </Nav.Item>
 
                   <Nav.Item>
-                    {/* SideNav: src/components/SideNav */}
+                    SideNav: src/components/SideNav
                     <SideNav />
                   </Nav.Item>
                 </Nav>
-              </Navbar.Collapse>
+              </Navbar.Collapse> */}
             </Navbar>
           </Row>
         </Container>

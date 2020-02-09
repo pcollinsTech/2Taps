@@ -11,9 +11,7 @@ const Layout = ({ props, children }) => {
       <MainNav router={props} />
       <PermanentNav />
       <SocialNav />
-      {/* <div className="container" style={{marginTop: "80px"}} > */}
-      {children}
-      {/* </div> */}
+      <div className="content-wrap">{children}</div>
       <Footer />
     </Fragment>
   )

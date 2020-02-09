@@ -3,18 +3,18 @@ import { FaInstagram, FaFacebook } from "react-icons/fa"
 const SocialNav = () => {
   return (
     <Fragment>
-      <div class="icon-bar">
+      <div className="icon-bar">
         <a
           href="https://www.facebook.com/2tapswinebar"
           target="__blank"
-          class="facebook"
+          className="facebook"
         >
           <FaFacebook />
         </a>
         <a
           href="https://www.instagram.com/2tapswinebar"
           target="__blank"
-          class="instagram"
+          className="instagram"
         >
           <FaInstagram />
         </a>

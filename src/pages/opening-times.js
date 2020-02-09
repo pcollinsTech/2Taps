@@ -4,7 +4,8 @@ import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
-import hollumi from "../assets/images/hollumi.jpg"
+import { FaMapSigns } from "react-icons/fa"
+
 const OpeningTimesPage = props => {
   console.log("PROPS", props)
   return (
@@ -16,7 +17,23 @@ const OpeningTimesPage = props => {
       />
       <Container>
         <Row>
-          <h1>Opening Times</h1>
+          <h3>Hours &amp; Location</h3>
+          <FaMapSigns />
+          <b>42 Waring Street</b>
+          Cotton Court
+          <br />
+          Cathedral Quarter
+          <br />
+          Belfast
+          <br /> BT1 2ED
+        </Row>
+        <Row>
+          <h4>Regular Hours</h4>
+          <br />
+          <p>Tuesday-Thursday 12:00 - 21:30</p>
+          <br />
+          <p>Friday &amp; Saturday 12:00 - 21:30</p>
+          <br />
         </Row>
       </Container>
     </Layout>

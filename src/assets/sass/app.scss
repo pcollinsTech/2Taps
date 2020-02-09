@@ -9,6 +9,7 @@
 // Layout
 @import "layout/navbar";
 @import "layout/footer";
+@import "layout/layout";
 
 @include skel-breakpoints(
   (
@@ -27,5 +28,9 @@
 @import "exolot_style";
 
 @import "components/banner";
+@import "components/blog_banner";
 @import "components/permanentNav";
 @import "components/socialNav";
+@import "components/menu";
+
+@import "pages/index";

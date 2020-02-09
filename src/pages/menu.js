@@ -4,6 +4,7 @@ import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
+import Menu from "../components/Menu.js/Menu"
 
 const MenuPage = props => {
   console.log("PROPS", props)
@@ -13,7 +14,7 @@ const MenuPage = props => {
       <Banner img={props.data.image1.childImageSharp.fluid} title="Menus" />
       <Container>
         <Row>
-          <h1>Menus</h1>
+          <Menu />
         </Row>
       </Container>
     </Layout>

@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react"
-import { Nav, Modal } from "react-bootstrap"
+import { Modal } from "react-bootstrap"
 import { ValidationForm, TextInput } from "react-bootstrap4-form-validation"
 import {
   FaMapSigns,
@@ -8,13 +8,16 @@ import {
   FaEnvelope,
   FaInstagram,
 } from "react-icons/fa"
+import { MdContacts } from "react-icons/md"
 
 const SideNav = () => {
   const [show, setShow] = useState(false)
 
   return (
     <Fragment>
-      <Nav.Link onClick={() => setShow(!show)}>Contact</Nav.Link>
+      <span onClick={() => setShow(!show)}>
+        <MdContacts />
+      </span>
 
       <Modal show={show} onHide={() => setShow(!show)} className="right">
         <Modal.Header closeButton />
@@ -29,7 +32,12 @@ const SideNav = () => {
             <li>
               <FaMapSigns />
               <b>42 Waring Street</b>
-              Belfast, BT1 2ED
+              Cotton Court
+              <br />
+              Cathedral Quarter
+              <br />
+              Belfast
+              <br /> BT1 2ED
             </li>
             <li>
               <FaPhone />
@@ -40,8 +48,9 @@ const SideNav = () => {
                 >
                   028 90 311414
                 </a>
+                <br />
+                Bookings &amp; queries
               </b>
-              Give us a call
             </li>
             <li>
               <FaEnvelope />
