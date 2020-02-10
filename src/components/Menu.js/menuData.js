@@ -206,25 +206,25 @@ export const menuData = {
   paella: [
     {
       title: "35. Paella de Marisco (GF)",
-      price: "Full: £28 Half: £16",
+      price: "Full: £28 <br/>Half: £16",
       description:
         "Seafood paella with squid, tiger prawns, mussels, langoustine & fish of the day in saffron and spicy tomato rice",
     },
     {
       title: "36. Paella Valenciana (GF)",
-      price: "Full: £28 Half: £16",
+      price: "Full: £28 <br/>Half: £16",
       description:
         "Mixed paella with chicken, chorizo, mussels, langoustine and tiger prawns in saffron and spicy tomato rice",
     },
     {
       title: "37. Paella de Carne (GF)",
-      price: "Full: £28 Half: £16",
+      price: "Full: £28 <br/>Half: £16",
       description:
         "Meat paella with chicken and chorizo in saffron and spicy tomato rice",
     },
     {
       title: "38. Paella Vegetal (GF)",
-      price: "Full: £20 Half: £10.50",
+      price: "Full: £20 <br/>Half: £10.50",
       description:
         "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron and spicy tomato rice",
     },

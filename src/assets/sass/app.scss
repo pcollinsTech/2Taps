@@ -34,3 +34,6 @@
 @import "components/menu";
 
 @import "pages/index";
+button:hover {
+  background-color: _palette(bg-alt);
+}

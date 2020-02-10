@@ -17,51 +17,45 @@ const Menu = () => {
   const [menu, setMenu] = useState("starters")
   return (
     <Fragment>
-      <Container className="my-2">
-        <Row>
-          <button
-            className="btn btn-primary"
-            onClick={() => setMenu("starters")}
-          >
+      <Container className="mt-3 menu">
+        <Row className="d-flex justify-content-between">
+          <div className="btn btn-primary" onClick={() => setMenu("starters")}>
             Starters
-          </button>
-          <button className="btn btn-primary" onClick={() => setMenu("meat")}>
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("meat")}>
             Meat
-          </button>
-          <button className="btn btn-primary" onClick={() => setMenu("fish")}>
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("fish")}>
             Fish
-          </button>
-          <button
+          </div>
+          <div
             className="btn btn-primary"
             onClick={() => setMenu("vegetarian")}
           >
             Vegetarian
-          </button>
+          </div>
 
-          <button className="btn btn-primary" onClick={() => setMenu("salads")}>
+          <div className="btn btn-primary" onClick={() => setMenu("salads")}>
             Salads
-          </button>
-          <button className="btn btn-primary" onClick={() => setMenu("paella")}>
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("paella")}>
             Paella
-          </button>
-          <button
-            className="btn btn-primary"
-            onClick={() => setMenu("desserts")}
-          >
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("desserts")}>
             Desserts
-          </button>
-          <button className="btn btn-primary" onClick={() => setMenu("lunch")}>
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("lunch")}>
             Lunch
-          </button>
-          <button className="btn btn-primary" onClick={() => setMenu("mains")}>
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("mains")}>
             Mains
-          </button>
-          <button className="btn btn-primary" onClick={() => setMenu("kids")}>
+          </div>
+          <div className="btn btn-primary" onClick={() => setMenu("kids")}>
             Kids
-          </button>
+          </div>
         </Row>
       </Container>
-      <Container className="my-5 menu_container">
+      <Container className="my-3 menu_container">
         <Row>
           {menu === "desserts" && <Desserts menu={menuData.desserts} />}
           {menu === "fish" && <Fish menu={menuData.fish} />}

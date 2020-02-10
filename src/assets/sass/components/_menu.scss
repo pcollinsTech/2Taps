@@ -1,3 +1,14 @@
+.menu {
+  div .btn {
+    padding: 10px 20px;
+  }
+  div .btn:active {
+    background: _palette(bg-alt);
+  }
+  div .btn:hover {
+    background-color: _palette(bg-alt) !important;
+  }
+}
 .menu_container {
   background-color: _palette(bg-alt);
   color: white;
