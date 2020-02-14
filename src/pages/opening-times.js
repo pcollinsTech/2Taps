@@ -75,15 +75,6 @@ export const aboutImage = graphql`
   }
 `
 
-export const foodImage = graphql`
-  fragment foodImage on File {
-    childImageSharp {
-      fluid(maxWidth: 450, maxHeight: 290) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
 export const query = graphql`
   query {
     image1: file(relativePath: { eq: "outside1.jpg" }) {
