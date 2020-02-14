@@ -4,6 +4,7 @@ import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
 import hollumi from "../assets/images/hollumi.jpg"
 import beef from "../assets/images/beef.jpg"
 import cheers from "../assets/images/cheers.jpg"
@@ -30,19 +31,19 @@ const AboutPage = props => {
         <Container className="about inner_page_section">
           <Row>
             <div className="col-sm-4">
-              <img src={hollumi} alt="" />
+              <Img fluid={props.data.hollumi.childImageSharp.fluid} />
             </div>
             <div className="col-sm-4">
-              <img src={beef} alt="" />
+              <Img fluid={props.data.beef.childImageSharp.fluid} />
             </div>
             <div className="col-sm-4">
-              <img src={cheers} alt="" />
+              <Img fluid={props.data.cheers.childImageSharp.fluid} />
             </div>
             <div className="col-sm-6">
-              <img src={seabass} alt="" />
+              <Img fluid={props.data.seabass.childImageSharp.fluid} />
             </div>
             <div className="col-sm-6">
-              <img src={dogs} alt="" />
+              <Img fluid={props.data.dogs.childImageSharp.fluid} />
             </div>
           </Row>
         </Container>
@@ -76,6 +77,21 @@ export const query = graphql`
   query {
     image1: file(relativePath: { eq: "outside1.jpg" }) {
       ...aboutImage
+    }
+    hollumi: file(relativePath: { eq: "hollumi.jpg" }) {
+      ...foodImage
+    }
+    beef: file(relativePath: { eq: "beef.jpg" }) {
+      ...foodImage
+    }
+    cheers: file(relativePath: { eq: "cheers.jpg" }) {
+      ...foodImage
+    }
+    dogs: file(relativePath: { eq: "dogs.jpg" }) {
+      ...foodImage
+    }
+    seabass: file(relativePath: { eq: "seabass.jpg" }) {
+      ...foodImage
     }
   }
 `
