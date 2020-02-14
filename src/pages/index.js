@@ -28,13 +28,13 @@ const IndexPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
-              <p className="text-center col-8">
+              <p className="text-center col-lg-8 col-sm-12">
                 At 2Taps we believe... Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Molestiae repudiandae minus eos mollitia,
                 totam est earum explicabo numquam voluptatibus eius praesentium
                 delectus ducimus. Laudantium rem aperiam eligendi eos quod ad.
               </p>
-              <div className="col-8">
+              <div className="col-lg-8 col-sm-12">
                 <Img
                   fluid={props.data.image2.childImageSharp.fluid}
                   loading="lazy"
@@ -47,7 +47,7 @@ const IndexPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="my-5">
-              <div className="col-6 text-center py-5">
+              <div className="col-lg-6 text-center py-5">
                 <h3>About</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -60,7 +60,7 @@ const IndexPage = props => {
                   <button className="btn btn-primary">Learn More</button>
                 </Link>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6">
                 <Img
                   fluid={props.data.image3.childImageSharp.fluid}
                   loading="lazy"
@@ -70,17 +70,17 @@ const IndexPage = props => {
             </Row>
           </Container>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="my-5">
-              <div className="col-6">
+              <div className="col-lg-6">
                 <Img
                   fluid={props.data.image3.childImageSharp.fluid}
                   loading="lazy"
                   style={{ position: "static" }}
                 />
               </div>
-              <div className="col-6 text-center py-5">
+              <div className="col-lg-6 text-center py-5">
                 <h3>About</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -95,7 +95,7 @@ const IndexPage = props => {
               </div>
             </Row>
           </Container>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </Layout>
   )

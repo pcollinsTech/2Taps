@@ -7,8 +7,6 @@ import SEO from "../components/seo"
 import Menu from "../components/Menu.js/Menu"
 
 const MenuPage = props => {
-  console.log("PROPS", props)
-
   const menuImages = {
     dessert: props.data.dessert.childImageSharp.fluid,
     meat: props.data.meat.childImageSharp.fluid,

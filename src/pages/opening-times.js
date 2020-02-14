@@ -9,7 +9,6 @@ import ScrollAnimation from "react-animate-on-scroll"
 import Gmap from "../components/Gmap"
 
 const OpeningTimesPage = props => {
-  console.log("PROPS", props)
   return (
     <Layout>
       <SEO title="Opening Times" />
@@ -21,13 +20,14 @@ const OpeningTimesPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center">
-              <div className="text-center col-10">
-                <h3>Hours &amp; Location</h3>
+              <div className="text-center col-lg-10 col-sm-12">
                 <h4>Regular Hours</h4>
                 <br />
-                <p>Tuesday-Thursday 12:00 - 21:30</p>
-                <br />
-                <p>Friday &amp; Saturday 12:00 - 21:30</p>
+                <p>
+                  Tuesday-Thursday 12:00 - 21:30
+                  <br />
+                  Friday &amp; Saturday 12:00 - 21:30
+                </p>
               </div>
             </Row>
           </Container>
@@ -35,16 +35,18 @@ const OpeningTimesPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center">
-              <div className="text-center col-10">
+              <div className="text-center col-lg-10 col-sm-12">
                 <FaMapSigns />
                 <h4>42 Waring Street</h4>
-                <p>Cotton Court</p>
-                <br />
-                <p></p>
-                Cathedral Quarter
-                <br />
-                Belfast
-                <br /> BT1 2ED
+                <p>
+                  Cotton Court
+                  <br />
+                  Cathedral Quarter
+                  <br />
+                  Belfast
+                  <br />
+                  BT1 2ED
+                </p>
               </div>
             </Row>
           </Container>

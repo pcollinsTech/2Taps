@@ -1764,6 +1764,9 @@ Right Side Modal CSS
         }
       }
     }
+    @include breakpoint(small) {
+      width: 100%;
+    }
   }
   &.fade {
     .modal-dialog {
