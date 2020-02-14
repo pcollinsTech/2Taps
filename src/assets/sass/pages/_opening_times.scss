@@ -1,0 +1,6 @@
+.address {
+  padding-left: 4rem;
+  @include breakpoint(small) {
+    padding: 15px;
+  }
+}

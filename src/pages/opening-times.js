@@ -42,7 +42,7 @@ const OpeningTimesPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center">
-              <div className="text-center col-sm-6">
+              <div className="col-sm-6 address">
                 <a
                   href="https://www.google.com/maps/place/2+Taps+Wine+Bar/@54.6015625,-5.9281421,17z/data=!3m1!4b1!4m5!3m4!1s0x4861085476a93411:0x2b9ee63dc9570a12!8m2!3d54.6015625!4d-5.9259481?hl=en-GB"
                   target="__blank"
