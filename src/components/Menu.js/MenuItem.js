@@ -9,7 +9,7 @@ const MenuItem = ({ title, description, price }) => {
     <Fragment>
       <Container>
         <Row
-          className="my-4 menu_time"
+          className="menu_item"
           style={{
             filter: "opacity(100%)",
             filter: "brightness(100%)",

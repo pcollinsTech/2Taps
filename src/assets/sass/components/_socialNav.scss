@@ -13,8 +13,8 @@
     color: white;
     font-size: 25px;
     @include breakpoint(small) {
-      font-size: 15px;
-      padding: 6px 10px;
+      font-size: 18px;
+      padding: 10px 10px;
     }
   }
 }

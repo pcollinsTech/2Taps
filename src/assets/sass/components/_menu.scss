@@ -2,6 +2,7 @@
   background-color: white;
   padding: 10px;
   margin: 0 4rem;
+  z-index: 11;
   div .btn {
     padding: 10px 20px;
     border-radius: 0;
@@ -25,16 +26,26 @@
   @include breakpoint(small) {
     margin: -100px 0 0;
   }
+  @include breakpoint(xsmall) {
+    margin: -140px 0 0;
+  }
 }
 .menu_container {
   background-color: _palette(bg-alt);
   color: white;
   padding: 2rem 5rem;
+  margin-bottom: 3rem;
+  .menu_item {
+    padding: 20px 0;
+  }
   p {
     color: white;
   }
 
   @include breakpoint(small) {
     padding: 2rem 1rem;
+    .menu_item {
+      padding: 0;
+    }
   }
 }
