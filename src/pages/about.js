@@ -66,7 +66,7 @@ export const aboutImage = graphql`
 export const foodImage = graphql`
   fragment foodImage on File {
     childImageSharp {
-      fluid(maxWidth: 450, maxHeight: 290) {
+      fluid(maxWidth: 650) {
         ...GatsbyImageSharpFluid
       }
     }
