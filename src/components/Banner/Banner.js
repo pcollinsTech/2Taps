@@ -10,7 +10,9 @@ const Banner = ({ img, title, subHeader }) => {
         <header>
           <h1>{title}</h1>
           <br />
-          {subHeader && <h5 dangerouslySetInnerHTML={html} />}
+          {subHeader && (
+            <h5 dangerouslySetInnerHTML={html} className="mobile" />
+          )}
         </header>
       </div>
     </section>
