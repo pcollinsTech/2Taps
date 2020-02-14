@@ -8,15 +8,17 @@ import Menu from "../components/Menu.js/Menu"
 
 const MenuPage = props => {
   console.log("PROPS", props)
+
+  const menuImages = {
+    dessert: props.data.dessert.childImageSharp.fluid,
+    meat: props.data.meat.childImageSharp.fluid,
+    vegetarian: props.data.vegetarian.childImageSharp.fluid,
+  }
   return (
     <Layout>
       <SEO title="Menus" />
-      <Banner img={props.data.image1.childImageSharp.fluid} title="Menus" />
-      <Container>
-        <Row>
-          <Menu />
-        </Row>
-      </Container>
+      <Banner img={props.data.tapasTrays.childImageSharp.fluid} title="Menus" />
+      <Menu images={menuImages} />
     </Layout>
   )
 }
@@ -32,10 +34,29 @@ export const menuImage = graphql`
     }
   }
 `
+
+export const pageImage = graphql`
+  fragment pageImage on File {
+    childImageSharp {
+      fluid(maxWidth: 700) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "tapasTray6.jpg" }) {
+    tapasTrays: file(relativePath: { eq: "tapasTray6.jpg" }) {
       ...menuImage
+    }
+    dessert: file(relativePath: { eq: "cremeBrule.jpg" }) {
+      ...pageImage
+    }
+    meat: file(relativePath: { eq: "chorizoPan.jpg" }) {
+      ...pageImage
+    }
+    vegetarian: file(relativePath: { eq: "goatsCheese.jpg" }) {
+      ...pageImage
     }
   }
 `

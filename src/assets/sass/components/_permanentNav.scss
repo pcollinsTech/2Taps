@@ -23,31 +23,34 @@
     padding: 10px 0;
   }
 
+  .menu_section {
+    padding: 0;
+    position: relative;
+  }
   .menu_text_container {
-    // display: none;
+    background-color: _palette(bg-alt);
     position: absolute;
     bottom: 0;
     left: 100%;
-    right: 0;
+    right: 40px;
     overflow: hidden;
     width: 0%;
     height: 100%;
     transition: 0.5s ease;
     .text {
+      background-color: _palette(bg-alt);
       color: white;
-      font-size: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      font-size: 18px;
+      text-align: left;
     }
   }
 
-  a:hover .menu_text_container {
+  a:hover .menu_text_container,
+  div:hover .menu_text_container {
     bottom: 0;
-    width: 100%;
+    left: -130px;
+    width: 250%;
   }
 }

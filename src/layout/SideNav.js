@@ -15,9 +15,7 @@ const SideNav = () => {
 
   return (
     <Fragment>
-      <span onClick={() => setShow(!show)}>
-        <MdContacts />
-      </span>
+      <MdContacts onClick={() => setShow(!show)} />
 
       <Modal show={show} onHide={() => setShow(!show)} className="right">
         <Modal.Header closeButton />

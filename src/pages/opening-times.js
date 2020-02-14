@@ -5,6 +5,8 @@ import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 import { FaMapSigns } from "react-icons/fa"
+import ScrollAnimation from "react-animate-on-scroll"
+import Gmap from "../components/Gmap"
 
 const OpeningTimesPage = props => {
   console.log("PROPS", props)
@@ -15,27 +17,44 @@ const OpeningTimesPage = props => {
         img={props.data.image1.childImageSharp.fluid}
         title="Opening Times"
       />
-      <Container>
-        <Row>
-          <h3>Hours &amp; Location</h3>
-          <FaMapSigns />
-          <b>42 Waring Street</b>
-          Cotton Court
-          <br />
-          Cathedral Quarter
-          <br />
-          Belfast
-          <br /> BT1 2ED
-        </Row>
-        <Row>
-          <h4>Regular Hours</h4>
-          <br />
-          <p>Tuesday-Thursday 12:00 - 21:30</p>
-          <br />
-          <p>Friday &amp; Saturday 12:00 - 21:30</p>
-          <br />
-        </Row>
-      </Container>
+      <ScrollAnimation animateIn="fadeInUp">
+        <Container className="inner_page">
+          <Row className="justify-content-md-center my-5">
+            <div className="text-center col-10">
+              <h3>Hours &amp; Location</h3>
+              <h4>Regular Hours</h4>
+              <br />
+              <p>Tuesday-Thursday 12:00 - 21:30</p>
+              <br />
+              <p>Friday &amp; Saturday 12:00 - 21:30</p>
+            </div>
+          </Row>
+        </Container>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInUp">
+        <Container className="inner_page">
+          <Row className="justify-content-md-center my-5">
+            <div className="text-center col-10">
+              <FaMapSigns />
+              <h4>42 Waring Street</h4>
+              <p>Cotton Court</p>
+              <br />
+              <p></p>
+              Cathedral Quarter
+              <br />
+              Belfast
+              <br /> BT1 2ED
+            </div>
+          </Row>
+        </Container>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeInUp">
+        <Container className="inner_page">
+          <Row className="justify-content-md-center my-5">
+            <Gmap />
+          </Row>
+        </Container>
+      </ScrollAnimation>
     </Layout>
   )
 }
