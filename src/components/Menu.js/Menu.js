@@ -18,7 +18,7 @@ const Menu = ({ images }) => {
   return (
     <Fragment>
       <Container className="mt-3 menu">
-        <Row className="d-flex justify-content-between">
+        <Row className="d-flex justify-content-around">
           <div
             className={`btn ${menu === "starters" ? "active" : ""}`}
             onClick={() => setMenu("starters")}

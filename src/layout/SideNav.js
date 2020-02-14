@@ -22,7 +22,7 @@ const SideNav = () => {
         <Modal.Body>
           <div className="logo">
             <a href="/">
-              2Taps -<span>Windebar</span>{" "}
+              2Taps -<span>Winebar</span>{" "}
             </a>
           </div>
           <p>Get in touch</p>

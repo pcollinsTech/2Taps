@@ -5,20 +5,48 @@ import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 import hollumi from "../assets/images/hollumi.jpg"
+import beef from "../assets/images/beef.jpg"
+import cheers from "../assets/images/cheers.jpg"
+import dogs from "../assets/images/dogs.jpg"
+import seabass from "../assets/images/seabass.jpg"
 const AboutPage = props => {
   console.log("PROPS", props)
   return (
     <Layout>
       <SEO title="About" />
       <Banner img={props.data.image1.childImageSharp.fluid} title="About" />
-      <Container>
-        <Row>
-          <div className="col-sm-6">
-            <img src={hollumi} alt="" />
-          </div>
-          <div className="col-sm-6"></div>
-        </Row>
-      </Container>
+      <div className="inner_page">
+        <Container className="about inner_page_section">
+          <Row>
+            <h3>
+              We are a family run business in the heart of Belfast Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Nemo ad iusto
+              molestiae nesciunt assumenda, reiciendis quasi unde libero veniam,
+              soluta atque veritatis, saepe aspernatur dolore magni! Maxime
+              aperiam excepturi fuga!
+            </h3>
+          </Row>
+        </Container>
+        <Container className="about inner_page_section">
+          <Row>
+            <div className="col-sm-4">
+              <img src={hollumi} alt="" />
+            </div>
+            <div className="col-sm-4">
+              <img src={beef} alt="" />
+            </div>
+            <div className="col-sm-4">
+              <img src={cheers} alt="" />
+            </div>
+            <div className="col-sm-6">
+              <img src={seabass} alt="" />
+            </div>
+            <div className="col-sm-6">
+              <img src={dogs} alt="" />
+            </div>
+          </Row>
+        </Container>
+      </div>
     </Layout>
   )
 }

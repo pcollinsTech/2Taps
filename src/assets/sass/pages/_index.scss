@@ -1,11 +1,17 @@
 .inner_page {
   position: relative;
   margin-top: -80px;
-  padding: 3rem;
-  background-color: white;
-  q {
-    font-size: 26px;
-    font-style: italic;
+  .inner_page_section {
+    position: relative;
+    background-color: white;
+    padding: 1rem;
+  }
+  p {
+    font-size: 1.7em;
     margin-bottom: 40px;
+  }
+
+  @include breakpoint(xsmall) {
+    margin-top: -10px;
   }
 }

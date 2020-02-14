@@ -24,74 +24,75 @@ const IndexPage = props => {
       {/* {/* <Modal show={open} onClose={setOpen}>
         Here's some content for the modal
       </Modal> */}
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="justify-content-md-center my-5">
-            <q className="text-center col-8">
-              Nestled in the heart of Belfast, boasting one of Belfast's largest
-              outdoor dining experiences. <br />
-              <br />
-              2Taps is the perfect place to meet, relax, share food and soak up
-              the atmosphere.
-            </q>
-            <div className="col-8">
-              <Img
-                fluid={props.data.image2.childImageSharp.fluid}
-                loading="lazy"
-                style={{ position: "static" }}
-              />
-            </div>
-          </Row>
-        </Container>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="my-5">
-            <div className="col-6 text-center py-5">
-              <h3>About</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                reiciendis consequatur, dolores alias, ab necessitatibus,
-                mollitia voluptatum harum impedit voluptatem doloribus quod!
-                Provident, ea repellat pariatur accusamus reiciendis
-                necessitatibus rem?
+      <div className="inner_page">
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center my-5">
+              <p className="text-center col-8">
+                At 2Taps we believe... Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Molestiae repudiandae minus eos mollitia,
+                totam est earum explicabo numquam voluptatibus eius praesentium
+                delectus ducimus. Laudantium rem aperiam eligendi eos quod ad.
               </p>
-              <button className="btn btn-primary">Learn More</button>
-            </div>
-            <div className="col-6">
-              <Img
-                fluid={props.data.image3.childImageSharp.fluid}
-                loading="lazy"
-                style={{ position: "static" }}
-              />
-            </div>
-          </Row>
-        </Container>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="my-5">
-            <div className="col-6">
-              <Img
-                fluid={props.data.image3.childImageSharp.fluid}
-                loading="lazy"
-                style={{ position: "static" }}
-              />
-            </div>
-            <div className="col-6 text-center py-5">
-              <h3>About</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                reiciendis consequatur, dolores alias, ab necessitatibus,
-                mollitia voluptatum harum impedit voluptatem doloribus quod!
-                Provident, ea repellat pariatur accusamus reiciendis
-                necessitatibus rem?
-              </p>
-              <button className="btn btn-primary">Learn More</button>
-            </div>
-          </Row>
-        </Container>
-      </ScrollAnimation>
+              <div className="col-8">
+                <Img
+                  fluid={props.data.image2.childImageSharp.fluid}
+                  loading="lazy"
+                  style={{ position: "static" }}
+                />
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="my-5">
+              <div className="col-6 text-center py-5">
+                <h3>About</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet reiciendis consequatur, dolores alias, ab
+                  necessitatibus, mollitia voluptatum harum impedit voluptatem
+                  doloribus quod! Provident, ea repellat pariatur accusamus
+                  reiciendis necessitatibus rem?
+                </p>
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+              <div className="col-6">
+                <Img
+                  fluid={props.data.image3.childImageSharp.fluid}
+                  loading="lazy"
+                  style={{ position: "static" }}
+                />
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="my-5">
+              <div className="col-6">
+                <Img
+                  fluid={props.data.image3.childImageSharp.fluid}
+                  loading="lazy"
+                  style={{ position: "static" }}
+                />
+              </div>
+              <div className="col-6 text-center py-5">
+                <h3>About</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet reiciendis consequatur, dolores alias, ab
+                  necessitatibus, mollitia voluptatum harum impedit voluptatem
+                  doloribus quod! Provident, ea repellat pariatur accusamus
+                  reiciendis necessitatibus rem?
+                </p>
+                <button className="btn btn-primary">Learn More</button>
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+      </div>
     </Layout>
   )
 }

@@ -45,7 +45,7 @@ class NavBar extends Component {
             >
               <Navbar.Brand>
                 <Link to="/">
-                  <img src={logo} alt="logo" style={{ maxWidth: "150px" }} />
+                  <img src={logo} alt="logo" />
                 </Link>
               </Navbar.Brand>
               {/* <Navbar.Toggle

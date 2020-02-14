@@ -147,7 +147,6 @@
     height: auto;
     margin-bottom: -2.75em;
     max-height: none;
-    min-height: 0;
     top: -5.75em;
 
     h1 {
@@ -170,7 +169,6 @@
 
     &.blog_major {
       height: auto;
-      min-height: 0;
       max-height: none;
     }
   }

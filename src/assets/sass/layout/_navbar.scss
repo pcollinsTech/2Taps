@@ -6,8 +6,25 @@
   padding: 15px !important;
 }
 
-.active {
-  color: _palette(bg);
+.navbar-brand {
+  img {
+    max-width: 150px;
+  }
+  @include breakpoint(large) {
+    img {
+      max-width: 150px;
+    }
+  }
+  @include breakpoint(small) {
+    img {
+      max-width: 150px;
+    }
+  }
+  @include breakpoint(xxsmall) {
+    img {
+      max-width: 80px;
+    }
+  }
 }
 
 .nav-link {

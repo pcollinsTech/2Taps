@@ -1,5 +1,11 @@
 import React, { Fragment, useState } from "react"
-import { MdRestaurantMenu, MdAvTimer, MdBookmark, MdHome } from "react-icons/md"
+import {
+  MdRestaurantMenu,
+  MdAvTimer,
+  MdBookmark,
+  MdHome,
+  MdAccountCircle,
+} from "react-icons/md"
 import { Link } from "gatsby"
 import SideNav from "./SideNav"
 const PermanentNav = () => {
@@ -12,6 +18,14 @@ const PermanentNav = () => {
               <div className="text">Home</div>
             </div>
             <MdHome />
+          </Link>
+        </div>
+        <div className="menu_section">
+          <Link to="/about" className="d-flex justify-content-between">
+            <div className="menu_text_container">
+              <div className="text">About</div>
+            </div>
+            <MdAccountCircle />
           </Link>
         </div>
         <div className="menu_section">
