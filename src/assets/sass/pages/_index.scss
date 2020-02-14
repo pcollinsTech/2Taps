@@ -11,7 +11,29 @@
     margin-bottom: 40px;
   }
 
+  @include breakpoint(large) {
+    margin-top: -180px;
+    .inner_page_section {
+      padding: 1rem;
+    }
+  }
+  @include breakpoint(medium) {
+    margin-top: -260px;
+    .inner_page_section {
+      padding: 1rem;
+    }
+  }
+  @include breakpoint(small) {
+    margin-top: -120px;
+
+    .inner_page_section {
+      p {
+        font-size: 18px;
+      }
+      padding: 1rem 3.5rem;
+    }
+  }
   @include breakpoint(xsmall) {
-    margin-top: -10px;
+    margin-top: -140px;
   }
 }

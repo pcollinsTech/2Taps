@@ -15,15 +15,17 @@ const ReservationsPage = props => {
         img={props.data.image1.childImageSharp.fluid}
         title="Reservations"
       />
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="justify-content-md-center my-5">
-            <div className="text-center col-10">
-              <h2>OPENTABLE Iframe</h2>
-            </div>
-          </Row>
-        </Container>
-      </ScrollAnimation>
+      <div className="inner_page">
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center my-5">
+              <div className="text-center col-10">
+                <h2>OPENTABLE Iframe</h2>
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+      </div>
     </Layout>
   )
 }

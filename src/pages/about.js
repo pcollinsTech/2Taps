@@ -17,14 +17,14 @@ const AboutPage = props => {
       <Banner img={props.data.image1.childImageSharp.fluid} title="About" />
       <div className="inner_page">
         <Container className="about inner_page_section">
-          <Row>
-            <h3>
+          <Row className="px-5 text-center">
+            <p>
               We are a family run business in the heart of Belfast Lorem ipsum
               dolor sit amet consectetur adipisicing elit. Nemo ad iusto
               molestiae nesciunt assumenda, reiciendis quasi unde libero veniam,
               soluta atque veritatis, saepe aspernatur dolore magni! Maxime
               aperiam excepturi fuga!
-            </h3>
+            </p>
           </Row>
         </Container>
         <Container className="about inner_page_section">

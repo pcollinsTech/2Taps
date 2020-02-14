@@ -53,10 +53,7 @@ const PermanentNav = () => {
           </Link>
         </div>
         <div className="menu_section">
-          <div
-            className="d-flex justify-content-between"
-            style={{ padding: "10px 14px" }}
-          >
+          <div className="d-flex justify-content-between contact">
             <div className="menu_text_container">
               <div className="text">Contact</div>
             </div>

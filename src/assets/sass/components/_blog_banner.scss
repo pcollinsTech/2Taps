@@ -130,15 +130,9 @@
     }
   }
   @include breakpoint(medium) {
-    top: -12.25em;
+    top: -10.25em;
     h1 {
-      font-size: 1.6em;
-    }
-  }
-  @include breakpoint(medium) {
-    top: -14.25em;
-    h1 {
-      font-size: 1.6em;
+      font-size: 3em;
     }
   }
 
@@ -153,7 +147,7 @@
       margin: 50px 0 0;
 
       padding: 50px 0;
-      font-size: 1.5em;
+      font-size: 3em;
     }
 
     > .inner {
@@ -178,7 +172,7 @@
     top: -8.75em;
     > .inner {
       h1 {
-        font-size: 1em;
+        font-size: 3em;
       }
       .content {
         p {

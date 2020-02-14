@@ -17,44 +17,46 @@ const OpeningTimesPage = props => {
         img={props.data.image1.childImageSharp.fluid}
         title="Opening Times"
       />
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="justify-content-md-center my-5">
-            <div className="text-center col-10">
-              <h3>Hours &amp; Location</h3>
-              <h4>Regular Hours</h4>
-              <br />
-              <p>Tuesday-Thursday 12:00 - 21:30</p>
-              <br />
-              <p>Friday &amp; Saturday 12:00 - 21:30</p>
-            </div>
-          </Row>
-        </Container>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="justify-content-md-center my-5">
-            <div className="text-center col-10">
-              <FaMapSigns />
-              <h4>42 Waring Street</h4>
-              <p>Cotton Court</p>
-              <br />
-              <p></p>
-              Cathedral Quarter
-              <br />
-              Belfast
-              <br /> BT1 2ED
-            </div>
-          </Row>
-        </Container>
-      </ScrollAnimation>
-      <ScrollAnimation animateIn="fadeInUp">
-        <Container className="inner_page">
-          <Row className="justify-content-md-center my-5">
-            <Gmap />
-          </Row>
-        </Container>
-      </ScrollAnimation>
+      <div className="inner_page">
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center">
+              <div className="text-center col-10">
+                <h3>Hours &amp; Location</h3>
+                <h4>Regular Hours</h4>
+                <br />
+                <p>Tuesday-Thursday 12:00 - 21:30</p>
+                <br />
+                <p>Friday &amp; Saturday 12:00 - 21:30</p>
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center">
+              <div className="text-center col-10">
+                <FaMapSigns />
+                <h4>42 Waring Street</h4>
+                <p>Cotton Court</p>
+                <br />
+                <p></p>
+                Cathedral Quarter
+                <br />
+                Belfast
+                <br /> BT1 2ED
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center">
+              <Gmap />
+            </Row>
+          </Container>
+        </ScrollAnimation>
+      </div>
     </Layout>
   )
 }

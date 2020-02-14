@@ -17,71 +17,73 @@ const Menu = ({ images }) => {
   const [menu, setMenu] = useState("starters")
   return (
     <Fragment>
-      <Container className="mt-3 menu">
-        <Row className="d-flex justify-content-around">
-          <div
-            className={`btn ${menu === "starters" ? "active" : ""}`}
-            onClick={() => setMenu("starters")}
-          >
-            Starters
-          </div>
-          <div
-            className={`btn ${menu === "meat" ? "active" : ""}`}
-            onClick={() => setMenu("meat")}
-          >
-            Meat
-          </div>
-          <div
-            className={`btn ${menu === "fish" ? "active" : ""}`}
-            onClick={() => setMenu("fish")}
-          >
-            Fish
-          </div>
-          <div
-            className={`btn ${menu === "vegetarian" ? "active" : ""}`}
-            onClick={() => setMenu("vegetarian")}
-          >
-            Vegetarian
-          </div>
+      <div className="menu">
+        <Container>
+          <Row className="d-flex justify-content-around">
+            <div
+              className={`btn ${menu === "starters" ? "active" : ""}`}
+              onClick={() => setMenu("starters")}
+            >
+              Starters
+            </div>
+            <div
+              className={`btn ${menu === "meat" ? "active" : ""}`}
+              onClick={() => setMenu("meat")}
+            >
+              Meat
+            </div>
+            <div
+              className={`btn ${menu === "fish" ? "active" : ""}`}
+              onClick={() => setMenu("fish")}
+            >
+              Fish
+            </div>
+            <div
+              className={`btn ${menu === "vegetarian" ? "active" : ""}`}
+              onClick={() => setMenu("vegetarian")}
+            >
+              Vegetarian
+            </div>
 
-          <div
-            className={`btn ${menu === "salads" ? "active" : ""}`}
-            onClick={() => setMenu("salads")}
-          >
-            Salads
-          </div>
-          <div
-            className={`btn ${menu === "paella" ? "active" : ""}`}
-            onClick={() => setMenu("paella")}
-          >
-            Paella
-          </div>
-          <div
-            className={`btn ${menu === "desserts" ? "active" : ""}`}
-            onClick={() => setMenu("desserts")}
-          >
-            Desserts
-          </div>
-          <div
-            className={`btn ${menu === "lunch" ? "active" : ""}`}
-            onClick={() => setMenu("lunch")}
-          >
-            Lunch
-          </div>
-          <div
-            className={`btn ${menu === "mains" ? "active" : ""}`}
-            onClick={() => setMenu("mains")}
-          >
-            Mains
-          </div>
-          <div
-            className={`btn ${menu === "kids" ? "active" : ""}`}
-            onClick={() => setMenu("kids")}
-          >
-            Kids
-          </div>
-        </Row>
-      </Container>
+            <div
+              className={`btn ${menu === "salads" ? "active" : ""}`}
+              onClick={() => setMenu("salads")}
+            >
+              Salads
+            </div>
+            <div
+              className={`btn ${menu === "paella" ? "active" : ""}`}
+              onClick={() => setMenu("paella")}
+            >
+              Paella
+            </div>
+            <div
+              className={`btn ${menu === "desserts" ? "active" : ""}`}
+              onClick={() => setMenu("desserts")}
+            >
+              Desserts
+            </div>
+            <div
+              className={`btn ${menu === "lunch" ? "active" : ""}`}
+              onClick={() => setMenu("lunch")}
+            >
+              Lunch
+            </div>
+            <div
+              className={`btn ${menu === "mains" ? "active" : ""}`}
+              onClick={() => setMenu("mains")}
+            >
+              Mains
+            </div>
+            <div
+              className={`btn ${menu === "kids" ? "active" : ""}`}
+              onClick={() => setMenu("kids")}
+            >
+              Kids
+            </div>
+          </Row>
+        </Container>
+      </div>
       <Container className="my-3 menu_container">
         <Row>
           {menu === "desserts" && (

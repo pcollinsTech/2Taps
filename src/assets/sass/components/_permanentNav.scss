@@ -16,11 +16,12 @@
     color: _palette(bg-alt);
     font-size: 25px;
   }
-  a {
-    padding: 10px 14px;
-  }
   div {
     padding: 10px 0;
+  }
+  a,
+  .contact {
+    padding: 10px 14px;
   }
 
   .menu_section {
@@ -52,5 +53,15 @@
     bottom: 0;
     left: -130px;
     width: 250%;
+  }
+  @include breakpoint(small) {
+    a,
+    div,
+    .contact {
+      font-size: 18px;
+      padding: 6px 10px;
+      background-color: _palette(bg);
+      color: _palette(bg-alt);
+    }
   }
 }

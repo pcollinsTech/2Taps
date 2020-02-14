@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
@@ -56,7 +56,9 @@ const IndexPage = props => {
                   doloribus quod! Provident, ea repellat pariatur accusamus
                   reiciendis necessitatibus rem?
                 </p>
-                <button className="btn btn-primary">Learn More</button>
+                <Link to="/about">
+                  <button className="btn btn-primary">Learn More</button>
+                </Link>
               </div>
               <div className="col-6">
                 <Img
@@ -87,7 +89,9 @@ const IndexPage = props => {
                   doloribus quod! Provident, ea repellat pariatur accusamus
                   reiciendis necessitatibus rem?
                 </p>
-                <button className="btn btn-primary">Learn More</button>
+                <Link to="/about">
+                  <button className="btn btn-primary">Learn More</button>
+                </Link>
               </div>
             </Row>
           </Container>

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-import { FaInstagram, FaFacebook } from "react-icons/fa"
+import { Link } from "gatsby"
 import logo from "../assets/images/logo/logoWhite.png"
 
 const Footer = () => (
@@ -7,7 +7,7 @@ const Footer = () => (
     <footer className="footer-area">
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 col-md-5">
+          <div className="col-lg-6 col-md-6 pb-3">
             <img
               src={logo}
               alt=""
@@ -25,42 +25,25 @@ const Footer = () => (
               </a>
             </p> */}
           </div>
-          <div className="col-sm-2">
+          <div className="col">
             <h5>Site Map</h5>
             <ul>
-              <li>About</li>
-              <li>Menu</li>
-              <li>Contact</li>
-              <li></li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/menu">Menu</Link>
+              </li>
+              <li>
+                <Link to="/menu">Contact</Link>
+              </li>
             </ul>
           </div>
-          <div className="col-sm-2">
+          <div className="col">
             <h5>Legal</h5>
             <ul>
               <li>Terms of Service</li>
               <li>Privacy Policy</li>
-            </ul>
-          </div>
-          <div className="col-sm-3">
-            <h5>Let's Connect</h5>
-            <ul>
-              <li>
-                <a
-                  href="https://www.instagram.com/2tapswinebar/"
-                  target="__blank"
-                >
-                  <FaInstagram /> - Instagram
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.facebook.com/2tapswinebar/"
-                  target="__blank"
-                >
-                  <FaFacebook /> - Facebook
-                </a>
-              </li>
             </ul>
           </div>
         </div>

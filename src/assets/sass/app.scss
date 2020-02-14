@@ -6,10 +6,6 @@
 @import "libs/animations";
 
 @import "settings";
-// Layout
-@import "layout/navbar";
-@import "layout/footer";
-@import "layout/layout";
 
 @include skel-breakpoints(
   (
@@ -22,6 +18,10 @@
     xxsmall: "(max-width: 360px)",
   )
 );
+// Layout
+@import "layout/footer";
+@import "layout/layout";
+@import "layout/navbar";
 
 @import "exolot_popup";
 @import "exolot_responsive";
@@ -37,4 +37,11 @@
 @import "pages/about";
 button:hover {
   background-color: _palette(bg-alt);
+}
+
+@include breakpoint(small) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

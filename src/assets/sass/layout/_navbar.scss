@@ -8,21 +8,21 @@
 
 .navbar-brand {
   img {
-    max-width: 150px;
+    width: 150px;
   }
   @include breakpoint(large) {
     img {
-      max-width: 150px;
+      width: 150px;
     }
   }
   @include breakpoint(small) {
     img {
-      max-width: 150px;
+      width: 150px;
     }
   }
-  @include breakpoint(xxsmall) {
+  @include breakpoint(xsmall) {
     img {
-      max-width: 80px;
+      width: 80px;
     }
   }
 }
