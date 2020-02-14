@@ -86,20 +86,16 @@ const Menu = ({ images }) => {
       </div>
       <Container className="my-3 menu_container">
         <Row>
-          {menu === "desserts" && (
-            <Desserts menu={menuData.desserts} image={images.dessert} />
-          )}
+          {menu === "desserts" && <Desserts menu={menuData.desserts} />}
           {menu === "fish" && <Fish menu={menuData.fish} />}
           {menu === "kids" && <Kids menu={menuData.kids} />}
           {menu === "lunch" && <Lunch menu={menuData.lunch} />}
           {menu === "mains" && <Mains menu={menuData.mains} />}
-          {menu === "meat" && <Meat menu={menuData.meat} image={images.meat} />}
+          {menu === "meat" && <Meat menu={menuData.meat} />}
           {menu === "paella" && <Paella menu={menuData.paella} />}
           {menu === "salads" && <Salads menu={menuData.salads} />}
           {menu === "starters" && <Starters menu={menuData.starters} />}
-          {menu === "vegetarian" && (
-            <Vegetarian menu={menuData.vegetarian} image={images.vegetarian} />
-          )}
+          {menu === "vegetarian" && <Vegetarian menu={menuData.vegetarian} />}
         </Row>
       </Container>
     </Fragment>

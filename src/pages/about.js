@@ -11,7 +11,6 @@ import cheers from "../assets/images/cheers.jpg"
 import dogs from "../assets/images/dogs.jpg"
 import seabass from "../assets/images/seabass.jpg"
 const AboutPage = props => {
-  console.log("PROPS", props)
   return (
     <Layout>
       <SEO title="About" />

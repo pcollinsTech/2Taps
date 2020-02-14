@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 import ScrollAnimation from "react-animate-on-scroll"
 
 const ReservationsPage = props => {
-  console.log("PROPS", props)
   return (
     <Layout>
       <SEO title="Menus" />
