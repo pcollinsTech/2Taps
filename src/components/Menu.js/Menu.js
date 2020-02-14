@@ -84,7 +84,7 @@ const Menu = ({ images }) => {
           </Row>
         </Container>
       </div>
-      <Container className="menu_container">
+      <Container className=" menu_container">
         <Row>
           {menu === "desserts" && <Desserts menu={menuData.desserts} />}
           {menu === "fish" && <Fish menu={menuData.fish} />}

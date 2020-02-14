@@ -54,10 +54,10 @@ const SideNav = () => {
               <FaEnvelope />
               <b>
                 <a
-                  href="mailto:info@2tapswinebar.com"
+                  href="mailto:info@2taps-winebar.com"
                   style={{ color: "black", textDecoration: "none" }}
                 >
-                  info@2tapswinebar.com
+                  info@2taps-winebar.com
                 </a>
               </b>
             </li>
