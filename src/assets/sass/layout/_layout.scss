@@ -6,8 +6,4 @@
 
 .content-wrap {
   padding-bottom: 12.5rem;
-
-  @include breakpoint(small) {
-    padding-bottom: 20rem;
-  }
 }

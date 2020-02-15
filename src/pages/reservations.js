@@ -18,10 +18,11 @@ const ReservationsPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
-              <div className="text-center col-sm-4">
-                <p>For reservations more than 6 please give us a call</p>
-              </div>
               <div className="text-center col-sm-8">
+                <script
+                  type="text/javascript"
+                  src="//www.opentable.co.uk/widget/reservation/loader?rid=161271&type=button&theme=standard&iframe=true&domain=couk&lang=en-GB&newtab=true&ot_source=Restaurant%20website"
+                ></script>
                 <iframe
                   src="https://www.opentable.co.uk/r/2-taps-wine-bar-reservations-belfast?restref=161271&lang=en-GB&ot_source=Restaurant%20website"
                   frameborder="0"
