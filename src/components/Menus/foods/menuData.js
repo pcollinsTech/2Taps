@@ -142,7 +142,7 @@ export const menuData = {
       title: "22. Patatas Bravas (GF)",
       price: "£4",
       description:
-        "Crispy fried pototas topped with spicy tomato sauce& avocado aioli",
+        "Crispy fried pototas topped with spicy tomato sauce & avocado aioli",
     },
     {
       title: "23. Tortilla Española (GF)",

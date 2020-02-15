@@ -20,6 +20,11 @@ const ReservationsPage = props => {
             <Row className="justify-content-md-center my-5">
               <div className="text-center col-10">
                 <h2>OPENTABLE Iframe</h2>
+
+                {/* <iframe
+                  src="https://www.opentable.co.uk/r/2-taps-wine-bar-reservations-belfast?restref=161271&lang=en-GB&ot_source=Restaurant%20website"
+                  frameborder="0"
+                ></iframe> */}
               </div>
             </Row>
           </Container>

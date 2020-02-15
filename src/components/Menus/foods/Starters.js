@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
-import MenuItem from "./MenuItem"
+import MenuItem from "../MenuItem"
 
-const Kids = ({ menu }) => {
+const Starters = ({ menu }) => {
   return (
     <Fragment>
       {menu.map(item => (
@@ -15,4 +15,4 @@ const Kids = ({ menu }) => {
   )
 }
 
-export default Kids
+export default Starters

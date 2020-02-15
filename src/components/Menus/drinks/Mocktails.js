@@ -1,10 +1,10 @@
 import React, { Fragment } from "react"
-import MenuItem from "./MenuItem"
+import MenuItem from "../MenuItem"
 
-const Salads = ({ menu }) => {
+const Mocktails = ({ drinks }) => {
   return (
     <Fragment>
-      {menu.map(item => (
+      {drinks.map(item => (
         <MenuItem
           title={item.title}
           price={item.price}
@@ -15,4 +15,4 @@ const Salads = ({ menu }) => {
   )
 }
 
-export default Salads
+export default Mocktails

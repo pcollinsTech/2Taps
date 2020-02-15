@@ -1,12 +1,12 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
-import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
-import Menu from "../components/Menu.js/Menu"
+import Food from "../components/Menus/Food"
+import Menu from "../components/Menus/Menu"
 
-const MenuPage = props => {
+const MenusPage = props => {
   return (
     <Layout>
       <SEO title="Menus" />
@@ -16,7 +16,7 @@ const MenuPage = props => {
   )
 }
 
-export default MenuPage
+export default MenusPage
 
 export const menuImage = graphql`
   fragment menuImage on File {

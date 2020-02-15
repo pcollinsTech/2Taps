@@ -5,11 +5,7 @@ import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-import hollumi from "../assets/images/hollumi.jpg"
-import beef from "../assets/images/beef.jpg"
-import cheers from "../assets/images/cheers.jpg"
-import dogs from "../assets/images/dogs.jpg"
-import seabass from "../assets/images/seabass.jpg"
+
 const AboutPage = props => {
   return (
     <Layout>

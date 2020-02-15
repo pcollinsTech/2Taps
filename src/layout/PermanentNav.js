@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react"
+import React, { Fragment } from "react"
 import {
   MdRestaurantMenu,
   MdAvTimer,
@@ -29,7 +29,7 @@ const PermanentNav = () => {
           </Link>
         </div>
         <div className="menu_section">
-          <Link to="/menu" className="d-flex justify-content-between">
+          <Link to="/menus" className="d-flex justify-content-between">
             <div className="menu_text_container">
               <div className="text">Menu</div>
             </div>

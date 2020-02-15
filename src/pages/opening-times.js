@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
@@ -26,7 +26,11 @@ const OpeningTimesPage = props => {
                 <p>
                   Tuesday-Thursday 12:00 - 21:30
                   <br />
-                  Friday &amp; Saturday 12:00 - 21:30
+                  Friday &amp; Saturday 12:00 - 22:30
+                  <br />
+                  Sunday 13:00 - 22:30
+                  <br />
+                  Monday - CLOSED
                 </p>
               </div>
             </Row>
