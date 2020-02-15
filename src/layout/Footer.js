@@ -25,7 +25,7 @@ const Footer = () => (
               </a>
             </p> */}
           </div>
-          <div className="col">
+          {/* <div className="col">
             <h5>Site Map</h5>
             <ul>
               <li>
@@ -45,7 +45,7 @@ const Footer = () => (
               <li>Terms of Service</li>
               <li>Privacy Policy</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

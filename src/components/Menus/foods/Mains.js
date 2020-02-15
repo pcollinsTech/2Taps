@@ -4,6 +4,7 @@ import MenuItem from "../MenuItem"
 const Mains = ({ menu }) => {
   return (
     <Fragment>
+      <h3 className="my-3 mx-auto">5pm-Late</h3>
       {menu.map(item => (
         <MenuItem
           title={item.title}

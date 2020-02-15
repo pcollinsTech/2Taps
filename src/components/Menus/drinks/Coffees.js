@@ -5,8 +5,11 @@ const Coffees = ({ drinks }) => {
   return (
     <Fragment>
       <div className="col-sm-6">
-        <h3 className="my-3 text-center">Liqueur</h3>
-        {drinks.liqueur.map(item => (
+        <h3 className="my-3 text-center">
+          Liqueur <br />
+          £6.50
+        </h3>
+        {drinks.liqeuer.map(item => (
           <DrinkItem title={item.title} price={item.price} />
         ))}
       </div>
