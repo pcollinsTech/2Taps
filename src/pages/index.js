@@ -70,32 +70,38 @@ const IndexPage = props => {
             </Row>
           </Container>
         </ScrollAnimation>
-        {/* <ScrollAnimation animateIn="fadeInUp">
+        <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
-            <Row className="my-5">
+            <h3 className="my-3 text-center">Cocktails of the Month</h3>
+            <Row className="my-5 monthly_cocktails">
               <div className="col-lg-6">
+                <h3 className="my-3 text-center">For Her</h3>
                 <Img
-                  fluid={props.data.image3.childImageSharp.fluid}
+                  fluid={props.data.aromaBella.childImageSharp.fluid}
                   loading="lazy"
-                  style={{ position: "static" }}
+                  imgStyle={{ objectFit: "contain" }}
                 />
-              </div>
-              <div className="col-lg-6 text-center py-5">
-                <h3>About</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet reiciendis consequatur, dolores alias, ab
-                  necessitatibus, mollitia voluptatum harum impedit voluptatem
-                  doloribus quod! Provident, ea repellat pariatur accusamus
-                  reiciendis necessitatibus rem?
+                <h3 className="my-3 text-center">Aroma Bella</h3>
+                <p className="text-center">
+                  Sevilla, Passoa, Bitters, Vanilla Syrup, Lime Juice
                 </p>
-                <Link to="/about">
-                  <button className="btn btn-primary">Learn More</button>
-                </Link>
+              </div>
+              <div className="col-lg-6 ">
+                <h3 className="my-3 text-center">For Him</h3>
+                <Img
+                  fluid={props.data.teaCup.childImageSharp.fluid}
+                  loading="lazy"
+                  imgStyle={{ objectFit: "contain" }}
+                />
+                <h3 className="my-3 text-center">Brooklyn Teacup</h3>
+                <p className="text-center">
+                  Bulleit Bourbon, Maraschino, Chamomile Syrup, Grapefruit
+                  bitters
+                </p>
               </div>
             </Row>
           </Container>
-        </ScrollAnimation> */}
+        </ScrollAnimation>
       </div>
     </Layout>
   )
@@ -132,6 +138,12 @@ export const query = graphql`
     }
     image3: file(relativePath: { eq: "tapasTray6.jpg" }) {
       ...pageImage
+    }
+    teaCup: file(relativePath: { eq: "brooklynTeaCup.png" }) {
+      ...aboutImage
+    }
+    aromaBella: file(relativePath: { eq: "aromaBella.png" }) {
+      ...aboutImage
     }
   }
 `

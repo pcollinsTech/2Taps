@@ -37,17 +37,17 @@
 @import "pages/index";
 @import "pages/about";
 @import "pages/opening_times";
+@import "pages/reservations";
 button:hover {
   background-color: _palette(bg-alt);
 }
 
 @include breakpoint(small) {
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .mobile {
     display: none;
   }
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
