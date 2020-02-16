@@ -25,17 +25,22 @@ const SideNav = () => {
               2Taps -<span>Winebar</span>{" "}
             </a>
           </div>
-          <p>Get in touch</p>
           <ul className="modal-contact-info">
             <li>
-              <FaMapSigns />
-              <b>42 Waring Street</b>
-              Cotton Court
-              <br />
-              Cathedral Quarter
-              <br />
-              Belfast
-              <br /> BT1 2ED
+              <a
+                href="https://www.google.com/maps/place/2+Taps+Wine+Bar/@54.6015625,-5.9281421,17z/data=!3m1!4b1!4m5!3m4!1s0x4861085476a93411:0x2b9ee63dc9570a12!8m2!3d54.6015625!4d-5.9259481?hl=en-GB"
+                target="__blank"
+                style={{ color: "black" }}
+              >
+                <FaMapSigns />
+                <b>42 Waring Street</b>
+                Cotton Court
+                <br />
+                Cathedral Quarter
+                <br />
+                Belfast
+                <br /> BT1 2ED
+              </a>
             </li>
             <li>
               <FaPhone />
