@@ -11,11 +11,11 @@ import Soft from "./drinks/Soft"
 import Spirits from "./drinks/Spirits"
 import Whites from "./drinks/Whites"
 import Roses from "./drinks/Roses"
+import Sangrias from "./drinks/Sangrias"
 import { drinksData } from "./drinks/drinksData"
-import MenuChooser from "./MenuChooser/MenuChooser"
 
 const Drinks = () => {
-  const [drinksMenu, setDrinks] = useState("beers")
+  const [drinksMenu, setDrinks] = useState("sangrias")
   return (
     <Fragment>
       <Container className="menu">
@@ -37,6 +37,12 @@ const Drinks = () => {
             onClick={() => setDrinks("roses")}
           >
             Roses
+          </div>
+          <div
+            className={`btn ${drinksMenu === "sangrias" ? "active" : ""}`}
+            onClick={() => setDrinks("sangrias")}
+          >
+            Sangrias
           </div>
           <div
             className={`btn ${drinksMenu === "cocktails" ? "active" : ""}`}
@@ -81,9 +87,12 @@ const Drinks = () => {
           {drinksMenu === "cocktails" && (
             <Cocktails drinks={drinksData.cocktails} />
           )}
-          {/* {drinksMenu === "reds" && <Reds drinks={drinksData.reds} />}
+          {drinksMenu === "sangrias" && (
+            <Sangrias drinks={drinksData.sangrias} />
+          )}
+          {drinksMenu === "reds" && <Reds drinks={drinksData.reds} />}
           {drinksMenu === "whites" && <Whites drinks={drinksData.whites} />}
-          {drinksMenu === "roses" && <Roses drinks={drinksData.roses} />} */}
+          {drinksMenu === "roses" && <Roses drinks={drinksData.roses} />}
 
           {drinksMenu === "beers" && <Beers drinks={drinksData.beers} />}
           {drinksMenu === "spirits" && <Spirits drinks={drinksData.spirits} />}
@@ -110,10 +119,10 @@ const Drinks = () => {
             Reds
           </div>
           <div
-            className={`btn ${drinksMenu === "roses" ? "active" : ""}`}
-            onClick={() => setDrinks("roses")}
+            className={`btn ${drinksMenu === "sangrias" ? "active" : ""}`}
+            onClick={() => setDrinks("sangrias")}
           >
-            Roses
+            Sangrias
           </div>
           <div
             className={`btn ${drinksMenu === "cocktails" ? "active" : ""}`}

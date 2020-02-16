@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import MenuItem from "../MenuItem"
 
-const Roses = ({ drinks }) => {
+const Sangrias = ({ drinks }) => {
   return (
     <Fragment>
       {drinks.map(item => (
@@ -15,4 +15,4 @@ const Roses = ({ drinks }) => {
   )
 }
 
-export default Roses
+export default Sangrias

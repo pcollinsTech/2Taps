@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap"
 
 const MenuChooser = props => {
   const { menu, changeMenu } = props
-  const [choice, setChoice] = useState(menu)
+  const [choice, setChoice] = useState("food")
 
   const menuChange = choice => {
     setChoice(choice)

@@ -2,28 +2,28 @@ export const drinksData = {
   whites: [
     {
       title: "House Organic Protocolo Macabeo & Airen Castilla (Spain) ",
-      price: "Bottle £20.00 Carafe £14.50 Glass £5.75",
+      price: "Bottle £20.00 <br/> Carafe £14.50<br/>Glass £5.75",
       description:
         "An exceptional wine from specially organic certified trellised grown vineyard. Very striking with an abundabce of clean refreshing green and yellow fruits.",
     },
 
     {
       title: "Reguta Pinot Grigio (Italy) ",
-      price: "Bottle £22.00 Carafe £15.00 Glass £6.00",
+      price: "Bottle £22.00 <br/> Carafe £15.00<br/>Glass £6.00",
       description:
         "From the region of Friuli, synonymous with Italy’s top white wines, this example represents excellence in winemaking. Saturated in white citrus fruit flavours in a wonderfully rounded & impressively ripe style.",
     },
 
     {
       title: "La Salette (France) ",
-      price: "Bottle £23.00 Carafe £16.00 Glass £6.00",
+      price: "Bottle £23.00 <br/> Carafe £16.00<br/>Glass £6.00",
       description:
         "The most captivating find & introduction to our latest list, the intensity of flavour balanced by attractive fruit filled acidity strikes a chord you won’t forget.",
     },
 
     {
       title: "The Duke of Marlborough Sauvignon Blanc (New Zealand) ",
-      price: "Bottle £24.00 Carafe £16.00 Glass £6.25",
+      price: "Bottle £24.00 <br/> Carafe £16.00<br/>Glass £6.25",
       description:
         "The richness of fruit dominates showcasing all the typical characters of gooseberry, mango & passion fruit.",
     },
@@ -57,7 +57,7 @@ export const drinksData = {
   reds: [
     {
       title: "House Protocolo Organic Tempranillo Castilla (Spain) ",
-      price: "Bottle £20.00 Carafe £14.00 Glass £5.75",
+      price: "Bottle £20.00 <br/> Carafe £14.00<br/>Glass £5.75",
       description:
         "Very refined with purity of both red & blue fruits as well as structured polished tannins to give added class.",
     },
@@ -65,21 +65,21 @@ export const drinksData = {
     {
       title:
         "Domaine L’ Amandine Cuvee Mathilde Merlot & Grenache Vacluse (France)",
-      price: "Bottle £21.00 Carafe £15.00 Glass £6.00",
+      price: "Bottle £21.00 <br/> Carafe £15.00<br/>Glass £6.00",
       description:
         "A stunning wine expressing a delicious saturated palate of wonderfully ripe red & black fruits, just like jam in a glass. So appealing.",
     },
 
     {
       title: "Don Aparo Malbec (Argentina) ",
-      price: "Bottle £22.00 Carafe £15.00 Glass £6.50",
+      price: "Bottle £22.00 <br/> Carafe £15.00<br/>Glass £6.50",
       description:
         "A magnificent example of Argentinean Malbec, coffee bean and mocha infused with both red & black fruit to give such a savoury flavoursome style.",
     },
 
     {
       title: "House Rioja (Spain) ",
-      price: "Bottle £23.00 Carafe £15.50 Glass £6.50",
+      price: "Bottle £23.00 <br/> Carafe £15.50<br/>Glass £6.50",
       description:
         "Crushed red and dark fruit characters dominate this delicious Rioja, brilliantly  balanced with fine acidity & flavoursome ripe tannins.",
     },
@@ -135,20 +135,20 @@ export const drinksData = {
   roses: [
     {
       title: "Founders Stone Zinfandel Rose (California) ",
-      price: "Bottle £20.00 Carafe £14.50 Glass £5.50",
+      price: "Bottle £20.00 <br/> Carafe £14.50<br/>Glass £5.50",
       description:
         "Alive with intense aromas and flavours of just-picked summer strawberries and raspberries.",
     },
     {
       title: "Villa Serena Pinot Grigio Rose (Italy) ",
-      price: "Bottle £21.00 Carafe £15.00 Glass £6.00",
+      price: "Bottle £21.00 <br/> Carafe £15.00<br/>Glass £6.00",
       description:
         "A very decadent rose displaying delicious soft red summer fruit berries as well as lively acidity to give freshness & balance.",
     },
 
     {
       title: "Gran Feudo Rosado, Navarra (Spain) ",
-      price: "Bottle £22.00 Carafe £15.50 Glass £6.50",
+      price: "Bottle £22.00 <br/> Carafe £15.50<br/>Glass £6.50",
       description:
         "Exploding with mountains of intense strawberry flavours and a clean dry finish. Great with Spanish food.",
     },
@@ -191,28 +191,28 @@ export const drinksData = {
         "A great way to finish off the evening either with dessert or simply on its own such is the appeal of this very popular dessert wine.",
     },
   ],
-  sangria: [
+  sangrias: [
     {
       title: "Sangría ",
-      price: "Glass £4.75 Pitcher £15.00",
+      price: "Glass £4.75 <br/>Pitcher £15.00",
       description:
         "Spanish punch made with Red Wine, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Sparkling Orange.",
     },
     {
       title: "Sangría Blanca ",
-      price: "Glass £4.75 Pitcher £15.00",
+      price: "Glass £4.75 <br/>Pitcher £15.00",
       description:
         "Spanish punch made with White Wine, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Lemonade.",
     },
     {
       title: "Sangría Rosada ",
-      price: "Glass £4.75 Pitcher £15.00",
+      price: "Glass £4.75 <br/>Pitcher £15.00",
       description:
         "Spanish punch made with Merlot Rosé, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Lemonade.",
     },
     {
       title: "Tinto De Verano ",
-      price: "Glass £4.75 Pitcher £15.00",
+      price: "Glass £4.75 <br/>Pitcher £15.00",
       description:
         "Andalucian drink made with Red Wine, Martini Rosso, Lemon Juice, Lemonade.",
     },

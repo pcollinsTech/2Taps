@@ -50,6 +50,9 @@
 }
 
 .menu_chooser {
+  button {
+    font-size: 24px;
+  }
   @include breakpoint(large) {
     margin: -150px 2rem 0;
   }

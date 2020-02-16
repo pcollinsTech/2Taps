@@ -1,11 +1,7 @@
-// @font-face {
-//   font-family: 'Avenir';
-//   src: url('../fonts/avenir.otf') format('opentype');
-// }
-// @font-face {
-//   font-family: 'Avenir-Black';
-//   src: url('../fonts/Avenir-Black.ttf') format('truetype');
-// }
+@font-face {
+  font-family: "Constantia";
+  src: url("./fonts/Constantia.ttf") format("truetype");
+}
 
 // Misc.
 $misc: (
@@ -30,8 +26,7 @@ $size: (
 // Font.
 $font: (
   family: (
-    "Avenir",
-    "Avenir-Black",
+    "Constantia",
     Helvetica,
     sans-serif,
   ),
