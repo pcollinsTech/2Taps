@@ -14,7 +14,7 @@ const SocialNav = () => {
         <a
           href="https://www.instagram.com/2tapswinebar"
           target="__blank"
-          className="instagram"
+          className="instagram_nav"
         >
           <FaInstagram />
         </a>

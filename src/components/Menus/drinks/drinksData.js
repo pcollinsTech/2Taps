@@ -1,4 +1,228 @@
 export const drinksData = {
+  whites: [
+    {
+      title: "House Organic Protocolo Macabeo & Airen Castilla (Spain) ",
+      price: "Bottle £20.00 Carafe £14.50 Glass £5.75",
+      description:
+        "An exceptional wine from specially organic certified trellised grown vineyard. Very striking with an abundabce of clean refreshing green and yellow fruits.",
+    },
+
+    {
+      title: "Reguta Pinot Grigio (Italy) ",
+      price: "Bottle £22.00 Carafe £15.00 Glass £6.00",
+      description:
+        "From the region of Friuli, synonymous with Italy’s top white wines, this example represents excellence in winemaking. Saturated in white citrus fruit flavours in a wonderfully rounded & impressively ripe style.",
+    },
+
+    {
+      title: "La Salette (France) ",
+      price: "Bottle £23.00 Carafe £16.00 Glass £6.00",
+      description:
+        "The most captivating find & introduction to our latest list, the intensity of flavour balanced by attractive fruit filled acidity strikes a chord you won’t forget.",
+    },
+
+    {
+      title: "The Duke of Marlborough Sauvignon Blanc (New Zealand) ",
+      price: "Bottle £24.00 Carafe £16.00 Glass £6.25",
+      description:
+        "The richness of fruit dominates showcasing all the typical characters of gooseberry, mango & passion fruit.",
+    },
+
+    {
+      title: "Carlos Serres White Rioja (Spain)",
+      price: "£22.00",
+      description:
+        "Very crisp mineral coated acidity and infused in very ripe green apple fruit characters representing the modern style of white Rioja.",
+    },
+
+    {
+      title: "Adega Moncao Vinho Verde (Portugal)",
+      price: "£23.00",
+      description:
+        "An outstanding VV made mostly from the Alvarinho grape, slightly sparkling wonderfully ripe spicy green apple fruit, very fresh and fanciful.",
+    },
+    {
+      title: "Atlantik Albariňo Rias Baixas (Spain)",
+      price: "£24.00",
+      description:
+        "A pure example of classical Albarino, such a clean aromatic character with very impressive mineral coated green citrus fruit flavours to create what is one of the world’s most unique wine styles.",
+    },
+    {
+      title: "Chablis Domaine Herve Kerlann (France)",
+      price: "£29.00",
+      description:
+        "A very refined and globally renowned style displaying an array of citrus & sub tropical fruit in a delicious creamy rounded format true to character and terroir.",
+    },
+  ],
+  reds: [
+    {
+      title: "House Protocolo Organic Tempranillo Castilla (Spain) ",
+      price: "Bottle £20.00 Carafe £14.00 Glass £5.75",
+      description:
+        "Very refined with purity of both red & blue fruits as well as structured polished tannins to give added class.",
+    },
+
+    {
+      title:
+        "Domaine L’ Amandine Cuvee Mathilde Merlot & Grenache Vacluse (France)",
+      price: "Bottle £21.00 Carafe £15.00 Glass £6.00",
+      description:
+        "A stunning wine expressing a delicious saturated palate of wonderfully ripe red & black fruits, just like jam in a glass. So appealing.",
+    },
+
+    {
+      title: "Don Aparo Malbec (Argentina) ",
+      price: "Bottle £22.00 Carafe £15.00 Glass £6.50",
+      description:
+        "A magnificent example of Argentinean Malbec, coffee bean and mocha infused with both red & black fruit to give such a savoury flavoursome style.",
+    },
+
+    {
+      title: "House Rioja (Spain) ",
+      price: "Bottle £23.00 Carafe £15.50 Glass £6.50",
+      description:
+        "Crushed red and dark fruit characters dominate this delicious Rioja, brilliantly  balanced with fine acidity & flavoursome ripe tannins.",
+    },
+    {
+      title: "Casal Bordino Montepulciano D’Abruzzo (Italy)",
+      price: "£22.00",
+      description:
+        "Old Italian favourite back in fashion. Dry Morello cherries combine with mocha and warm spice.",
+    },
+    {
+      title: "Terra Noble Reserva Cabernet Sauvignon (Chile)",
+      price: "£25.00",
+      description:
+        "An excellent example of fine Cabernet exhibiting both red and dark fruit combing to give structure & elegance.",
+    },
+    {
+      title: "Bodegas Alvia Mileto Rioja Joven (Spain)",
+      price: "£25.00",
+      description:
+        "An intriguing style extremely popular in Spanish Tapas Bars. Joven meaning young portrays a style bursting with primary red fruits that are enhanced when served slightly chilled giving diversity to partner almost any dish as well as great appeal. (This wine will be served chilled)",
+    },
+    {
+      title: "Bodegas Alvia Rioja Crianza (Spain)",
+      price: "£27.00",
+      description:
+        "Traditional style Rioja, subtle oak tones with complex ripe red & dark fruit characters infused with sweet spice.",
+    },
+    {
+      title: "Mo Mo Tinto Tempranillo Ribera Del Duero (Spain)",
+      price: "£28.00",
+      description:
+        "From the dynamic Bodegas... offering a world class entry level red from Spain’s top red wine producing region. Complexity from start to finish offering an array of flavours that are so layered, ripe and appealling.",
+    },
+    {
+      title: "Casar de Burbia Mencia Bierzo (Spain)",
+      price: "£30.00",
+      description:
+        "An amazing wine made from some of Bierzo’s oldest Mencia vines, this wine has it all. Layered in ripe dark fruit components with refined mineral notes and juicy acidity. Overall this wine displays an originality quite like no other.",
+    },
+    {
+      title: "Old Coach Road Pinot Noir (New Zealand)",
+      price: "£32.00",
+      description:
+        "One of the best Pinot Noirs you will ever taste from New Zealand. Phenomenal extraction and complexity – glorious aromas of raspberry truffle are at the fore. You will adore this!",
+    },
+    {
+      title: "Carlos Serres Gran Reserva (Spain)",
+      price: "£35.00",
+      description:
+        "A traditional style sought by followers of “world class” European and in particular Rioja reds a wine that offers  everything in terms of flavour complexity. If you would like it decanted to further unlock its qualities then please ask your server.",
+    },
+  ],
+  roses: [
+    {
+      title: "Founders Stone Zinfandel Rose (California) ",
+      price: "Bottle £20.00 Carafe £14.50 Glass £5.50",
+      description:
+        "Alive with intense aromas and flavours of just-picked summer strawberries and raspberries.",
+    },
+    {
+      title: "Villa Serena Pinot Grigio Rose (Italy) ",
+      price: "Bottle £21.00 Carafe £15.00 Glass £6.00",
+      description:
+        "A very decadent rose displaying delicious soft red summer fruit berries as well as lively acidity to give freshness & balance.",
+    },
+
+    {
+      title: "Gran Feudo Rosado, Navarra (Spain) ",
+      price: "Bottle £22.00 Carafe £15.50 Glass £6.50",
+      description:
+        "Exploding with mountains of intense strawberry flavours and a clean dry finish. Great with Spanish food.",
+    },
+  ],
+  champagnes: [
+    {
+      title: "Arnaud Moreau Brut Tradition Grand Cru Champagne (France) ",
+      price: "£55.00",
+      description:
+        "Dominated in Pinot Noir from the most sought after village in the entire Champagne region, Bouzy graded Grand Cru. Trust us when we say you are about to experience the most exquisite and flavoursome non vintage Champagne available anywhere.",
+    },
+    {
+      title: "Prosecco San Pietro Superiore DOCG (Italy) ",
+      price: "£28.00",
+      description:
+        "A fabulous Prosecco and a great addition to our list. Graded DOCG, Italy’s highest certification for wines of exceptional quality. Wonderful mineral flavours entwined with ripe pear characters & fruit driven acidity combine to give a certain class and distinction.",
+    },
+    {
+      title: "Naveran Brut (Cava, Spain) ",
+      price: "£27.00",
+      description:
+        "Small batch handcrafted Cava of serious quality, Internationally recognised as the finest family owned Cava House. Decadent scents & flavours of crushed white fruit infused with minerals and extremely fine balancing acidity.",
+    },
+    {
+      title: "Naveran Vintage Rose (Cava, Spain) ",
+      price: "£27.00",
+      description:
+        "Created from 100% Pinot Noir this is Spain’s most “iconic” and sought after Rose Cava scooping every year just about every award going and exclusive to 2Taps Wine Bar.",
+    },
+    {
+      title: "Prosecco 20cl (Italy)",
+      price: "£8.50",
+      description:
+        "Clean and crisp with lovely, grapey flavours, a hint of natural sweetness, fine bubbles and a lingering finish. Prosecco has it all which explains the massive boom that has been seen in this market.",
+    },
+    {
+      title: "Chivite Gran Feudo Moscatel Navarra (Spain) 70ml Glass",
+      price: "£4.50",
+      description:
+        "A great way to finish off the evening either with dessert or simply on its own such is the appeal of this very popular dessert wine.",
+    },
+  ],
+  sangria: [
+    {
+      title: "Sangría ",
+      price: "Glass £4.75 Pitcher £15.00",
+      description:
+        "Spanish punch made with Red Wine, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Sparkling Orange.",
+    },
+    {
+      title: "Sangría Blanca ",
+      price: "Glass £4.75 Pitcher £15.00",
+      description:
+        "Spanish punch made with White Wine, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Lemonade.",
+    },
+    {
+      title: "Sangría Rosada ",
+      price: "Glass £4.75 Pitcher £15.00",
+      description:
+        "Spanish punch made with Merlot Rosé, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Lemonade.",
+    },
+    {
+      title: "Tinto De Verano ",
+      price: "Glass £4.75 Pitcher £15.00",
+      description:
+        "Andalucian drink made with Red Wine, Martini Rosso, Lemon Juice, Lemonade.",
+    },
+    {
+      title: "Sangría Chispeante - Sparkling",
+      price: "Pitcher £18.50",
+      description:
+        "Sparkling wine, Soberano Spanish Brandy, Triple Sec, Lemon & Lime Juice, Lemonade.",
+    },
+  ],
   cocktails: {
     martinis: [
       {

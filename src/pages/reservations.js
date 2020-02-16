@@ -23,12 +23,6 @@ const ReservationsPage = props => {
                   type="text/javascript"
                   src="//www.opentable.co.uk/widget/reservation/loader?rid=161271&type=button&theme=standard&iframe=true&domain=couk&lang=en-GB&newtab=true&ot_source=Restaurant%20website"
                 ></script>
-                <iframe
-                  src="https://www.opentable.co.uk/r/2-taps-wine-bar-reservations-belfast?restref=161271&lang=en-GB&ot_source=Restaurant%20website"
-                  frameborder="0"
-                  width="330px"
-                  height="500px"
-                ></iframe>
               </div>
             </Row>
           </Container>

@@ -95,6 +95,64 @@ const Drinks = () => {
           )}
         </Row>
       </Container>
+      <Container className="menu">
+        <Row className="d-flex justify-content-around">
+          <div
+            className={`btn ${drinksMenu === "whites" ? "active" : ""}`}
+            onClick={() => setDrinks("whites")}
+          >
+            Whites
+          </div>
+          <div
+            className={`btn ${drinksMenu === "reds" ? "active" : ""}`}
+            onClick={() => setDrinks("reds")}
+          >
+            Reds
+          </div>
+          <div
+            className={`btn ${drinksMenu === "roses" ? "active" : ""}`}
+            onClick={() => setDrinks("roses")}
+          >
+            Roses
+          </div>
+          <div
+            className={`btn ${drinksMenu === "cocktails" ? "active" : ""}`}
+            onClick={() => setDrinks("cocktails")}
+          >
+            Cocktails
+          </div>
+          <div
+            className={`btn ${drinksMenu === "gins" ? "active" : ""}`}
+            onClick={() => setDrinks("gins")}
+          >
+            Gins
+          </div>
+          <div
+            className={`btn ${drinksMenu === "mocktails" ? "active" : ""}`}
+            onClick={() => setDrinks("mocktails")}
+          >
+            Mocktails
+          </div>
+          <div
+            className={`btn ${drinksMenu === "beers" ? "active" : ""}`}
+            onClick={() => setDrinks("beers")}
+          >
+            Beers
+          </div>
+          <div
+            className={`btn ${drinksMenu === "coffees" ? "active" : ""}`}
+            onClick={() => setDrinks("coffees")}
+          >
+            Hot Drinks
+          </div>
+          <div
+            className={`btn ${drinksMenu === "soft" ? "active" : ""}`}
+            onClick={() => setDrinks("soft")}
+          >
+            Soft Drinks
+          </div>
+        </Row>
+      </Container>
     </Fragment>
   )
 }

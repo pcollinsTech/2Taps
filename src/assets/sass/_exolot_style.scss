@@ -1723,8 +1723,31 @@ Right Side Modal CSS
             a {
               color: _palette(bg);
               margin-right: 10px;
-              font-size: 18px;
+              font-size: 24px;
             }
+          }
+          .social-link {
+            position: relative;
+            background-color: _palette(bg);
+            border-radius: 50%;
+            height: 51px;
+            width: 50px;
+          }
+          .social-link a {
+            position: absolute;
+            top: 0;
+            left: 23%;
+            color: #ac101c;
+            font-size: 30px;
+          }
+
+          .social-link .instagram {
+            top: -2%;
+            left: 21%;
+          }
+
+          .social-link a i {
+            text-align: center;
           }
         }
 
