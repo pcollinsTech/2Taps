@@ -6,13 +6,13 @@ const Footer = () => (
   <Fragment>
     <footer className="footer-area">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 pb-3">
+        <div className="row justify-content-center">
+          <div className="text-center">
             <img
               src={logo}
               alt=""
               style={{ maxWidth: "110px" }}
-              className="pb-4"
+              className="pb-2"
             />
             <p>
               Copyright @ 2Taps Winebar. All rights reserved{" "}
@@ -25,27 +25,6 @@ const Footer = () => (
               </a>
             </p> */}
           </div>
-          {/* <div className="col">
-            <h5>Site Map</h5>
-            <ul>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/menu">Menu</Link>
-              </li>
-              <li>
-                <Link to="/menu">Contact</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="col">
-            <h5>Legal</h5>
-            <ul>
-              <li>Terms of Service</li>
-              <li>Privacy Policy</li>
-            </ul>
-          </div> */}
         </div>
       </div>
     </footer>
