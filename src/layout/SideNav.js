@@ -51,8 +51,6 @@ const SideNav = () => {
                 >
                   028 90 311414
                 </a>
-                <br />
-                Bookings &amp; Queries
               </b>
             </li>
             <li>
