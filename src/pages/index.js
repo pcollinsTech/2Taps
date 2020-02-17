@@ -27,17 +27,6 @@ const IndexPage = props => {
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
-            <Row className="my-5" style={{ height: "80vh" }}>
-              <Img
-                fluid={props.data.image3.childImageSharp.fluid}
-                loading="lazy"
-                style={{ position: "static" }}
-              />
-            </Row>
-          </Container>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
               <div className="col-lg-10 col-sm-10">
                 <Img
@@ -46,6 +35,17 @@ const IndexPage = props => {
                   style={{ position: "static" }}
                 />
               </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="my-5" style={{ height: "80vh" }}>
+              <Img
+                fluid={props.data.image3.childImageSharp.fluid}
+                loading="lazy"
+                style={{ position: "static" }}
+              />
             </Row>
           </Container>
         </ScrollAnimation>
