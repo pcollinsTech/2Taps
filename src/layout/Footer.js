@@ -18,12 +18,16 @@ const Footer = () => (
               Copyright @ 2Taps Winebar. All rights reserved{" "}
               {new Date().getFullYear()}.
             </p>
-            {/* <p style={{ marginTop: "20px" }}>
+            <p style={{ marginTop: "20px" }}>
               Built by{" "}
-              <a href="https://pcollins.tech" target="__blank">
-                Phil
+              <a
+                href="https://pcollins.tech"
+                target="__blank"
+                style={{ color: "#FDAE39" }}
+              >
+                Phil Collins
               </a>
-            </p> */}
+            </p>
           </div>
         </div>
       </div>
