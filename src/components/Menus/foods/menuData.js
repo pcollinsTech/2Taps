@@ -21,7 +21,7 @@ export const menuData = {
       title: "3B. Queso Camembert al Horno",
       price: "£15",
       description:
-        "Baked Camembert cheese stuffed with garlic cloves and rosemary sprigs and served with Serrano ham, rocket, fig relish, grapes and toasted bread for dipping Selection of sauces to choose from - £0.50 each Alioli, pepper sauce, avocado alioli, tartar sauce, sweet chilli & sour cream",
+        "Baked Camembert cheese stuffed with garlic cloves and rosemary sprigs and served with Serrano ham, rocket, fig relish, grapes and toasted bread for dipping Selection of sauces to choose from - £0.5 each Alioli, pepper sauce, avocado alioli, tartar sauce, sweet chilli & sour cream",
     },
   ],
   meat: [
@@ -33,7 +33,7 @@ export const menuData = {
     },
     {
       title: "5.Las Alitas de Pollo (GF)",
-      price: "£4.50",
+      price: "£4.5",
       description: "Marinated spicy chicken wings glazed in honey",
     },
     {
@@ -75,7 +75,7 @@ export const menuData = {
     },
     {
       title: "13. Budin Negro Frito",
-      price: "£4.50",
+      price: "£4.5",
       description: "Pan fried black pudding with broad beans",
     },
   ],
@@ -88,13 +88,13 @@ export const menuData = {
     },
     {
       title: "14B. Boquerones Fritos",
-      price: "£4.50",
+      price: "£4.5",
       description:
         "Fried whitebait in a light batter served with a lemon wedge and aioli",
     },
     {
       title: "14C. Anchoas en vinagre",
-      price: "£4.50",
+      price: "£4.5",
       description:
         "Anchovies, sliced beef tomato, croutons, topped with rocket & olive oil",
     },
@@ -110,12 +110,12 @@ export const menuData = {
     },
     {
       title: "17. Gambas al Ajillo (GF)",
-      price: "£5.50",
+      price: "£5.5",
       description: "Tiger prawns served in garlic & chilli oil",
     },
     {
       title: "18. Calamares",
-      price: "£5.50",
+      price: "£5.5",
       description:
         "Salted squid served with garlic lemon mayonnaise dipping sauce",
     },
@@ -134,7 +134,7 @@ export const menuData = {
   vegetarian: [
     {
       title: "21. Bunuelos de queso de cabra",
-      price: "£4.50",
+      price: "£4.5",
       description:
         "Goats cheese fritters served with a rocket & beetroot salad",
     },
@@ -163,7 +163,7 @@ export const menuData = {
     },
     {
       title: "26. Champignons con Pesto y Brie Fundido",
-      price: "£4.50",
+      price: "£4.5",
       description:
         "Large flat cup mushrooms served with fresh pesto & melted brie",
     },
@@ -224,7 +224,7 @@ export const menuData = {
     },
     {
       title: "38. Paella Vegetal (GF)",
-      price: "Full: £20 <br/>Half: £10.50",
+      price: "Full: £20 <br/>Half: £10.5",
       description:
         "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron and spicy tomato rice",
     },
@@ -265,7 +265,7 @@ export const menuData = {
     },
     {
       title: "PLATO POSTRE",
-      price: "£7.50",
+      price: "£7.5",
       description:
         "Chocolate tart, lemon tart, chocolate mousse, chocolate covered strawberries & ice cream",
     },
@@ -317,7 +317,7 @@ export const menuData = {
     },
     {
       title: "Gambas rebozadas con patatas",
-      price: "£13.50",
+      price: "£13.5",
       description:
         "Scampi in a light and crispy batter, served with mixed salad, chips and homemade tartar sauce",
     },
