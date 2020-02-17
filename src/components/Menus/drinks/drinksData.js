@@ -2,7 +2,7 @@ export const drinksData = {
   whites: [
     {
       title: "House Organic Protocolo Macabeo & Airen Castilla (Spain) ",
-      price: "Bottle £20.00 <br/> Carafe £14.50<br/>Glass £5.75",
+      price: "Bottle £20.00 <br/> Carafe £14.5<br/>Glass £5.75",
       description:
         "An exceptional wine from specially organic certified trellised grown vineyard. Very striking with an abundabce of clean refreshing green and yellow fruits.",
     },
@@ -72,14 +72,14 @@ export const drinksData = {
 
     {
       title: "Don Aparo Malbec (Argentina) ",
-      price: "Bottle £22.00 <br/> Carafe £15.00<br/>Glass £6.50",
+      price: "Bottle £22.00 <br/> Carafe £15.00<br/>Glass £6.5",
       description:
         "A magnificent example of Argentinean Malbec, coffee bean and mocha infused with both red & black fruit to give such a savoury flavoursome style.",
     },
 
     {
       title: "House Rioja (Spain) ",
-      price: "Bottle £23.00 <br/> Carafe £15.50<br/>Glass £6.50",
+      price: "Bottle £23.00 <br/> Carafe £15.5<br/>Glass £6.5",
       description:
         "Crushed red and dark fruit characters dominate this delicious Rioja, brilliantly  balanced with fine acidity & flavoursome ripe tannins.",
     },
@@ -135,7 +135,7 @@ export const drinksData = {
   roses: [
     {
       title: "Founders Stone Zinfandel Rose (California) ",
-      price: "Bottle £20.00 <br/> Carafe £14.50<br/>Glass £5.50",
+      price: "Bottle £20.00 <br/> Carafe £14.5<br/>Glass £5.5",
       description:
         "Alive with intense aromas and flavours of just-picked summer strawberries and raspberries.",
     },
@@ -148,7 +148,7 @@ export const drinksData = {
 
     {
       title: "Gran Feudo Rosado, Navarra (Spain) ",
-      price: "Bottle £22.00 <br/> Carafe £15.50<br/>Glass £6.50",
+      price: "Bottle £22.00 <br/> Carafe £15.5<br/>Glass £6.5",
       description:
         "Exploding with mountains of intense strawberry flavours and a clean dry finish. Great with Spanish food.",
     },
@@ -180,13 +180,13 @@ export const drinksData = {
     },
     {
       title: "Prosecco 20cl (Italy)",
-      price: "£8.50",
+      price: "£8.5",
       description:
         "Clean and crisp with lovely, grapey flavours, a hint of natural sweetness, fine bubbles and a lingering finish. Prosecco has it all which explains the massive boom that has been seen in this market.",
     },
     {
       title: "Chivite Gran Feudo Moscatel Navarra (Spain) 70ml Glass",
-      price: "£4.50",
+      price: "£4.5",
       description:
         "A great way to finish off the evening either with dessert or simply on its own such is the appeal of this very popular dessert wine.",
     },
@@ -218,7 +218,7 @@ export const drinksData = {
     },
     {
       title: "Sangría Chispeante - Sparkling",
-      price: "Pitcher £18.50",
+      price: "Pitcher £18.5",
       description:
         "Sparkling wine, Soberano Spanish Brandy, Triple Sec, Lemon & Lime Juice, Lemonade.",
     },
@@ -265,12 +265,12 @@ export const drinksData = {
     mojitos: [
       {
         title: "House",
-        price: "£8.50",
+        price: "£8.5",
         description: "Bacardi Carta Blanca, Lime Juice, Mint, Gomme",
       },
       {
         title: "Caribbean",
-        price: "£8.50",
+        price: "£8.5",
         description:
           "Captain Morgan Original Spice Gold, Lime Juice, Mint, Gomme",
       },
@@ -283,7 +283,7 @@ export const drinksData = {
     houseClassics: [
       {
         title: "Ketel Fizz",
-        price: "£8.50",
+        price: "£8.5",
         description:
           "Ketel One, Wild Elderflower Liqueur, Lemon Juice, Gomme, Soda Water",
       },
@@ -313,13 +313,13 @@ export const drinksData = {
     winterServes: [
       {
         title: "Spanish Spritz",
-        price: "£8.50",
+        price: "£8.5",
         description:
           "Martini Fiero, Chambord, Triple Sec, Lemon Juice, Gomme, Soda Water",
       },
       {
         title: "Senorita Martini",
-        price: "£8.50",
+        price: "£8.5",
         description: "Cîroc, Passoa, Lime Juice, Vanilla Syrup",
         aside: "Add a side of Limoncello - £1.5",
       },
@@ -346,7 +346,7 @@ export const drinksData = {
   gins: [
     {
       title: "Tanqueray London Dry (43.1%)",
-      price: "£4.50",
+      price: "£4.5",
       description: "Garnish with Grapefruit and Lime",
     },
     {
@@ -356,17 +356,17 @@ export const drinksData = {
     },
     {
       title: "Tanqueray No. TEN (47.3%)",
-      price: "£5.20",
+      price: "£5.2",
       description: "Garnish with Orange and Mint",
     },
     {
       title: "Gordon’s Gin (37.5%)",
-      price: "£4.10",
+      price: "£4.1",
       description: "Garnish with Lemon and Lime",
     },
     {
       title: "Gordon’s Pink Gin (37.5%)",
-      price: "£4.20",
+      price: "£4.2",
       description: "Garnish with Kiwi and Raspberry",
     },
     {
@@ -376,7 +376,7 @@ export const drinksData = {
     },
     {
       title: "Whitley Neill (43%)",
-      price: "£4.80",
+      price: "£4.8",
       description: "Garnish with Lemon and Mint",
     },
     {
@@ -391,12 +391,12 @@ export const drinksData = {
     },
     {
       title: "Nordes Atlantic Galician Gin (40%)",
-      price: "£5.40",
+      price: "£5.4",
       description: "Garnish with Rosemary and Orange",
     },
     {
       title: "Gin Mare (42.7%)",
-      price: "£5.50",
+      price: "£5.5",
       description: "Garnish with Rosemary and Olive",
     },
   ],
@@ -422,11 +422,11 @@ export const drinksData = {
     vodkas: [
       {
         title: "Smirnoff (37.5%)",
-        price: "£4.20",
+        price: "£4.2",
       },
       {
         title: "Ketel One (40%)",
-        price: "£4.50",
+        price: "£4.5",
       },
       {
         title: "Cîroc (40%)",
@@ -444,15 +444,15 @@ export const drinksData = {
       },
       {
         title: "Malibu Coconut Flavour Rum (21%)",
-        price: "£3.90",
+        price: "£3.9",
       },
       {
         title: "Bacardi Carta Blanca (37.5%)",
-        price: "£4.10",
+        price: "£4.1",
       },
       {
         title: "Kraken Dark Rum (40%)",
-        price: "£4.30",
+        price: "£4.3",
       },
     ],
     rums: [
@@ -462,33 +462,33 @@ export const drinksData = {
       },
       {
         title: "Malibu Coconut Flavour Rum (21%)",
-        price: "£3.90",
+        price: "£3.9",
       },
       {
         title: "Bacardi Carta Blanca (37.5%)",
-        price: "£4.10",
+        price: "£4.1",
       },
       {
         title: "Kraken Dark Rum (40%)",
-        price: "£4.30",
+        price: "£4.3",
       },
     ],
     irishWhiskey: [
       {
         title: "Roe & Co (45%)",
-        price: "£4.60",
+        price: "£4.6",
       },
       {
         title: "Jameson (40%)",
-        price: "£4.20",
+        price: "£4.2",
       },
       {
         title: "Bushmills (40%)",
-        price: "£4.30",
+        price: "£4.3",
       },
       {
         title: "Black Bush (40%)",
-        price: "£5.40",
+        price: "£5.4",
       },
       {
         title: "Bushmills 10YO Single Malt (40%)",
@@ -498,17 +498,17 @@ export const drinksData = {
     scotch: [
       {
         title: "Johnnie Walker Black Label 12YO (40%)",
-        price: "£4.20",
+        price: "£4.2",
       },
     ],
     usBourbon: [
       {
         title: "Bulleit Bourbon (45%)",
-        price: "£4.80",
+        price: "£4.8",
       },
       {
         title: "Jack Daniel’s (40%)",
-        price: "£4.40",
+        price: "£4.4",
       },
       {
         title: "Southern Comfort Whiskey Liqueur (35%)",
@@ -518,25 +518,25 @@ export const drinksData = {
     cognac: [
       {
         title: "Hennessy VS Cognac (40%)",
-        price: "£5.20",
+        price: "£5.2",
       },
       {
         title: "Soberano Reserva 5YO (36%)",
-        price: "£4.60",
+        price: "£4.6",
       },
       {
         title: "Soberano Gran Reserva 12YO (38%)",
-        price: "£5.10",
+        price: "£5.1",
       },
     ],
     liqueurVermouth: [
       {
         title: "Baileys (17%)",
-        price: "£3.90",
+        price: "£3.9",
       },
       {
         title: "Belsazar Rosé (17.5%)",
-        price: "£4.10",
+        price: "£4.1",
       },
       {
         title: "Archers Peach Schnapps (18%) £4",
@@ -544,7 +544,7 @@ export const drinksData = {
       },
       {
         title: "Campari (25%)",
-        price: "£4.20",
+        price: "£4.2",
       },
       {
         title: "Disaronno Amaretto (28%)",
@@ -552,41 +552,41 @@ export const drinksData = {
       },
       {
         title: "Drambuie (40%)",
-        price: "£4.20",
+        price: "£4.2",
       },
       {
         title: "Kahlua Coffee Liqueur (20%)",
-        price: "£2.90",
+        price: "£2.9",
       },
       {
         title: "Martini Fiero (15%)",
-        price: "£3.80",
+        price: "£3.8",
       },
       {
         title: "Martini Rosso (15%)",
-        price: "£3.80",
+        price: "£3.8",
       },
       {
         title: "Martini Extra Dry (15%)",
-        price: "£3.80",
+        price: "£3.8",
       },
       {
         title: "Pernod (40%)",
-        price: "£4.30",
+        price: "£4.3",
       },
       {
         title: "Tia Maria (20%)",
-        price: "£3.90",
+        price: "£3.9",
       },
     ],
     digestifs: [
       {
         title: "Don Julio Blanco",
-        price: "£4.50",
+        price: "£4.5",
       },
       {
         title: "Don Julio Reposado",
-        price: "£4.80",
+        price: "£4.8",
       },
       {
         title: "Chambord",
@@ -602,7 +602,7 @@ export const drinksData = {
       },
       {
         title: "Taylors’s LBV Port",
-        price: "£4.50",
+        price: "£4.5",
       },
       {
         title: "Sambuca",
@@ -618,19 +618,19 @@ export const drinksData = {
     draught: [
       {
         title: "Guinness (4.2%)",
-        price: "Pint £4.70 <br/>Half £2.50",
+        price: "Pint £4.7 <br/>Half £2.5",
       },
       {
         title: "Hop House 13 (4.1%)",
-        price: "Pint £4.80  <br/>Half £2.60",
+        price: "Pint £4.8  <br/>Half £2.6",
       },
       {
         title: "Rockshore (4.0%)",
-        price: "Pint £4.80 <br/>Half £2.60",
+        price: "Pint £4.8 <br/>Half £2.6",
       },
       {
         title: "Estrella Damm (4.6%)",
-        price: "Pint £5.10 / Half £2.70",
+        price: "Pint £5.1 / Half £2.7",
       },
     ],
     bottledBeer: [
@@ -640,11 +640,11 @@ export const drinksData = {
       },
       {
         title: "Daura Damm Gluten Free 33cl (5.4%)",
-        price: "£4.50",
+        price: "£4.5",
       },
       {
         title: "Estrella Damm 33cl (4.6%)",
-        price: "£4.40",
+        price: "£4.4",
       },
       {
         title: "Sol 33cl (4.5%)",
@@ -652,57 +652,57 @@ export const drinksData = {
       },
       {
         title: "Birra Moretti 33cl (4.6%)",
-        price: "£4.20",
+        price: "£4.2",
       },
       {
         title: "Heineken 0.0% Alcohol Free 33cl",
-        price: "£3.50",
+        price: "£3.5",
       },
       {
         title: "Free Damm 0.0% Alcohol Free Cans 33cl",
-        price: "£3.70",
+        price: "£3.7",
       },
     ],
     bottledAle: [
       {
         title: "Complot IPA 33cl (6.6%)",
-        price: "£4.70",
+        price: "£4.7",
       },
       {
         title: "Yardsman Belfast Pale Ale 50cl (5.6%)",
-        price: "£4.80",
+        price: "£4.8",
       },
       {
         title: "Yardsman American Tropical Rye Ale 50cl (5.0%)",
-        price: "£4.80",
+        price: "£4.8",
       },
     ],
     bottledCider: [
       {
         title: "Magners 33cl (4.5%)",
-        price: "£4.10",
+        price: "£4.1",
       },
       {
         title: "Orchard Thieves 50cl (4.5%)",
-        price: "£4.60",
+        price: "£4.6",
       },
       {
         title: "Old Mout Strawberry & Pomegranate 50cl (4.0%)",
-        price: "£4.60",
+        price: "£4.6",
       },
       {
         title: "Old Mout Berries and Cherries 50cl (4.0%)",
-        price: "£4.60",
+        price: "£4.6",
       },
     ],
     pops: [
       {
         title: "West Coast Cooler Original 25cl (4.0%)",
-        price: "£3.90",
+        price: "£3.9",
       },
       {
         title: "West Coast Cooler Rosé 25cl (4.0%)",
-        price: "£3.90",
+        price: "£3.9",
       },
     ],
   },
@@ -734,79 +734,79 @@ export const drinksData = {
       },
       {
         title: "Specialty Tea",
-        price: "£2.50",
+        price: "£2.5",
       },
       {
         title: "Hot Chocolate",
-        price: "£2.50",
+        price: "£2.5",
       },
       {
         title: "Double Espresso",
-        price: "£2.40",
+        price: "£2.4",
       },
       {
         title: "Americano",
-        price: "£2.50",
+        price: "£2.5",
       },
       {
         title: "Cappuccino",
-        price: "£2.90",
+        price: "£2.9",
       },
       {
         title: "Latte",
-        price: "£2.90",
+        price: "£2.9",
       },
       {
         title: "Flat White",
-        price: "£2.90",
+        price: "£2.9",
       },
     ],
   },
   softDrinks: [
     {
       title: "Still Water 33cl / 75cl",
-      price: "£2.30 / £3.80",
+      price: "£2.3 / £3.8",
     },
     {
       title: "Sparkling Water 33cl / 75cl",
-      price: "£2.30 / £3.80",
+      price: "£2.3 / £3.8",
     },
     {
       title: "Coke / Coke Zero / Diet Coke 20cl",
-      price: "£2.30",
+      price: "£2.3",
     },
     {
       title: "Sprite Zero / Fanta Orange / Fanta Lemon 20cl",
-      price: "£2.20",
+      price: "£2.2",
     },
     {
       title: "San Pellegrino Lemon / Blood Orange 33cl",
-      price: "£2.60",
+      price: "£2.6",
     },
     {
       title: "Schweppes Lemonade 20cl",
-      price: "£2.40",
+      price: "£2.4",
     },
     {
       title: "Old Jamaica Ginger Beer 33cl",
-      price: "£2.60",
+      price: "£2.6",
     },
     {
       title: "Orange / Apple / Cranberry / Pineapple Juice 25cl",
-      price: "£2.70",
+      price: "£2.7",
     },
     {
       title: "Schweppes Tonic / Ginger Ale 12.5cl",
-      price: "£2.40",
+      price: "£2.4",
     },
     {
       title: "Schweppes Slimline Tonic / Soda Water 12.5cl",
-      price: "£2.30",
+      price: "£2.3",
     },
     {
       title:
         "Fever-Tree Premium Indian / Light / Elderflower / Mediterranean Tonic 25cl",
-      price: "£2.90",
+      price: "£2.9",
     },
     {
       title: "Red Bull 25cl",
@@ -814,7 +814,7 @@ export const drinksData = {
     },
     {
       title: "Cordial Dash / Pint / Jug",
-      price: "£0.50 / £0.60 / £0.80",
+      price: "£0.5 / £0.6 / £0.8",
     },
   ],
 }
