@@ -9,6 +9,7 @@ import {
   FaInstagram,
 } from "react-icons/fa"
 import { MdContacts } from "react-icons/md"
+import logo from "../assets/images/logo/logo.png"
 
 const SideNav = () => {
   const [show, setShow] = useState(false)
@@ -22,7 +23,7 @@ const SideNav = () => {
         <Modal.Body>
           <div className="logo">
             <a href="/">
-              2Taps -<span>Winebar</span>{" "}
+              <img src={logo} alt="logo" width="45%" />
             </a>
           </div>
           <ul className="modal-contact-info">

@@ -1754,10 +1754,10 @@ Right Side Modal CSS
         .logo {
           a {
             color: _palette(bg-alt);
-            text-transform: uppercase;
+            // text-transform: uppercase;
             font-size: 30px;
             font-weight: 900;
-
+            font-family: "Constantia";
             span {
               color: _palette(bg);
             }
