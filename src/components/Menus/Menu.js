@@ -7,7 +7,6 @@ const Menu = () => {
   const [menu, setMenu] = useState("food")
 
   const changeMenu = menu => {
-    console.log("HIUHI", menu)
     setMenu(menu)
   }
   return (
