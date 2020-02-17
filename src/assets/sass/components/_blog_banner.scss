@@ -58,6 +58,17 @@
         "-webkit-filter 0.5s ease"
       )
     );
+    button {
+      background-color: _palette(bg-alt);
+      font-family: "Constantia";
+      padding: 12px 40px;
+      font-size: 25px;
+      margin-top: 45px;
+    }
+    header h5 {
+      font-size: 1.4rem;
+      margin: 20px 0;
+    }
 
     position: absolute;
     top: 50%;
@@ -151,6 +162,10 @@
     }
 
     > .inner {
+      top: 58%;
+      button {
+        margin-top: -20px;
+      }
       .content {
         display: block;
 

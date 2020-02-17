@@ -21,14 +21,14 @@ const PermanentNav = () => {
             <MdHome />
           </Link>
         </div>
-        <div className="menu_section">
+        {/* <div className="menu_section">
           <Link to="/about" className="d-flex justify-content-between">
             <div className="menu_text_container">
               <div className="text">About</div>
             </div>
             <MdAccountCircle />
           </Link>
-        </div>
+        </div> */}
         <div className="menu_section">
           <Link to="/menus" className="d-flex justify-content-between">
             <div className="menu_text_container">
@@ -38,7 +38,7 @@ const PermanentNav = () => {
           </Link>
         </div>
         <div className="menu_section">
-          <Link to="opening-times" className="d-flex justify-content-between">
+          <Link to="/opening-times" className="d-flex justify-content-between">
             <div className="menu_text_container">
               <div className="text">Hours</div>
             </div>

@@ -11,6 +11,9 @@ const Paella = ({ menu }) => {
           description={item.description}
         />
       ))}
+      <h4 className="mx-auto my-4">
+        Paella’s Take 25-30 minutes. may take longer at peak times.
+      </h4>
     </Fragment>
   )
 }

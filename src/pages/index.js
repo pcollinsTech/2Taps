@@ -15,7 +15,7 @@ const IndexPage = props => {
       <SEO title="Home" />
       <Banner
         img={props.data.image1.childImageSharp.fluid}
-        title="2Taps"
+        title="2Taps Winebar"
         subHeader={`Nestled in the heart of Belfast, boasting one of Belfast's largest
               outdoor dining experiences.
               2Taps is the perfect place to meet, relax, share food and soak up
@@ -27,14 +27,19 @@ const IndexPage = props => {
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
+            <Row className="my-5" style={{ height: "80vh" }}>
+              <Img
+                fluid={props.data.image3.childImageSharp.fluid}
+                loading="lazy"
+                style={{ position: "static" }}
+              />
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
-              <p className="text-center col-lg-8 col-sm-12">
-                At 2Taps we believe... Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Molestiae repudiandae minus eos mollitia,
-                totam est earum explicabo numquam voluptatibus eius praesentium
-                delectus ducimus. Laudantium rem aperiam eligendi eos quod ad.
-              </p>
-              <div className="col-lg-8 col-sm-12">
+              <div className="col-lg-10 col-sm-10">
                 <Img
                   fluid={props.data.image2.childImageSharp.fluid}
                   loading="lazy"
@@ -44,32 +49,7 @@ const IndexPage = props => {
             </Row>
           </Container>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section">
-            <Row className="my-5">
-              <div className="col-lg-6 text-center py-5">
-                <h3>About</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet reiciendis consequatur, dolores alias, ab
-                  necessitatibus, mollitia voluptatum harum impedit voluptatem
-                  doloribus quod! Provident, ea repellat pariatur accusamus
-                  reiciendis necessitatibus rem?
-                </p>
-                <Link to="/about">
-                  <button className="btn btn-primary">Learn More</button>
-                </Link>
-              </div>
-              <div className="col-lg-6">
-                <Img
-                  fluid={props.data.image3.childImageSharp.fluid}
-                  loading="lazy"
-                  style={{ position: "static" }}
-                />
-              </div>
-            </Row>
-          </Container>
-        </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <h3 className="my-3 text-center">Cocktails of the Month</h3>
@@ -81,7 +61,7 @@ const IndexPage = props => {
                   loading="lazy"
                   imgStyle={{ objectFit: "contain" }}
                 />
-                <h3 className="my-3 text-center">Aroma Bella</h3>
+                <h3 className="my-3 text-center">Amora Bella</h3>
                 <p className="text-center">
                   Sevilla, Passoa, Bitters, Vanilla Syrup, Lime Juice
                 </p>
@@ -122,7 +102,7 @@ export const indexImage = graphql`
 export const pageImage = graphql`
   fragment pageImage on File {
     childImageSharp {
-      fluid(maxWidth: 700) {
+      fluid(maxWidth: 1200) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -133,11 +113,11 @@ export const query = graphql`
     image1: file(relativePath: { eq: "bannerOne.jpg" }) {
       ...indexImage
     }
-    image2: file(relativePath: { eq: "fishPaella.jpg" }) {
+    image2: file(relativePath: { eq: "outside2.jpg" }) {
       ...pageImage
     }
-    image3: file(relativePath: { eq: "tapasTray6.jpg" }) {
-      ...pageImage
+    image3: file(relativePath: { eq: "birdsEyeTable.jpeg" }) {
+      ...indexImage
     }
     teaCup: file(relativePath: { eq: "brooklynTeaCup.png" }) {
       ...aboutImage
