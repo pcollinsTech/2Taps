@@ -1,10 +1,19 @@
 import React, { Fragment } from "react"
 import MenuItem from "../MenuItem"
 
-const Roses = ({ drinks }) => {
+const Roses = ({ roses, champagnes }) => {
   return (
     <Fragment>
-      {drinks.map(item => (
+      <h3 className="my-3 mx-auto">Roses</h3>
+      {roses.map(item => (
+        <MenuItem
+          title={item.title}
+          price={item.price}
+          description={item.description}
+        />
+      ))}
+      <h3 className="my-3 mx-auto">Champagne Sparkling & Dessert Wine</h3>
+      {champagnes.map(item => (
         <MenuItem
           title={item.title}
           price={item.price}

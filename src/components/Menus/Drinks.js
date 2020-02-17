@@ -36,7 +36,7 @@ const Drinks = () => {
             className={`btn ${drinksMenu === "roses" ? "active" : ""}`}
             onClick={() => setDrinks("roses")}
           >
-            Roses
+            Rose &amp; Sparkling
           </div>
           <div
             className={`btn ${drinksMenu === "sangrias" ? "active" : ""}`}
@@ -92,7 +92,12 @@ const Drinks = () => {
           )}
           {drinksMenu === "reds" && <Reds drinks={drinksData.reds} />}
           {drinksMenu === "whites" && <Whites drinks={drinksData.whites} />}
-          {drinksMenu === "roses" && <Roses drinks={drinksData.roses} />}
+          {drinksMenu === "roses" && (
+            <Roses
+              roses={drinksData.roses}
+              champagnes={drinksData.champagnes}
+            />
+          )}
 
           {drinksMenu === "beers" && <Beers drinks={drinksData.beers} />}
           {drinksMenu === "spirits" && <Spirits drinks={drinksData.spirits} />}
@@ -117,6 +122,12 @@ const Drinks = () => {
             onClick={() => setDrinks("reds")}
           >
             Reds
+          </div>
+          <div
+            className={`btn ${drinksMenu === "roses" ? "active" : ""}`}
+            onClick={() => setDrinks("roses")}
+          >
+            Rose &amp; Sparkling
           </div>
           <div
             className={`btn ${drinksMenu === "sangrias" ? "active" : ""}`}
