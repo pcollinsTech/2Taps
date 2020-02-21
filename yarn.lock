@@ -5325,6 +5325,13 @@ gatsby-page-utils@^0.0.39:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
+gatsby-plugin-canonical-urls@^2.1.20:
+  version "2.1.20"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-canonical-urls/-/gatsby-plugin-canonical-urls-2.1.20.tgz#6fdd0000d42aa5d8f779c6dbf9c2c25282552136"
+  integrity sha512-CRmdX9ya4bpqnR9QaqsvHm4zMQ4ssEfpMCCbv+I4DaOYj6vnGxJs1eoAsVUaKIQdttrYeDysfzeX3MuKREhGIw==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 gatsby-plugin-gdpr-cookies@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-1.0.5.tgz#967dc22f37b8d5e1efeca39f065823a87efc0d5c"

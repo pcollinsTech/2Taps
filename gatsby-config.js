@@ -13,24 +13,20 @@ module.exports = {
         path: `src/assets/images`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-gdpr-cookies`,
-    //   options: {
-    //     googleAnalytics: {
-    //       trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-    //       // Setting this parameter is optional
-    //       cookieName: "YOUR_CUSTOM_COOKIE_NAME", // default is gatsby-gdpr-google-analytics
-    //       anonymize: true, // default is true
-    //     },
-    //     facebookPixel: {
-    //       pixelId: "YOUR_FACEBOOK_PIXEL_ID",
-    //       // Setting this parameter is optional
-    //       cookieName: "YOUR_CUSTOM_COOKIE_NAME", // default is gatsby-gdpr-facebook-pixel
-    //     },
-    //     // Defines the environments where the tracking should be available  - default is ["production"]
-    //     environments: ["production"],
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.2taps-winebar.com`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: "UA-158682739-1",
+        },
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
