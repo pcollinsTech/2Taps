@@ -1,14 +1,25 @@
 import React from "react"
-
+import Banner from "../components/Banner"
+import { graphql } from "gatsby"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Banner
+      img={props.data.image1.childImageSharp.fluid}
+      title="This Page Does Not Exist"
+    />
   </Layout>
 )
 
 export default NotFoundPage
+
+export const query = graphql`
+  query {
+    image1: file(relativePath: { eq: "bannerOne.jpg" }) {
+      ...indexImage
+    }
+  }
+`
