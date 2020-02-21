@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
 
-const NotFoundPage = () => (
+const NotFoundPage = props => (
   <Layout>
     <SEO title="404: Not found" />
     <Banner
