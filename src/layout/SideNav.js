@@ -97,6 +97,7 @@ const SideNav = () => {
                 data-netlify="true"
                 data-netify-honeypot="bot-field"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="col-lg-6 col-md-6 col-sm-6">
                   <div className="form-group">
                     <TextInput
