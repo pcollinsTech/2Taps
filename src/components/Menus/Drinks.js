@@ -23,60 +23,90 @@ const Drinks = () => {
           <div
             className={`btn ${drinksMenu === "whites" ? "active" : ""}`}
             onClick={() => setDrinks("whites")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("whites")}
           >
             Whites
           </div>
           <div
             className={`btn ${drinksMenu === "reds" ? "active" : ""}`}
             onClick={() => setDrinks("reds")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("reds")}
           >
             Reds
           </div>
           <div
             className={`btn ${drinksMenu === "roses" ? "active" : ""}`}
             onClick={() => setDrinks("roses")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("roses")}
           >
             Rose &amp; Sparkling
           </div>
           <div
             className={`btn ${drinksMenu === "sangrias" ? "active" : ""}`}
             onClick={() => setDrinks("sangrias")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("sangrias")}
           >
             Sangrias
           </div>
           <div
             className={`btn ${drinksMenu === "cocktails" ? "active" : ""}`}
             onClick={() => setDrinks("cocktails")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("cocktails")}
           >
             Cocktails
           </div>
           <div
             className={`btn ${drinksMenu === "gins" ? "active" : ""}`}
             onClick={() => setDrinks("gins")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("gins")}
           >
             Gins
           </div>
           <div
             className={`btn ${drinksMenu === "mocktails" ? "active" : ""}`}
             onClick={() => setDrinks("mocktails")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("mocktails")}
           >
             Mocktails
           </div>
           <div
             className={`btn ${drinksMenu === "beers" ? "active" : ""}`}
             onClick={() => setDrinks("beers")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("beers")}
           >
             Beers
           </div>
           <div
             className={`btn ${drinksMenu === "coffees" ? "active" : ""}`}
             onClick={() => setDrinks("coffees")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("coffees")}
           >
             Hot Drinks
           </div>
           <div
             className={`btn ${drinksMenu === "soft" ? "active" : ""}`}
             onClick={() => setDrinks("soft")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("soft")}
           >
             Soft Drinks
           </div>
@@ -114,60 +144,90 @@ const Drinks = () => {
           <div
             className={`btn ${drinksMenu === "whites" ? "active" : ""}`}
             onClick={() => setDrinks("whites")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("whites")}
           >
             Whites
           </div>
           <div
             className={`btn ${drinksMenu === "reds" ? "active" : ""}`}
             onClick={() => setDrinks("reds")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("reds")}
           >
             Reds
           </div>
           <div
             className={`btn ${drinksMenu === "roses" ? "active" : ""}`}
             onClick={() => setDrinks("roses")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("roses")}
           >
             Rose &amp; Sparkling
           </div>
           <div
             className={`btn ${drinksMenu === "sangrias" ? "active" : ""}`}
             onClick={() => setDrinks("sangrias")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("sangrias")}
           >
             Sangrias
           </div>
           <div
             className={`btn ${drinksMenu === "cocktails" ? "active" : ""}`}
             onClick={() => setDrinks("cocktails")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("cocktails")}
           >
             Cocktails
           </div>
           <div
             className={`btn ${drinksMenu === "gins" ? "active" : ""}`}
             onClick={() => setDrinks("gins")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("gins")}
           >
             Gins
           </div>
           <div
             className={`btn ${drinksMenu === "mocktails" ? "active" : ""}`}
             onClick={() => setDrinks("mocktails")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("mocktails")}
           >
             Mocktails
           </div>
           <div
             className={`btn ${drinksMenu === "beers" ? "active" : ""}`}
             onClick={() => setDrinks("beers")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("beers")}
           >
             Beers
           </div>
           <div
             className={`btn ${drinksMenu === "coffees" ? "active" : ""}`}
             onClick={() => setDrinks("coffees")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("coffees")}
           >
             Hot Drinks
           </div>
           <div
             className={`btn ${drinksMenu === "soft" ? "active" : ""}`}
             onClick={() => setDrinks("soft")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setDrinks("soft")}
           >
             Soft Drinks
           </div>

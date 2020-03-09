@@ -1,11 +1,5 @@
 import React, { Fragment } from "react"
-import {
-  MdRestaurantMenu,
-  MdAvTimer,
-  MdBookmark,
-  MdHome,
-  MdAccountCircle,
-} from "react-icons/md"
+import { MdRestaurantMenu, MdAvTimer, MdHome } from "react-icons/md"
 import { Link } from "gatsby"
 import SideNav from "./SideNav"
 import Reservations from "./Reservations"

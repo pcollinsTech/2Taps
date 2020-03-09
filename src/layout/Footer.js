@@ -1,5 +1,4 @@
 import React, { Fragment } from "react"
-import { Link } from "gatsby"
 import logo from "../assets/images/logo/logoWhite.png"
 
 const Footer = () => (

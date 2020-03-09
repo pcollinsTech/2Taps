@@ -22,24 +22,36 @@ const Food = () => {
           <div
             className={`btn ${foodMenu === "starters" ? "active" : ""}`}
             onClick={() => setFoodMenu("starters")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("starters")}
           >
             Entres
           </div>
           <div
             className={`btn ${foodMenu === "meat" ? "active" : ""}`}
             onClick={() => setFoodMenu("meat")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("meat")}
           >
             Meat
           </div>
           <div
             className={`btn ${foodMenu === "fish" ? "active" : ""}`}
             onClick={() => setFoodMenu("fish")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("fish")}
           >
             Fish
           </div>
           <div
             className={`btn ${foodMenu === "vegetarian" ? "active" : ""}`}
             onClick={() => setFoodMenu("vegetarian")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("vegetarian")}
           >
             Vegetarian
           </div>
@@ -47,36 +59,54 @@ const Food = () => {
           <div
             className={`btn ${foodMenu === "salads" ? "active" : ""}`}
             onClick={() => setFoodMenu("salads")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("salads")}
           >
             Salads
           </div>
           <div
             className={`btn ${foodMenu === "paella" ? "active" : ""}`}
             onClick={() => setFoodMenu("paella")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("paella")}
           >
             Paella
           </div>
           <div
             className={`btn ${foodMenu === "desserts" ? "active" : ""}`}
             onClick={() => setFoodMenu("desserts")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("desserts")}
           >
             Desserts
           </div>
           <div
             className={`btn ${foodMenu === "lunch" ? "active" : ""}`}
             onClick={() => setFoodMenu("lunch")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("lunch")}
           >
             Lunch
           </div>
           <div
             className={`btn ${foodMenu === "mains" ? "active" : ""}`}
             onClick={() => setFoodMenu("mains")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("mains")}
           >
             Mains
           </div>
           <div
             className={`btn ${foodMenu === "kids" ? "active" : ""}`}
             onClick={() => setFoodMenu("kids")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("kids")}
           >
             Kids
           </div>
@@ -113,24 +143,36 @@ const Food = () => {
           <div
             className={`btn ${foodMenu === "starters" ? "active" : ""}`}
             onClick={() => setFoodMenu("starters")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("starters")}
           >
             Entres
           </div>
           <div
             className={`btn ${foodMenu === "meat" ? "active" : ""}`}
             onClick={() => setFoodMenu("meat")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("meat")}
           >
             Meat
           </div>
           <div
             className={`btn ${foodMenu === "fish" ? "active" : ""}`}
             onClick={() => setFoodMenu("fish")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("fish")}
           >
             Fish
           </div>
           <div
             className={`btn ${foodMenu === "vegetarian" ? "active" : ""}`}
             onClick={() => setFoodMenu("vegetarian")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("vegetarian")}
           >
             Vegetarian
           </div>
@@ -138,36 +180,54 @@ const Food = () => {
           <div
             className={`btn ${foodMenu === "salads" ? "active" : ""}`}
             onClick={() => setFoodMenu("salads")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("salads")}
           >
             Salads
           </div>
           <div
             className={`btn ${foodMenu === "paella" ? "active" : ""}`}
             onClick={() => setFoodMenu("paella")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("paella")}
           >
             Paella
           </div>
           <div
             className={`btn ${foodMenu === "desserts" ? "active" : ""}`}
             onClick={() => setFoodMenu("desserts")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("desserts")}
           >
             Desserts
           </div>
           <div
             className={`btn ${foodMenu === "lunch" ? "active" : ""}`}
             onClick={() => setFoodMenu("lunch")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("lunch")}
           >
             Lunch
           </div>
           <div
             className={`btn ${foodMenu === "mains" ? "active" : ""}`}
             onClick={() => setFoodMenu("mains")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("mains")}
           >
             Mains
           </div>
           <div
             className={`btn ${foodMenu === "kids" ? "active" : ""}`}
             onClick={() => setFoodMenu("kids")}
+            role="button"
+            tabIndex={0}
+            onKeyDown={() => setFoodMenu("kids")}
           >
             Kids
           </div>

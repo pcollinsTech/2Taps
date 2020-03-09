@@ -455,24 +455,7 @@ export const drinksData = {
         price: "£4.3",
       },
     ],
-    rums: [
-      {
-        title: "Captain Morgan Original Spiced Gold (35%)",
-        price: "£4",
-      },
-      {
-        title: "Malibu Coconut Flavour Rum (21%)",
-        price: "£3.9",
-      },
-      {
-        title: "Bacardi Carta Blanca (37.5%)",
-        price: "£4.1",
-      },
-      {
-        title: "Kraken Dark Rum (40%)",
-        price: "£4.3",
-      },
-    ],
+
     irishWhiskey: [
       {
         title: "Roe & Co (45%)",

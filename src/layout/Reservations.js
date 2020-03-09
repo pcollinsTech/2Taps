@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import { Modal } from "react-bootstrap"
 import { FaFacebook, FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa"
 import { MdBookmark } from "react-icons/md"
@@ -22,6 +22,7 @@ const Reservations = ({ open }) => {
                 frameborder="0"
                 width="330px"
                 height="500px"
+                title="OpenTable"
               ></iframe>
 
               <h3>Bookings &amp; Queries</h3>

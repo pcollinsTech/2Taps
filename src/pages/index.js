@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
@@ -9,7 +9,7 @@ import ScrollAnimation from "react-animate-on-scroll"
 // import Modal from "../components/Modal"
 
 const IndexPage = props => {
-  // const [open, setOpen] = useState(true)
+  console.log("Props", props)
   return (
     <Layout>
       <SEO title="Home" />
@@ -53,30 +53,17 @@ const IndexPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <h3 className="my-3 text-center">Cocktails of the Month</h3>
-            <Row className="my-5 monthly_cocktails">
-              <div className="col-lg-6">
-                <h3 className="my-3 text-center">For Her</h3>
-                <Img
-                  fluid={props.data.aromaBella.childImageSharp.fluid}
-                  loading="lazy"
-                  imgStyle={{ objectFit: "contain" }}
-                />
-                <h3 className="my-3 text-center">Amora Bella</h3>
-                <p className="text-center">
-                  Sevilla, Passoa, Bitters, Vanilla Syrup, Lime Juice
-                </p>
-              </div>
+            <Row className="my-5 monthly_cocktails justify-content-center">
               <div className="col-lg-6 ">
-                <h3 className="my-3 text-center">For Him</h3>
                 <Img
-                  fluid={props.data.teaCup.childImageSharp.fluid}
+                  fluid={props.data.march2020.childImageSharp.fluid}
                   loading="lazy"
                   imgStyle={{ objectFit: "contain" }}
                 />
-                <h3 className="my-3 text-center">Brooklyn Teacup</h3>
+                <h3 className="my-3 text-center">Emerald Breeze</h3>
                 <p className="text-center">
-                  Bulleit Bourbon, Maraschino, Chamomile Syrup, Grapefruit
-                  bitters
+                  Coconut tequila, melon liqueur, peach syrup, fresh lime juice
+                  topped with lemonade
                 </p>
               </div>
             </Row>
@@ -119,7 +106,7 @@ export const query = graphql`
     image3: file(relativePath: { eq: "birdsEyeTable.jpeg" }) {
       ...indexImage
     }
-    teaCup: file(relativePath: { eq: "brooklynTeaCup.png" }) {
+    march2020: file(relativePath: { eq: "march2020.jpg" }) {
       ...aboutImage
     }
     aromaBella: file(relativePath: { eq: "aromaBella.png" }) {

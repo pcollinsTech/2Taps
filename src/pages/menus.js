@@ -1,9 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import SEO from "../components/seo"
-import Food from "../components/Menus/Food"
 import Menu from "../components/Menus/Menu"
 
 const MenusPage = props => {
