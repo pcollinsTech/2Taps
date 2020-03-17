@@ -28,6 +28,33 @@ const IndexPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
+              <div className="col-lg-10 col-sm-10 text-center">
+                <p>
+                  Tapas lovers
+                  <br />
+                  <br />
+                  We have sadly had to make the decision to close our doors
+                  until further notice. <br />
+                  We have to look after our wonderful customers, staff and
+                  friends.
+                  <br />
+                  We will reopen when it is safe to do so. <br />
+                  This is a difficult time for all our hospitality neighbours,
+                  but we are remaining as positive as possible! <br />
+                  <br />
+                  Things <strong>WILL</strong> get better, please stay safe,
+                  look after each other and be <strong>KIND!</strong> We will
+                  miss seeing you all…
+                  <br />
+                  <br /> Hopefully not for long x
+                </p>
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center my-5">
               <div className="col-lg-10 col-sm-10">
                 <Img
                   fluid={props.data.image2.childImageSharp.fluid}
