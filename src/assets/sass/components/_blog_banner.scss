@@ -61,9 +61,13 @@
     button {
       background-color: _palette(bg-alt);
       font-family: "Constantia";
-      padding: 12px 40px;
+      padding: 9px 21px;
       font-size: 25px;
       margin-top: 45px;
+      border-radius: 0;
+      &:hover{
+        background-color: _palette(bg);
+      }
     }
     header h5 {
       font-size: 1.4rem;
