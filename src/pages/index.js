@@ -1,17 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql } from "gatsby"
 import { Row, Container } from "react-bootstrap"
 import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
+import Lightbox from "react-image-lightbox"
+import "react-image-lightbox/style.css"
 import ScrollAnimation from "react-animate-on-scroll"
 // import Modal from "../components/Modal"
-import front from "../assets/images/takeAwayMenus/Front.png"
-import back from "../assets/images/takeAwayMenus/Back.png"
+import frontMenu from "../assets/images/takeAwayMenus/Front.png"
+import backMenu from "../assets/images/takeAwayMenus/Back.png"
 
 const IndexPage = props => {
-  console.log("Props", props)
+  const [front, setFront] = useState(false)
+  const [back, setBack] = useState(false)
   return (
     <Layout>
       <SEO title="Home" />
@@ -62,12 +65,17 @@ const IndexPage = props => {
                   Family owned Family loved – we missed you!
                 </p>
               </div>
-              <div>
-                <img src={front} alt="front" />
+              <div
+                onClick={() => {
+                  console.log("HEELO")
+                  setFront()
+                }}
+              >
+                <img src={frontMenu} alt="front" />
               </div>
               <hr />
-              <div>
-                <img src={back} alt="back" />
+              <div onClick={() => setBack()}>
+                <img src={backMenu} alt="back" />
               </div>
             </Row>
           </Container>
@@ -97,7 +105,7 @@ const IndexPage = props => {
           </Container>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInUp">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <h3 className="my-3 text-center">Cocktails of the Month</h3>
             <Row className="my-5 monthly_cocktails justify-content-center">
@@ -115,8 +123,44 @@ const IndexPage = props => {
               </div>
             </Row>
           </Container>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
+      {front && (
+        <Lightbox
+          mainSrc={frontMenu}
+          nextSrc={backMenu}
+          prevSrc={frontMenu}
+          // onCloseRequest={() => this.setState({ isOpen: false })}
+          // onMovePrevRequest={() =>
+          //   this.setState({
+          //     photoIndex: (photoIndex + images.length - 1) % images.length,
+          //   })
+          // }
+          // onMoveNextRequest={() =>
+          //   this.setState({
+          //     photoIndex: (photoIndex + 1) % images.length,
+          //   })
+          // }
+        />
+      )}
+      {back && (
+        <Lightbox
+          mainSrc={backMenu}
+          nextSrc={backMenu}
+          prevSrc={frontMenu}
+          // onCloseRequest={() => this.setState({ isOpen: false })}
+          // onMovePrevRequest={() =>
+          //   this.setState({
+          //     photoIndex: (photoIndex + images.length - 1) % images.length,
+          //   })
+          // }
+          // onMoveNextRequest={() =>
+          //   this.setState({
+          //     photoIndex: (photoIndex + 1) % images.length,
+          //   })
+          // }
+        />
+      )}
     </Layout>
   )
 }
