@@ -3,7 +3,7 @@ import { Modal } from "react-bootstrap"
 import { FaFacebook, FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa"
 import { MdBookmark } from "react-icons/md"
 import ReservationContext from "../context/ReservationContext"
-
+import { Link } from "gatsby"
 const Reservations = ({ open }) => {
   return (
     <ReservationContext.Consumer>
@@ -51,7 +51,11 @@ const Reservations = ({ open }) => {
                   </b>
                 </li>
               </ul>
-
+              <div className="row">
+                <Link to="menus" className="mx-auto mb-5">
+                  <button className="btn btn-primary">View Menu</button>
+                </Link>
+              </div>
               <ul className="social-links d-flex justify-content-around">
                 <li className="social-link">
                   <a

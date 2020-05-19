@@ -49,6 +49,7 @@
     filter: brightness(40%);
   }
   > .inner {
+    width: 50%;
     @include vendor(
       "transition",
       (
@@ -65,7 +66,7 @@
       font-size: 25px;
       margin-top: 45px;
       border-radius: 0;
-      &:hover{
+      &:hover {
         background-color: _palette(bg);
       }
     }
