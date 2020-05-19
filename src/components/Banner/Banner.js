@@ -21,7 +21,7 @@ const Banner = ({ img, title, subHeader }) => {
               className="btn btn-primary"
               onClick={() => toggler.toggleReservationTab()}
             >
-              Book Now
+              Order Now
             </button>
           </div>
         </section>

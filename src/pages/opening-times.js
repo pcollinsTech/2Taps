@@ -21,16 +21,13 @@ const OpeningTimesPage = props => {
           <Container className="inner_page_section">
             <Row className="justify-content-md-center">
               <div className="text-center col-lg-10 col-sm-12">
-                <h4>Regular Hours</h4>
+                <h3>Regular Hours</h3>
                 <br />
                 <p>
-                  Monday - CLOSED
+                  Thursday, Friday, Saturday & Sunday
+                  <hr />
+                  3pm - 8pm
                   <br />
-                  Tuesday-Thursday 12:00 - 21:30
-                  <br />
-                  Friday &amp; Saturday 12:00 - 22:30
-                  <br />
-                  Sunday 13:00 - 22:30
                 </p>
               </div>
             </Row>

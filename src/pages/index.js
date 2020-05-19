@@ -7,6 +7,8 @@ import Img from "gatsby-image"
 import SEO from "../components/seo"
 import ScrollAnimation from "react-animate-on-scroll"
 // import Modal from "../components/Modal"
+import front from "../assets/menuPdfs/Front.pdf"
+import back from "../assets/menuPdfs/Back.pdf"
 
 const IndexPage = props => {
   console.log("Props", props)
@@ -30,25 +32,50 @@ const IndexPage = props => {
             <Row className="justify-content-md-center my-5">
               <div className="col-lg-10 col-sm-10 text-center">
                 <p>
-                  Tapas lovers
+                  Pre-ordered take away collection service from Thursday the
+                  21st of May!
                   <br />
                   <br />
-                  We have sadly had to make the decision to close our doors
-                  until further notice. <br />
-                  We have to look after our wonderful customers, staff and
-                  friends.
+                  Although we are very excited we also know this is something
+                  completely new to us and that we must learn through trial and
+                  error. We now realise that we must adapt to the new normal.{" "}
                   <br />
-                  We will reopen when it is safe to do so. <br />
-                  This is a difficult time for all our hospitality neighbours,
-                  but we are remaining as positive as possible! <br />
                   <br />
-                  Things <strong>WILL</strong> get better, please stay safe,
-                  look after each other and be <strong>KIND!</strong> We will
-                  miss seeing you all…
+                  We will be open initially Thursday, Friday, Saturday & Sunday
+                  3-8pm (times may differ as we continue).
                   <br />
-                  <br /> Hopefully not for long x
+                  <br />
+                  Orders must be placed by phone on the restaurant number – 028
+                  90311414 and collected in person at the restaurant front door.
+                  <br />
+                  <br />
+                  We will be accepting card payments only.
+                  <br />
+                  <br />
+                  In coming weeks, we hope that delivery’s will be an options
+                  but again we must get a good system in place before doing so.
+                  Clear designated areas will be marked outside the building for
+                  public to safety collect their food in line with social
+                  distancing guidelines.
+                  <br />
+                  <br />
+                  Family owned Family loved – we missed you!
                 </p>
               </div>
+              <iframe
+                title="Front"
+                src={front}
+                width="900px"
+                height="700px"
+                toolbar="0"
+              />
+              <iframe
+                title="Back"
+                src={back}
+                width="900px"
+                height="700px"
+                toolbar="0"
+              />
             </Row>
           </Container>
         </ScrollAnimation>
