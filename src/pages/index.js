@@ -62,8 +62,13 @@ const IndexPage = props => {
                   Family owned Family loved – we missed you!
                 </p>
               </div>
-              <img src={front} alt="front" />
-              <img src={back} alt="back" />
+              <div>
+                <img src={front} alt="front" />
+              </div>
+              <hr />
+              <div>
+                <img src={back} alt="back" />
+              </div>
             </Row>
           </Container>
         </ScrollAnimation>
