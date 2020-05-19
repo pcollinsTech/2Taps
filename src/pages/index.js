@@ -7,8 +7,8 @@ import Img from "gatsby-image"
 import SEO from "../components/seo"
 import ScrollAnimation from "react-animate-on-scroll"
 // import Modal from "../components/Modal"
-import front from "../assets/menuPdfs/Front.pdf"
-import back from "../assets/menuPdfs/Back.pdf"
+import front from "../assets/images/takeAwayMenus/Front.png"
+import back from "../assets/images/takeAwayMenus/Back.png"
 
 const IndexPage = props => {
   console.log("Props", props)
@@ -49,7 +49,7 @@ const IndexPage = props => {
                   90311414 and collected in person at the restaurant front door.
                   <br />
                   <br />
-                  We will be accepting card payments only.
+                  We will be accepting <b>card payments only.</b>
                   <br />
                   <br />
                   In coming weeks, we hope that delivery’s will be an options
@@ -62,20 +62,8 @@ const IndexPage = props => {
                   Family owned Family loved – we missed you!
                 </p>
               </div>
-              <iframe
-                title="Front"
-                src={front}
-                width="900px"
-                height="700px"
-                toolbar="0"
-              />
-              <iframe
-                title="Back"
-                src={back}
-                width="900px"
-                height="700px"
-                toolbar="0"
-              />
+              <img src={front} alt="front" />
+              <img src={back} alt="back" />
             </Row>
           </Container>
         </ScrollAnimation>
