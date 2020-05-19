@@ -68,13 +68,13 @@ const IndexPage = props => {
               <div
                 onClick={() => {
                   console.log("HEELO")
-                  setFront()
+                  setFront(!front)
                 }}
               >
                 <img src={frontMenu} alt="front" />
               </div>
               <hr />
-              <div onClick={() => setBack()}>
+              <div onClick={() => setBack(!back)}>
                 <img src={backMenu} alt="back" />
               </div>
             </Row>
@@ -130,7 +130,7 @@ const IndexPage = props => {
           mainSrc={frontMenu}
           nextSrc={backMenu}
           prevSrc={frontMenu}
-          // onCloseRequest={() => this.setState({ isOpen: false })}
+          onCloseRequest={() => setFront(!front)}
           // onMovePrevRequest={() =>
           //   this.setState({
           //     photoIndex: (photoIndex + images.length - 1) % images.length,
@@ -148,7 +148,7 @@ const IndexPage = props => {
           mainSrc={backMenu}
           nextSrc={backMenu}
           prevSrc={frontMenu}
-          // onCloseRequest={() => this.setState({ isOpen: false })}
+          onCloseRequest={() => setFront(!front)}
           // onMovePrevRequest={() =>
           //   this.setState({
           //     photoIndex: (photoIndex + images.length - 1) % images.length,
