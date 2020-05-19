@@ -52,7 +52,11 @@ const Reservations = ({ open }) => {
                 </li>
               </ul>
               <div className="row">
-                <Link to="menus" className="mx-auto mb-5">
+                <Link
+                  to="menus"
+                  className="mx-auto mb-5"
+                  onClick={() => toggler.toggleReservationTab()}
+                >
                   <button className="btn btn-primary">View Menu</button>
                 </Link>
               </div>
