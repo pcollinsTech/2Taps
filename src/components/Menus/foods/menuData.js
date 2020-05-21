@@ -2,18 +2,18 @@ export const menuData = {
   starters: [
     {
       title:
-        "Selection of Breads, with fresh pesto, smoked sun-dried tomato tapenade & black olive tapenade.",
-      price: "£5",
+        "Selection of Freshly Baked Breads, with fresh pesto, smoked sun-dried tomato tapenade, black olive tapenade & ailoi",
+      price: "£8",
     },
     {
       title:
-        "Grilled Flat Bread, served with roast pepper hummus, smoked sundried tomato tapenade & black olive tapenade.",
-      price: "£5",
+        "Grilled Flat Bread, served with roast pepper hummus, smoked sundried tomato tapenade, black olive tapenade & ailoi",
+      price: "£6",
     },
   ],
   meat: [
     {
-      title: "Marinated Spicy Chicken Wings Glazed in Honey",
+      title: "Marinated Spicy Chicken Wings Glazed in Honey (GF)",
       price: "£5",
     },
     {
@@ -30,7 +30,7 @@ export const menuData = {
     },
     {
       title: "Slow cooked BBQ Ribs tapas style (GF)",
-      price: "£5",
+      price: "£6",
     },
     {
       title:
@@ -61,7 +61,7 @@ export const menuData = {
   paella: [
     {
       title:
-        "Seafood paella with squid, tiger prawns & fish of the day in saffron & spicy tomato rice (GF)",
+        "Seafood paella with squid, tiger prawns, mussels & fish of the day in saffron & spicy tomato rice (GF)",
       price: "£15",
     },
     {
@@ -71,8 +71,8 @@ export const menuData = {
     },
     {
       title:
-        "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron & spicy tomato rice (GF)",
-      price: "£15",
+        "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron & spicy tomato rice (GF)(V)",
+      price: "£12",
     },
   ],
   vegetarian: [
