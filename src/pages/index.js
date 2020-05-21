@@ -9,8 +9,8 @@ import Lightbox from "react-image-lightbox"
 import "react-image-lightbox/style.css"
 import ScrollAnimation from "react-animate-on-scroll"
 // import Modal from "../components/Modal"
-import frontMenu from "../assets/images/takeAwayMenus/Front.png"
-import backMenu from "../assets/images/takeAwayMenus/Back.png"
+import frontMenu from "../assets/images/takeAwayMenus/front.jpeg"
+import backMenu from "../assets/images/takeAwayMenus/back.jpeg"
 
 const IndexPage = props => {
   const [front, setFront] = useState(false)
@@ -33,7 +33,7 @@ const IndexPage = props => {
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
-              <div className="col-lg-10 col-sm-10 text-center">
+              <div className="col-lg-10 col-sm-10 text-center pb-4">
                 <p>
                   Pre-ordered take away collection service from Thursday the
                   21st of May!
@@ -62,7 +62,9 @@ const IndexPage = props => {
                   distancing guidelines.
                   <br />
                   <br />
-                  Family owned Family loved – we missed you!
+                  <u>
+                    <b>We missed you!</b>
+                  </u>
                 </p>
               </div>
               <div
@@ -72,6 +74,22 @@ const IndexPage = props => {
                 }}
               >
                 <img src={frontMenu} alt="front" />
+              </div>
+              <div className="container text-center my-5">
+                <h3 className="pb-3">How to order</h3>
+                <div className="row text-center ">
+                  <p>
+                    Phones open from 12pm <br />
+                    Pre orders on the day
+                    <br />
+                    Times slots given from 3-8pm
+                    <br />
+                    <br />
+                    To help us ensure social distancing guidelines are met,
+                    please arrive at your allocated time. This will also help
+                    maintain the quality of your lovely tapas!
+                  </p>
+                </div>
               </div>
               <hr />
               <div onClick={() => setBack(!back)}>
