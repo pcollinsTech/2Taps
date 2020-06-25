@@ -43,7 +43,7 @@ const PermanentNav = () => {
         <div className="menu_section">
           <div className="d-flex justify-content-between contact">
             <div className="menu_text_container">
-              <div className="text">Orders</div>
+              <div className="text">Reservations</div>
             </div>
             <Reservations />
           </div>
