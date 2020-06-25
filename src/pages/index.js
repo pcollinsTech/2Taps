@@ -5,12 +5,8 @@ import Banner from "../components/Banner"
 import Layout from "../layout/Layout"
 import Img from "gatsby-image"
 import SEO from "../components/seo"
-import Lightbox from "react-image-lightbox"
-import "react-image-lightbox/style.css"
 import ScrollAnimation from "react-animate-on-scroll"
 // import Modal from "../components/Modal"
-import frontMenu from "../assets/images/takeAwayMenus/front.jpeg"
-import backMenu from "../assets/images/takeAwayMenus/back.jpeg"
 
 const IndexPage = props => {
   const [front, setFront] = useState(false)
@@ -26,78 +22,7 @@ const IndexPage = props => {
               2Taps is the perfect place to meet, relax, share food and soak up
               the atmosphere`}
       />
-      {/* {/* <Modal show={open} onClose={setOpen}>
-        Here's some content for the modal
-      </Modal> */}
       <div className="inner_page">
-        <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section">
-            <Row className="justify-content-md-center my-5">
-              <div className="col-lg-10 col-sm-10 text-center pb-4">
-                <p>
-                  Pre-ordered take away collection service from Thursday the
-                  21st of May!
-                  <br />
-                  <br />
-                  Although we are very excited we also know this is something
-                  completely new to us and that we must learn through trial and
-                  error. We now realise that we must adapt to the new normal.{" "}
-                  <br />
-                  <br />
-                  We will be open initially Thursday, Friday, Saturday & Sunday
-                  3-8pm (times may differ as we continue).
-                  <br />
-                  <br />
-                  Orders must be placed by phone on the restaurant number – 028
-                  90311414 and collected in person at the restaurant front door.
-                  <br />
-                  <br />
-                  We will be accepting <b>card payments only.</b>
-                  <br />
-                  <br />
-                  In coming weeks, we hope that delivery’s will be an options
-                  but again we must get a good system in place before doing so.
-                  Clear designated areas will be marked outside the building for
-                  public to safety collect their food in line with social
-                  distancing guidelines.
-                  <br />
-                  <br />
-                  <u>
-                    <b>We missed you!</b>
-                  </u>
-                </p>
-              </div>
-              <div
-                onClick={() => {
-                  console.log("HEELO")
-                  setFront(!front)
-                }}
-              >
-                <img src={frontMenu} alt="front" />
-              </div>
-              <div className="container text-center my-5">
-                <h3 className="pb-3">How to order</h3>
-                <div className="row text-center ">
-                  <p>
-                    Phones open from 12pm <br />
-                    Pre orders on the day
-                    <br />
-                    Times slots given from 3-8pm
-                    <br />
-                    <br />
-                    To help us ensure social distancing guidelines are met,
-                    please arrive at your allocated time. This will also help
-                    maintain the quality of your lovely tapas!
-                  </p>
-                </div>
-              </div>
-              <hr />
-              <div onClick={() => setBack(!back)}>
-                <img src={backMenu} alt="back" />
-              </div>
-            </Row>
-          </Container>
-        </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
@@ -123,9 +48,9 @@ const IndexPage = props => {
           </Container>
         </ScrollAnimation>
 
-        {/* <ScrollAnimation animateIn="fadeInUp">
+        <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
-            <h3 className="my-3 text-center">Cocktails of the Month</h3>
+            <h3 className="my-3 text-center">Cocktail of the Month</h3>
             <Row className="my-5 monthly_cocktails justify-content-center">
               <div className="col-lg-6 ">
                 <Img
@@ -141,44 +66,8 @@ const IndexPage = props => {
               </div>
             </Row>
           </Container>
-        </ScrollAnimation> */}
+        </ScrollAnimation>
       </div>
-      {front && (
-        <Lightbox
-          mainSrc={frontMenu}
-          nextSrc={backMenu}
-          prevSrc={frontMenu}
-          onCloseRequest={() => setFront(!front)}
-          // onMovePrevRequest={() =>
-          //   this.setState({
-          //     photoIndex: (photoIndex + images.length - 1) % images.length,
-          //   })
-          // }
-          // onMoveNextRequest={() =>
-          //   this.setState({
-          //     photoIndex: (photoIndex + 1) % images.length,
-          //   })
-          // }
-        />
-      )}
-      {back && (
-        <Lightbox
-          mainSrc={backMenu}
-          nextSrc={backMenu}
-          prevSrc={frontMenu}
-          onCloseRequest={() => setFront(!front)}
-          // onMovePrevRequest={() =>
-          //   this.setState({
-          //     photoIndex: (photoIndex + images.length - 1) % images.length,
-          //   })
-          // }
-          // onMoveNextRequest={() =>
-          //   this.setState({
-          //     photoIndex: (photoIndex + 1) % images.length,
-          //   })
-          // }
-        />
-      )}
     </Layout>
   )
 }

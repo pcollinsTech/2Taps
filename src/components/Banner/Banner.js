@@ -17,12 +17,20 @@ const Banner = ({ img, title, subHeader }) => {
                 <h5 dangerouslySetInnerHTML={html} className="mobile" />
               )}
             </header>
-            <button
-              className="btn btn-primary"
-              onClick={() => toggler.toggleReservationTab()}
-            >
-              Order Now
-            </button>
+            <div className="row flex justify-content-center">
+              <button
+                className="btn btn-primary mr-2"
+                onClick={() => toggler.toggleReservationTab()}
+              >
+                Book Now
+              </button>
+              <button
+                className="btn btn-primary ml-2"
+                onClick={() => toggler.toggleReservationTab()}
+              >
+                Order Now
+              </button>
+            </div>
           </div>
         </section>
       )}
