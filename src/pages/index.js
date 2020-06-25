@@ -47,7 +47,7 @@ const IndexPage = props => {
             </Row>
           </Container>
         </ScrollAnimation>
-
+        {/* 
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <h3 className="my-3 text-center">Cocktail of the Month</h3>
@@ -66,7 +66,7 @@ const IndexPage = props => {
               </div>
             </Row>
           </Container>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </Layout>
   )
