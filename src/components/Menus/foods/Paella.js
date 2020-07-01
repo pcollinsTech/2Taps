@@ -12,7 +12,7 @@ const Paella = ({ menu }) => {
         />
       ))}
       <h4 className="mx-auto my-4">
-        Paella’s Take 25-30 minutes. may take longer at peak times.
+        Paella’s Take 25-30 minutes. may take longer at peak times. (Serves two)
       </h4>
     </Fragment>
   )

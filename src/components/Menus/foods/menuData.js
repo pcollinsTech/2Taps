@@ -1,120 +1,4 @@
 export const menuData = {
-  // starters: [
-  //   {
-  //     title:
-  //       "Selection of Freshly Baked Breads, with fresh pesto, smoked sun-dried tomato tapenade, black olive tapenade & ailoi",
-  //     price: "£8",
-  //   },
-  //   {
-  //     title:
-  //       "Grilled Flat Bread, served with roast pepper hummus, smoked sundried tomato tapenade, black olive tapenade & ailoi",
-  //     price: "£6",
-  //   },
-  // ],
-  // meat: [
-  //   {
-  //     title: "Marinated Spicy Chicken Wings Glazed in Honey (GF)",
-  //     price: "£5",
-  //   },
-  //   {
-  //     title: "Fried spicy chorizo sausage finished with red wine (GF)",
-  //     price: "£5",
-  //   },
-  //   {
-  //     title: "Moroccan lamb tagine (GF)",
-  //     price: "£5",
-  //   },
-  //   {
-  //     title: "Spicy pork meatballs with a tomato sauce",
-  //     price: "£5",
-  //   },
-  //   {
-  //     title: "Slow cooked BBQ Ribs tapas style (GF)",
-  //     price: "£6",
-  //   },
-  //   {
-  //     title:
-  //       "Goats cheese wrapped in serrano ham, rocket, red onion & fig relish (GF)",
-  //     price: "£5",
-  //   },
-  // ],
-  // fish: [
-  //   {
-  //     title:
-  //       "Fried whitebait in a light batter served with a lemon wedge and aioli",
-  //     price: "£5",
-  //   },
-  //   {
-  //     title: "Tiger prawns served in garlic & chilli oil (GF)",
-  //     price: "£6",
-  //   },
-  //   {
-  //     title:
-  //       "Catch of the day cooked in parsley & garlic butter, served with crunchy greens (GF)",
-  //     price: "£6",
-  //   },
-  //   {
-  //     title: "Pan fried prawns, chorizo, broad beans and peppers (GF)",
-  //     price: "£8",
-  //   },
-  // ],
-  // paella: [
-  //   {
-  //     title:
-  //       "Seafood paella with squid, tiger prawns, mussels & fish of the day in saffron & spicy tomato rice (GF)",
-  //     price: "£15",
-  //   },
-  //   {
-  //     title:
-  //       "Mixed paella with chicken & chorizo in saffron & spicy tomato rice (GF)",
-  //     price: "£15",
-  //   },
-  //   {
-  //     title:
-  //       "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron & spicy tomato rice (GF)(V)",
-  //     price: "£12",
-  //   },
-  // ],
-  // vegetarian: [
-  //   {
-  //     title: "Goats cheese fritters, rocket, beetroot",
-  //     price: "£4.5",
-  //   },
-  //   {
-  //     title:
-  //       "Crispy fried pototas topped with spicy tomato sauce & avocado aioli (GF)",
-  //     price: "£4",
-  //   },
-  //   {
-  //     title:
-  //       "Pan fried crunchy greens, garlic shallots served with hummus dip (GF)",
-  //     price: "£4",
-  //   },
-  //   {
-  //     title:
-  //       "Sweet potato, goats cheese & caramelised red onion wrapped in filo pastry with tahini yoghurt dip",
-  //     price: "£4.5",
-  //   },
-  //   {
-  //     title: "Spanish Omlette with onionc, red pepper & potato",
-  //     price: "£4",
-  //   },
-  //   {
-  //     title: "Cajun spiced chips, sweet chilli & sour cream dip (GF)",
-  //     price: "£4",
-  //   },
-  //   {
-  //     title: "Large flat cup mushrooms, fresh pesto & melted brie",
-  //     price: "£4",
-  //   },
-  // ],
-  // pasta: [
-  //   {
-  //     title:
-  //       "Spicy tomato pasta served with a choice of chicken, chorizo, tiger prawns or mixed vegetables - Parmesan",
-  //     price: "£10",
-  //   },
-  // ],
   starters: [
     {
       title: "1 .Aceitunas Mixtas",
@@ -125,19 +9,19 @@ export const menuData = {
       title: "2. Panes Planos",
       price: "£6",
       description:
-        "Grilled flat bread served with roast pepper hummus, black olive tapenade, smoked sundried tomato tapenade and Spanish guacamole",
+        "/ Grilled flat bread served with roast pepper hummus, black olive tapenade, smoked sundried tomato tapenade &amp; guacamole",
     },
     {
       title: "3A. Pan Fresco",
       price: "£6",
       description:
-        "Selection of yellow door bread served with fresh pesto, black olive tapenade, smoked sundried tomato tapenade, olive oil & balsamic vinegar",
+        "Selection of bread served with fresh pesto, black olive tapenade, smoked sundried tomato tapenade, olive oil &amp; balsamic vinegar",
     },
     {
-      title: "3B. Queso Camembert al Horno",
-      price: "£15",
+      title: "3B. Plato de Carne fria",
+      price: "£16",
       description:
-        "Baked Camembert cheese stuffed with garlic cloves and rosemary sprigs and served with Serrano ham, rocket, fig relish, grapes and toasted bread for dipping Selection of sauces to choose from - £0.5 each Alioli, pepper sauce, avocado alioli, tartar sauce, sweet chilli & sour cream",
+        "Selection of cold meats served with toast, gherkins &amp; remoulade slaw",
     },
   ],
   meat: [
@@ -149,7 +33,7 @@ export const menuData = {
     },
     {
       title: "5.Las Alitas de Pollo (GF)",
-      price: "£4.5",
+      price: "£5",
       description: "Marinated spicy chicken wings glazed in honey",
     },
     {
@@ -164,7 +48,7 @@ export const menuData = {
     },
     {
       title: "8. Queso de Cabra con Jamon Serrano y Higos (GF)",
-      price: "£4",
+      price: "£4.5",
       description:
         "Goats cheese wrapped in serrano ham served with rocket, balsamic vinegar & fig relish",
     },
@@ -198,7 +82,7 @@ export const menuData = {
   fish: [
     {
       title: "14A. Langostinos",
-      price: "£5",
+      price: "£6",
       description:
         "Scampi in a light crispy batter served with homemade tartar sauce",
     },
@@ -206,44 +90,43 @@ export const menuData = {
       title: "14B. Boquerones Fritos",
       price: "£4.5",
       description:
-        "Fried whitebait in a light batter served with a lemon wedge and aioli",
+        "Whitebait in a light batter served with garlic & lemon mayonnaise",
     },
     {
-      title: "14C. Anchoas en vinagre",
-      price: "£4.5",
+      title: "14C. Mejilla de rape frito",
+      price: "£6.5",
       description:
-        "Anchovies, sliced beef tomato, croutons, topped with rocket & olive oil",
+        "Fried Monkfish cheeks in bread crumbs, mix leaf salad & cumin mayonnaise",
     },
     {
-      title: "15. Vieiras con morcilla",
+      title: "15. Vieiras (GF)",
       price: "£9",
-      description: "Pan fried scallops with black pudding and crushed peas",
+      description: "Pan Seared Scallops with Lemon Butter",
     },
     {
       title: "16. Mejillones a la Marinera (GF)",
-      price: "£7",
+      price: "£8",
       description: "Steamed mussels in a cream & white wine sauce",
     },
     {
       title: "17. Gambas al Ajillo (GF)",
-      price: "£5.5",
+      price: "£7",
       description: "Tiger prawns served in garlic & chilli oil",
     },
     {
       title: "18. Calamares",
       price: "£5.5",
-      description:
-        "Salted squid served with garlic lemon mayonnaise dipping sauce",
+      description: " Salted squid rings served with garlic & lemon mayonnaise",
     },
     {
-      title: "19. León de bacalao ahumado (GF)",
-      price: "£6",
+      title: "19. Pesca del día sartén con verduras de temporada (GF)",
+      price: "£7",
       description:
         "Catch of the day cooked in parsley & garlic butter served with crunchy greens",
     },
     {
       title: "20. Gambas y Chorizo",
-      price: "£9",
+      price: "£8",
       description: "Pan fried prawns, chorizo, broad beans and peppers",
     },
   ],
@@ -255,7 +138,7 @@ export const menuData = {
         "Goats cheese fritters served with a rocket & beetroot salad",
     },
     {
-      title: "22. Patatas Bravas (GF)",
+      title: "22. Patatas Bravas (GF) (V)",
       price: "£4",
       description:
         "Crispy fried pototas topped with spicy tomato sauce & avocado aioli",
@@ -263,10 +146,10 @@ export const menuData = {
     {
       title: "23. Tortilla Española (GF)",
       price: "£4",
-      description: "Spanish omelette with onion & potato",
+      description: "Spanish omelette with red pepper, onion & potato",
     },
     {
-      title: "24. Verduras crujientes fritas (GF) £4",
+      title: "24. Pan frito crujientes verdes",
       price: "£4",
       description:
         "Pan fried crunchy greens, garlic shallots served with hummus dip",
@@ -303,12 +186,12 @@ export const menuData = {
   salads: [
     {
       title: "30. Ensalada Vasca (GF)",
-      price: "£5",
+      price: "£5.5",
       description:
         "Salad with goats cheese, avocado, olives, tomato, red onion & balsamic vinegar",
     },
     {
-      title: "31. Ensalada Mixta (GF)",
+      title: "31. Ensalada Mixta (GF)(V)",
       price: "£4",
       description: "Mixed leaf salad with red onion, avocado & sundried tomato",
     },
@@ -322,30 +205,36 @@ export const menuData = {
   paella: [
     {
       title: "35. Paella de Marisco (GF)",
-      price: "Full: £28 <br/>Half: £16",
+      price: "£18 ",
       description:
         "Seafood paella with squid, tiger prawns, mussels, langoustine & fish of the day in saffron and spicy tomato rice",
     },
     {
       title: "36. Paella Valenciana (GF)",
-      price: "Full: £28 <br/>Half: £16",
+      price: "£18",
       description:
         "Mixed paella with chicken, chorizo, mussels, langoustine and tiger prawns in saffron and spicy tomato rice",
     },
     {
       title: "37. Paella de Carne (GF)",
-      price: "Full: £28 <br/>Half: £16",
+      price: "£18",
       description:
         "Meat paella with chicken and chorizo in saffron and spicy tomato rice",
     },
     {
       title: "38. Paella Vegetal (GF)",
-      price: "Full: £20 <br/>Half: £10.5",
+      price: "£14",
       description:
         "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron and spicy tomato rice",
     },
   ],
   desserts: [
+    {
+      title: "Brownie de chocolate con helado",
+      price: "£6",
+      description:
+        "Warm chocolate & Guinness brownie served with vanilla ice cream ",
+    },
     {
       title: "Crema Catalana (GF)",
       price: "£6",
@@ -354,7 +243,7 @@ export const menuData = {
     {
       title: "Tarta de Queso",
       price: "£6",
-      description: "Fresh cheese cake of the day – See server",
+      description: "Freshly baked cheese cake of the day",
     },
     {
       title: "Selección de helados (GF)",
@@ -363,27 +252,16 @@ export const menuData = {
         "Selection of Chocolate, honey comb & vanilla ice cream with a shot of Baileys on top",
     },
     {
-      title: "Brownie de chocolate con helado",
-      price: "£6",
-      description:
-        "Warm chocolate & Guinness brownie served with vanilla ice cream",
-    },
-    {
-      title: "MIGAS DE MANZANA",
-      price: "£6",
-      description: "Warm apple crumble with a choice of ice-cream or custard",
-    },
-    {
       title: "Quesos",
       price: "£8",
       description:
         "Selection of house cheeses with crackers, fig relish and fresh fruit",
     },
     {
-      title: "PLATO POSTRE",
-      price: "£7.5",
+      title: "Churros",
+      price: "£7",
       description:
-        "Chocolate tart, lemon tart, chocolate mousse, chocolate covered strawberries & ice cream",
+        "Dipped in sugar & cinnamon served with vanilla ice cream & caramel dipping sauce",
     },
   ],
   lunch: [
@@ -426,22 +304,16 @@ export const menuData = {
         "10oz Sirloin steak served with pepper sauce, mushrooms, tomato, side salad and choice of potatoes",
     },
     {
-      title: "Tagliatelle a la marinara",
-      price: "£17",
-      description:
-        "Mussels, tiger prawns and scallops served in a white wine and cream sauce",
-    },
-    {
       title: "Gambas rebozadas con patatas",
-      price: "£13.5",
+      price: "£13",
       description:
         "Scampi in a light and crispy batter, served with mixed salad, chips and homemade tartar sauce",
     },
     {
-      title: "Pasta Arrabiatta",
-      price: "£12",
+      title: "Steak sandwich",
+      price: "£11 (add brie or cheddar - £1)",
       description:
-        "Spicy tomato and pepper pasta with a choice of chicken, chorizo, tiger prawns or mixed vegetables",
+        "Steak sandwich on bed of salad served with chips onion rings and pepper sauce ",
     },
   ],
   kids: [

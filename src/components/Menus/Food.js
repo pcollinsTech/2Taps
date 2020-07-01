@@ -83,7 +83,7 @@ const Food = () => {
           >
             Desserts
           </div>
-          <div
+          {/* <div
             className={`btn ${foodMenu === "lunch" ? "active" : ""}`}
             onClick={() => setFoodMenu("lunch")}
             role="button"
@@ -91,7 +91,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("lunch")}
           >
             Lunch
-          </div>
+          </div> */}
           <div
             className={`btn ${foodMenu === "mains" ? "active" : ""}`}
             onClick={() => setFoodMenu("mains")}
@@ -101,7 +101,7 @@ const Food = () => {
           >
             Mains
           </div>
-          <div
+          {/* <div
             className={`btn ${foodMenu === "kids" ? "active" : ""}`}
             onClick={() => setFoodMenu("kids")}
             role="button"
@@ -109,15 +109,15 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("kids")}
           >
             Kids
-          </div>
+          </div> */}
         </Row>
       </Container>
       <Container className=" menu_container">
         <Row>
           {foodMenu === "desserts" && <Desserts menu={menuData.desserts} />}
           {foodMenu === "fish" && <Fish menu={menuData.fish} />}
-          {foodMenu === "kids" && <Kids menu={menuData.kids} />}
-          {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />}
+          {/* {foodMenu === "kids" && <Kids menu={menuData.kids} />} */}
+          {/* {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />} */}
           {foodMenu === "mains" && <Mains menu={menuData.mains} />}
           {foodMenu === "meat" && <Meat menu={menuData.meat} />}
           {foodMenu === "paella" && <Paella menu={menuData.paella} />}
@@ -204,7 +204,7 @@ const Food = () => {
           >
             Desserts
           </div>
-          <div
+          {/* <div
             className={`btn ${foodMenu === "lunch" ? "active" : ""}`}
             onClick={() => setFoodMenu("lunch")}
             role="button"
@@ -212,7 +212,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("lunch")}
           >
             Lunch
-          </div>
+          </div> */}
           <div
             className={`btn ${foodMenu === "mains" ? "active" : ""}`}
             onClick={() => setFoodMenu("mains")}
@@ -222,7 +222,7 @@ const Food = () => {
           >
             Mains
           </div>
-          <div
+          {/* <div
             className={`btn ${foodMenu === "kids" ? "active" : ""}`}
             onClick={() => setFoodMenu("kids")}
             role="button"
@@ -230,7 +230,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("kids")}
           >
             Kids
-          </div>
+          </div> */}
         </Row>
       </Container>
     </Fragment>
