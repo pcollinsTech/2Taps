@@ -4,7 +4,7 @@ import MenuItem from "../MenuItem"
 const Roses = ({ roses, champagnes }) => {
   return (
     <Fragment>
-      <h3 className="my-3 mx-auto">Roses</h3>
+      <h3 className="my-3">Roses</h3>
       {roses.map(item => (
         <MenuItem
           title={item.title}
@@ -12,7 +12,7 @@ const Roses = ({ roses, champagnes }) => {
           description={item.description}
         />
       ))}
-      <h3 className="my-3 mx-auto">Champagne Sparkling & Dessert Wine</h3>
+      <h3 className="my-3">Champagne Sparkling & Dessert Wine</h3>
       {champagnes.map(item => (
         <MenuItem
           title={item.title}

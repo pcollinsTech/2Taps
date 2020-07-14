@@ -739,11 +739,11 @@ export const drinksData = {
   softDrinks: [
     {
       title: "still water",
-      price: "£2.3 33cl <br/>£3.8 75cl",
+      price: "£2.3 33cl <br/> £3.8 75cl",
     },
     {
       title: "sparkling water",
-      price: "£2.3 33cl <br/>£3.8 75cl",
+      price: "£2.3 33cl <br/> £3.8 75cl",
     },
     {
       title: "coke, diet coke, coke zero 20cl",
