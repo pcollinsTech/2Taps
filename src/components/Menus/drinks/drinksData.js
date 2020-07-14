@@ -636,69 +636,42 @@ export const drinksData = {
         price: "£3.9",
       },
       {
-        title: "Coors Light 33cl (4.0%)",
-        price: "£4",
-      },
-      {
-        title: "Daura Damm Gluten Free 33cl (5.4%)",
-        price: "£4.5",
-      },
-      {
-        title: "Estrella Damm 33cl (4.6%)",
-        price: "£4.4",
-      },
-      {
-        title: "Birra Moretti 33cl (4.6%)",
-        price: "£4.2",
-      },
-      {
-        title: "Heineken 0.0% Alcohol Free 33cl",
-        price: "£3.5",
-      },
-      {
-        title: "Free Damm 0.0% Alcohol Free Cans 33cl",
-        price: "£3.7",
-      },
-    ],
-    bottledAle: [
-      {
-        title: "Complot IPA 33cl (6.6%)",
-        price: "£4.7",
-      },
-      {
-        title: "Yardsman Belfast Pale Ale 50cl (5.6%)",
-        price: "£4.8",
-      },
-      {
-        title: "Yardsman American Tropical Rye Ale 50cl (5.0%)",
-        price: "£4.8",
-      },
-    ],
-    bottledCider: [
-      {
-        title: "Magners 33cl (4.5%)",
+        title: "Birra moretti 33cl (4.6%)",
         price: "£4.1",
       },
       {
-        title: "Orchard Thieves 50cl (4.5%)",
-        price: "£4.6",
+        title: "Estrella damm 33cl (4.6%)",
+        price: "£4.4",
       },
       {
-        title: "Old Mout Strawberry & Pomegranate 50cl (4.0%)",
-        price: "£4.6",
+        title: "Daura damm gluten free 33cl (5.4%)",
+        price: "£4.5",
       },
       {
-        title: "Old Mout Berries and Cherries 50cl (4.0%)",
-        price: "£4.6",
+        title: "Heineken 0.0% alcohol free 33cl",
+        price: "£3.5",
       },
     ],
-    pops: [
+    bottledAleCiderPops: [
       {
-        title: "West Coast Cooler Original 25cl (4.0%)",
-        price: "£3.9",
+        title: "magners (4.5%) 33cl",
+        price: "£4",
       },
       {
-        title: "West Coast Cooler Rosé 25cl (4.0%)",
+        title:
+          "old mout strawberry & pomegranate / berries & cherries (4.0%) 50cl",
+        price: "£4.6",
+      },
+      {
+        title: "yardsman belfast pale ale (5.6%) 50cl",
+        price: "£4.8",
+      },
+      {
+        title: "yardsman american tropical rye ale (5.0%) 50cl",
+        price: "£4.8",
+      },
+      {
+        title: "west coast cooler original / rosé (4.0%) 25cl",
         price: "£3.9",
       },
     ],
@@ -726,92 +699,92 @@ export const drinksData = {
     ],
     teaCoffee: [
       {
-        title: "Black Tea",
+        title: "Black tea",
         price: "£2",
       },
       {
-        title: "Specialty Tea",
+        title: "Specialty tea",
         price: "£2.5",
       },
       {
-        title: "Hot Chocolate",
+        title: "Hot chocolate",
         price: "£2.5",
       },
       {
-        title: "Double Espresso",
-        price: "£2.4",
+        title: "Espresso",
+        price: "£2",
+      },
+      {
+        title: "Double espresso",
+        price: "£3",
       },
       {
         title: "Americano",
-        price: "£2.5",
+        price: "£3.1",
       },
       {
         title: "Cappuccino",
-        price: "£2.9",
+        price: "£3.4",
       },
       {
         title: "Latte",
-        price: "£2.9",
+        price: "£3.4",
       },
       {
-        title: "Flat White",
-        price: "£2.9",
+        title: "Flat white",
+        price: "£3.4",
       },
     ],
   },
   softDrinks: [
     {
-      title: "Still Water 33cl / 75cl",
-      price: "£2.3 / £3.8",
+      title: "still water",
+      price: "£2.3 33cl <br/>£3.8 75cl",
     },
     {
-      title: "Sparkling Water 33cl / 75cl",
-      price: "£2.3 / £3.8",
+      title: "sparkling water",
+      price: "£2.3 33cl <br/>£3.8 75cl",
     },
     {
-      title: "Coke / Coke Zero / Diet Coke 20cl",
+      title: "coke, diet coke, coke zero 20cl",
       price: "£2.3",
     },
     {
-      title: "Sprite Zero / Fanta Orange / Fanta Lemon 20cl",
+      title: "sprite zero, fanta orange, fanta lemon 20cl",
       price: "£2.2",
     },
     {
-      title: "San Pellegrino Lemon / Blood Orange 33cl",
+      title: "san pellegrino lemon, blood orange 33cl",
       price: "£2.6",
     },
     {
-      title: "Schweppes Lemonade 20cl",
+      title: "schweppes white lemonade 20cl",
       price: "£2.4",
     },
     {
-      title: "Old Jamaica Ginger Beer 33cl",
-      price: "£2.6",
-    },
-    {
-      title: "Orange / Apple / Cranberry / Pineapple Juice 25cl",
-      price: "£2.7",
-    },
-    {
-      title: "Schweppes Tonic / Ginger Ale 12.5cl",
+      title: "schweppes tonic water, ginger ale 12.5cl",
       price: "£2.4",
     },
     {
-      title: "Schweppes Slimline Tonic / Soda Water 12.5cl",
+      title: "schweppes slimline tonic, soda water 12.5cl",
       price: "£2.3",
     },
     {
+      title: "old jamaica ginger beer 33cl",
+      price: "£2.6",
+    },
+    {
       title:
-        "Fever-Tree Premium Indian / Light / Elderflower / Mediterranean Tonic 25cl",
+        "fever-tree premium tonic water, naturally light elderflower, mediterranean tonic water 25cl",
       price: "£2.9",
     },
     {
-      title: "Red Bull 25cl",
+      title: "red bull 25cl",
       price: "£3",
     },
     {
-      title: "Cordial Dash / Pint / Jug",
-      price: "£0.5 / £0.6 / £0.8",
+      title: "apple, cranberry, orange, pineapple juice 25cl",
+      price: "£2.7",
     },
   ],
 }

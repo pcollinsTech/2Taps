@@ -18,10 +18,10 @@ const DrinkItem = ({ title, description, price }) => {
             filter: "brightness(100%)",
           }}
         >
-          <div className="col-sm-8">
+          <div className="col-sm-7">
             <h4>{capitalizeFLetter(title)}</h4>
           </div>
-          <div className="col-sm-4 text-right">
+          <div className="col-sm-5 text-right">
             <h4 dangerouslySetInnerHTML={createMarkup()} />
           </div>
         </Row>
