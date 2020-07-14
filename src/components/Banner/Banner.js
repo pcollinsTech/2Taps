@@ -24,12 +24,12 @@ const Banner = ({ img, title, subHeader }) => {
               >
                 Book Now
               </button>
-              <button
+              {/* <button
                 className="btn btn-primary ml-2"
                 onClick={() => toggler.toggleReservationTab()}
               >
                 Order Now
-              </button>
+              </button> */}
             </div>
           </div>
         </section>
