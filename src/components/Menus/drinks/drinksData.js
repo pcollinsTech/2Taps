@@ -1,691 +1,586 @@
 export const drinksData = {
-  whites: [
+  houseWhites: [
     {
-      title: "House Organic Protocolo Macabeo & Airen Castilla (Spain) ",
-      price: "Bottle £20.00 <br/> Carafe £14.5<br/>Glass £5.75",
-      description:
-        "An exceptional wine from specially organic certified trellised grown vineyard. Very striking with an abundabce of clean refreshing green and yellow fruits.",
+      title: "castilla; protocolo macabeo - airen; dominio de eguren",
+      price: "£5.75 175ml <br/> £14.50 500ml <br/> £20 750ml",
     },
 
     {
-      title: "Reguta Pinot Grigio (Italy) ",
-      price: "Bottle £22.00 <br/> Carafe £15.00<br/>Glass £6.00",
-      description:
-        "From the region of Friuli, synonymous with Italy’s top white wines, this example represents excellence in winemaking. Saturated in white citrus fruit flavours in a wonderfully rounded & impressively ripe style.",
-    },
-
-    {
-      title: "La Salette (France) ",
-      price: "Bottle £23.00 <br/> Carafe £16.00<br/>Glass £6.00",
-      description:
-        "The most captivating find & introduction to our latest list, the intensity of flavour balanced by attractive fruit filled acidity strikes a chord you won’t forget.",
-    },
-
-    {
-      title: "The Duke of Marlborough Sauvignon Blanc (New Zealand) ",
-      price: "Bottle £24.00 <br/> Carafe £16.00<br/>Glass £6.25",
-      description:
-        "The richness of fruit dominates showcasing all the typical characters of gooseberry, mango & passion fruit.",
-    },
-
-    {
-      title: "Carlos Serres White Rioja (Spain)",
-      price: "£22.00",
-      description:
-        "Very crisp mineral coated acidity and infused in very ripe green apple fruit characters representing the modern style of white Rioja.",
-    },
-
-    {
-      title: "Adega Moncao Vinho Verde (Portugal)",
-      price: "£23.00",
-      description:
-        "An outstanding VV made mostly from the Alvarinho grape, slightly sparkling wonderfully ripe spicy green apple fruit, very fresh and fanciful.",
-    },
-    {
-      title: "Atlantik Albariňo Rias Baixas (Spain)",
-      price: "£24.00",
-      description:
-        "A pure example of classical Albarino, such a clean aromatic character with very impressive mineral coated green citrus fruit flavours to create what is one of the world’s most unique wine styles.",
-    },
-    {
-      title: "Chablis Domaine Herve Kerlann (France)",
-      price: "£29.00",
-      description:
-        "A very refined and globally renowned style displaying an array of citrus & sub tropical fruit in a delicious creamy rounded format true to character and terroir.",
-    },
-  ],
-  reds: [
-    {
-      title: "House Protocolo Organic Tempranillo Castilla (Spain) ",
-      price: "Bottle £20.00 <br/> Carafe £14.00<br/>Glass £5.75",
-      description:
-        "Very refined with purity of both red & blue fruits as well as structured polished tannins to give added class.",
+      title: "friuli; pinot grigio; reguta giuseppe e luigi",
+      price: "£6 175ml <br/> £15 500ml <br/> £21 750ml",
     },
 
     {
       title:
-        "Domaine L’ Amandine Cuvee Mathilde Merlot & Grenache Vacluse (France)",
-      price: "Bottle £21.00 <br/> Carafe £15.00<br/>Glass £6.00",
-      description:
-        "A stunning wine expressing a delicious saturated palate of wonderfully ripe red & black fruits, just like jam in a glass. So appealing.",
+        "côtes de gascogne; colombard - gros manseng - ugni blanc; domaine la salette",
+      price: "£6 175ml <br/> £16 500ml <br/> £23 750ml",
     },
 
     {
-      title: "Don Aparo Malbec (Argentina) ",
-      price: "Bottle £22.00 <br/> Carafe £15.00<br/>Glass £6.5",
-      description:
-        "A magnificent example of Argentinean Malbec, coffee bean and mocha infused with both red & black fruit to give such a savoury flavoursome style.",
+      title: "new zealand marlborough; sauvignon blanc; the duke",
+      price: "£6.25 175ml <br/> £16 500ml <br/> £24 750ml",
+    },
+  ],
+  whites: [
+    {
+      title: "vinho verde; escolha trajadura - alvarinho; adega de monção",
+      price: "£23 750ml",
     },
 
     {
-      title: "House Rioja (Spain) ",
-      price: "Bottle £23.00 <br/> Carafe £15.5<br/>Glass £6.5",
-      description:
-        "Crushed red and dark fruit characters dominate this delicious Rioja, brilliantly  balanced with fine acidity & flavoursome ripe tannins.",
+      title: "rioja; viura - tempranillo blanco; bodegas carlos serres",
+      price: "£22 750ml",
     },
     {
-      title: "Casal Bordino Montepulciano D’Abruzzo (Italy)",
-      price: "£22.00",
-      description:
-        "Old Italian favourite back in fashion. Dry Morello cherries combine with mocha and warm spice.",
+      title: "galicia rías baixas; albariño; atlantik",
+      price: "£24 750ml",
     },
     {
-      title: "Terra Noble Reserva Cabernet Sauvignon (Chile)",
-      price: "£25.00",
-      description:
-        "An excellent example of fine Cabernet exhibiting both red and dark fruit combing to give structure & elegance.",
+      title: "bourgogne chablis; chardonnay; hervé kerlann chȃteau de laborde",
+      price: "£26 750ml",
+    },
+  ],
+  houseReds: [
+    {
+      title: "castilla; protocolo tempranillo, dominio de eguren",
+      price: "£5.75 175ml <br/> £14 500ml <br/> £20 750ml",
+    },
+
+    {
+      title: "navarra; joven tempranillo - garnacha; pagos de araiz",
+      price: "£5.75 175ml £14 500ml <br/> £20 750ml",
+    },
+
+    {
+      title: "vaucluse; merlot - garnache; domaine l’amandine cuvée mathilde",
+      price: "£6 175ml <br/> £15 500ml <br/> £21 750ml",
+    },
+
+    {
+      title: "argentina mendoza; malbec; don aparo",
+      price: "£6.50 175ml <br/> £15 500ml <br/> £22 750ml",
     },
     {
-      title: "Bodegas Alvia Mileto Rioja Joven (Spain)",
-      price: "£25.00",
-      description:
-        "An intriguing style extremely popular in Spanish Tapas Bars. Joven meaning young portrays a style bursting with primary red fruits that are enhanced when served slightly chilled giving diversity to partner almost any dish as well as great appeal. (This wine will be served chilled)",
+      title: "rioja; old vines tempranillo; bodegas carlos serres",
+      price: "£6.50 175ml <br/> £15.50 500ml <br/> £23 750ml",
+    },
+  ],
+  reds: [
+    {
+      title: "abruzzo; montepulciano; collezione casal bordino",
+      price: "£22 750ml",
     },
     {
-      title: "Bodegas Alvia Rioja Crianza (Spain)",
-      price: "£27.00",
-      description:
-        "Traditional style Rioja, subtle oak tones with complex ripe red & dark fruit characters infused with sweet spice.",
+      title:
+        "chilean colchagua valley; reserva cabernet sauvignon; terra noble",
+      price: "£25 750ml",
     },
     {
-      title: "Mo Mo Tinto Tempranillo Ribera Del Duero (Spain)",
-      price: "£28.00",
-      description:
-        "From the dynamic Bodegas... offering a world class entry level red from Spain’s top red wine producing region. Complexity from start to finish offering an array of flavours that are so layered, ripe and appealling.",
+      title: "rioja; joven tempranillo; bodegas alvia mileto",
+      price: "£24 750ml <br/> *served chilled*",
     },
     {
-      title: "Casar de Burbia Mencia Bierzo (Spain)",
-      price: "£30.00",
-      description:
-        "An amazing wine made from some of Bierzo’s oldest Mencia vines, this wine has it all. Layered in ripe dark fruit components with refined mineral notes and juicy acidity. Overall this wine displays an originality quite like no other.",
+      title: "rioja; crianza tempranillo; bodegas carlos serres",
+      price: "£27 750ml",
     },
     {
-      title: "Old Coach Road Pinot Noir (New Zealand)",
-      price: "£32.00",
-      description:
-        "One of the best Pinot Noirs you will ever taste from New Zealand. Phenomenal extraction and complexity – glorious aromas of raspberry truffle are at the fore. You will adore this!",
+      title: "ribera del duero; tempranillo; bodegas emilio moro",
+      price: "£28 750ml",
     },
     {
-      title: "Carlos Serres Gran Reserva (Spain)",
-      price: "£35.00",
-      description:
-        "A traditional style sought by followers of “world class” European and in particular Rioja reds a wine that offers  everything in terms of flavour complexity. If you would like it decanted to further unlock its qualities then please ask your server.",
+      title: "bierzo; mencia; casar de burbia",
+      price: "£30 750ml",
+    },
+    {
+      title: "new zealand nelson; pinot noir; old coach road",
+      price: "£32 750ml",
+    },
+    {
+      title:
+        "rioja; gran reserva tempranillo - graciano - mazuelo; bodegas carlos serres",
+      price: "£35 750ml",
     },
   ],
   roses: [
     {
-      title: "Founders Stone Zinfandel Rose (California) ",
-      price: "Bottle £20.00 <br/> Carafe £14.5<br/>Glass £5.5",
-      description:
-        "Alive with intense aromas and flavours of just-picked summer strawberries and raspberries.",
+      title: "california; white zinfandel; founders stone",
+      price: "£5.50 175ml, £14.50 500ml, £20 750ml",
     },
     {
-      title: "Villa Serena Pinot Grigio Rose (Italy) ",
-      price: "Bottle £21.00 <br/> Carafe £15.00<br/>Glass £6.00",
-      description:
-        "A very decadent rose displaying delicious soft red summer fruit berries as well as lively acidity to give freshness & balance.",
+      title: "venezia; pinot grigio rosé; villa serena",
+      price: "£6 175ml, £15 500ml, £21 750ml",
     },
 
     {
-      title: "Gran Feudo Rosado, Navarra (Spain) ",
-      price: "Bottle £22.00 <br/> Carafe £15.5<br/>Glass £6.5",
-      description:
-        "Exploding with mountains of intense strawberry flavours and a clean dry finish. Great with Spanish food.",
+      title: "navarra; garnacha - tempranillo; gran feudo",
+      price: "£6.50 175ml, £15.50 500ml, £22 750ml",
     },
   ],
   champagnes: [
     {
-      title: "Arnaud Moreau Brut Tradition Grand Cru Champagne (France) ",
-      price: "£55.00",
-      description:
-        "Dominated in Pinot Noir from the most sought after village in the entire Champagne region, Bouzy graded Grand Cru. Trust us when we say you are about to experience the most exquisite and flavoursome non vintage Champagne available anywhere.",
+      title:
+        "champagne grand cru; ‘bouzy’ brut chardonnay - pinot noir - pinot meunier; arnaud moreau",
+      price: "£55 750ml",
     },
     {
-      title: "Prosecco San Pietro Superiore DOCG (Italy) ",
-      price: "£28.00",
-      description:
-        "A fabulous Prosecco and a great addition to our list. Graded DOCG, Italy’s highest certification for wines of exceptional quality. Wonderful mineral flavours entwined with ripe pear characters & fruit driven acidity combine to give a certain class and distinction.",
+      title:
+        "valdobbiadene; glera prosecco superiore brut docg; casa dei farive",
+      price: "£28 750ml",
     },
     {
-      title: "Naveran Brut (Cava, Spain) ",
-      price: "£27.00",
-      description:
-        "Small batch handcrafted Cava of serious quality, Internationally recognised as the finest family owned Cava House. Decadent scents & flavours of crushed white fruit infused with minerals and extremely fine balancing acidity.",
+      title: "cava; brut macabeo - xarel-lo - parellada; naveran",
+      price: "£27 750ml",
     },
     {
-      title: "Naveran Vintage Rose (Cava, Spain) ",
-      price: "£27.00",
-      description:
-        "Created from 100% Pinot Noir this is Spain’s most “iconic” and sought after Rose Cava scooping every year just about every award going and exclusive to 2Taps Wine Bar.",
+      title: "cava; brut rosé macabeo - xarel-lo - parellada; naveran",
+      price: "£27 750ml",
     },
     {
-      title: "Prosecco 20cl (Italy)",
-      price: "£8.5",
-      description:
-        "Clean and crisp with lovely, grapey flavours, a hint of natural sweetness, fine bubbles and a lingering finish. Prosecco has it all which explains the massive boom that has been seen in this market.",
+      title: "prosecco, erfo sartori",
+      price: "£8.50 200ml",
     },
     {
-      title: "Chivite Gran Feudo Moscatel Navarra (Spain) 70ml Glass",
-      price: "£4.5",
-      description:
-        "A great way to finish off the evening either with dessert or simply on its own such is the appeal of this very popular dessert wine.",
+      title: "navarra moscatel, gran fuedo",
+      price: "£4.50 70ml",
+    },
+    {
+      title: "taylor’s lbv port",
+      price: "£4.5 70ml",
     },
   ],
   sangrias: [
     {
-      title: "Sangría ",
-      price: "Glass £4.75 <br/>Pitcher £15.00",
+      title: "red, white & rose sangria",
+      price: "£4.50 gls / £14.50 jug",
       description:
-        "Spanish punch made with Red Wine, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Sparkling Orange.",
+        "wine, bacardi carta blanca, triple sec, lime juice, sparkling orange or lemonade",
     },
     {
-      title: "Sangría Blanca ",
-      price: "Glass £4.75 <br/>Pitcher £15.00",
-      description:
-        "Spanish punch made with White Wine, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Lemonade.",
+      title: "sangria chispeante",
+      price: "£18.00 jug",
+      description: "sparkling wine, brandy, triple sec, lemon juice, lemonade",
     },
     {
-      title: "Sangría Rosada ",
-      price: "Glass £4.75 <br/>Pitcher £15.00",
+      title: "tinto de verano",
+      price: "£4.50 gls / £14.50 jug",
       description:
-        "Spanish punch made with Merlot Rosé, Bacardi Carta Blanca Rum, Triple Sec, Lemon & Lime Juice, Lemonade.",
-    },
-    {
-      title: "Tinto De Verano ",
-      price: "Glass £4.75 <br/>Pitcher £15.00",
-      description:
-        "Andalucian drink made with Red Wine, Martini Rosso, Lemon Juice, Lemonade.",
-    },
-    {
-      title: "Sangría Chispeante - Sparkling",
-      price: "Pitcher £18.5",
-      description:
-        "Sparkling wine, Soberano Spanish Brandy, Triple Sec, Lemon & Lime Juice, Lemonade.",
+        "red wine, bacardi carta blanca, martini rosso, lemon juice, lemonade",
     },
   ],
-  cocktails: {
-    martinis: [
-      {
-        title: "French",
-        price: "£8.5",
-        description: "Cîroc, Chambord, Pineapple Juice, Angostura, Raspberry",
-      },
-      {
-        title: "Espresso",
-        price: "£8.5",
-        description:
-          "Ketel One or Bulleit Bourbon, Patron XO Café, Espresso, Gomme",
-      },
-      {
-        title: "Dry",
-        price: "£8.5",
-        description: "Hendrick’s, Belsazar Rose, Cucumber",
-      },
-    ],
-    collins: [
-      {
-        title: "Tom",
-        price: "£8",
-        description: "Tanqueray London Dry Gin, Lemon Juice, Gomme, Soda Water",
-      },
-      {
-        title: "Berry",
-        price: "£8",
-        description:
-          "Gordon’s Pink Gin, Raspberry, Lime Juice, Gomme, Soda Water",
-      },
-      {
-        title: "Lemongrass & Ginger",
-        price: "£8.5",
-        description:
-          "Whitley Neill Lemongrass & Ginger, Lime Juice, Mint, Gomme, Soda Water",
-      },
-    ],
-
-    mojitos: [
-      {
-        title: "House",
-        price: "£8.5",
-        description: "Bacardi Carta Blanca, Lime Juice, Mint, Gomme",
-      },
-      {
-        title: "Caribbean",
-        price: "£8.5",
-        description:
-          "Captain Morgan Original Spice Gold, Lime Juice, Mint, Gomme",
-      },
-      {
-        title: "Dark",
-        price: "£8.5",
-        description: "Kraken Rum, Raspberry, Lime Juice, Mint, Gomme",
-      },
-    ],
-    houseClassics: [
-      {
-        title: "Ketel Fizz",
-        price: "£8.5",
-        description:
-          "Ketel One, Wild Elderflower Liqueur, Lemon Juice, Gomme, Soda Water",
-      },
-      {
-        title: "Sour de la Casa",
-        price: "£8",
-        description:
-          "Bulleit Bourbon or Disaronno, Egg White, Lemon Juice, Gomme",
-      },
-      {
-        title: "Aulde Fashioned",
-        price: "£8.5",
-        description:
-          "Roe & Co Irish Whiskey, Martini Extra Dry, Brown Sugar, Orange Bitters",
-      },
-      {
-        title: "Margarita",
-        price: "£9",
-        description: "Don Julio Reposado, Cointreau, Lime Juice, Gomme, Salt",
-      },
-      {
-        title: "Dark ‘n’ Stormy",
-        price: "£8",
-        description: "Kraken Rum, Ginger Beer, Lime Juice, Angostura",
-      },
-    ],
-    winterServes: [
-      {
-        title: "Spanish Spritz",
-        price: "£8.5",
-        description:
-          "Martini Fiero, Chambord, Triple Sec, Lemon Juice, Gomme, Soda Water",
-      },
-      {
-        title: "Senorita Martini",
-        price: "£8.5",
-        description: "Cîroc, Passoa, Lime Juice, Vanilla Syrup",
-        aside: "Add a side of Limoncello - £1.5",
-      },
-      {
-        title: "Strawbarita",
-        price: "£8.5",
-        description:
-          "Don Julio Blanco, Crème de Fraise, Triple Sec, Lime Juice, Gomme",
-      },
-      {
-        title: "Mula de Jerez",
-        price: "£9",
-        description:
-          "Ketel One, Soberano Reserva, Lime Juice, Vanilla Syrup, Ginger Beer",
-      },
-      {
-        title: "Bramble",
-        price: "£9",
-        description:
-          "Tanqueray No. TEN Gin, Creme de Mure, Lemon Juice, Blackberry, Gomme",
-      },
-    ],
-  },
+  cocktails: [
+    {
+      title: "house mojito",
+      price: "£8",
+      description: "bacardi carta blanca, fresh mint, lime juice, sugar, soda",
+    },
+    {
+      title: "house margarita",
+      price: "£9",
+      description: "don julio blanco, triple sec, lime juice, sugar, salt rim",
+    },
+    {
+      title: "house collins",
+      price: "£7",
+      description: "gordon’s pink gin, lemon juice, sugar, soda",
+    },
+    {
+      title: "house sour",
+      price: "£9",
+      description:
+        "disaronno, hennessy, angostura, *egg white, lemon juice, sugar",
+    },
+    {
+      title: "spanish spritz",
+      price: "£7",
+      description: "aperol, triple sec, sugar, lemon juice, soda",
+    },
+    {
+      title: "negroni",
+      price: "£9",
+      description: "tanqueray flor de sevilla, campari, martini rosso",
+    },
+    {
+      title: "‘aulde’ fashioned",
+      price: "£9",
+      description:
+        "roe & co, belsazar rose, crème de maraschino, angostura, brown sugar",
+    },
+    {
+      title: "espresso martin",
+      price: "£9",
+      description: "patron café xo, bulleit bourbon, espresso, sugar",
+    },
+    {
+      title: "coconut margarita",
+      price: "£9",
+      description: "1800 coconut, lime juice, sugar, salt rim",
+    },
+    {
+      title: "melon mojito",
+      price: "£9",
+      description: "kraken, midori, fresh mint, lime juice, sugar, soda",
+    },
+    {
+      title: "cork cold brew",
+      price: "£10",
+      description: "coole swan, jameson, kahlúa, espresso",
+    },
+    {
+      title: "‘arte de volar’ spanish aviation",
+      price: "£11",
+      description:
+        "nordés atlantic galician gin, don julio reposado, crème de violette; maraschino,*egg white, lemon juice",
+    },
+    {
+      title: "dockland royale",
+      price: "£11",
+      description: "gin mare, crème de cassis, rosé frizzante",
+    },
+  ],
   gins: [
     {
       title: "Tanqueray London Dry (43.1%)",
-      price: "£4.5",
-      description: "Garnish with Grapefruit and Lime",
+      price: "£4.50",
+      description: "grapefruit, lime",
     },
     {
-      title: " Tanqueray Flor De Sevilla (41.3%)",
-      price: "£5",
-      description: "Garnish with Orange",
+      title: "Tanqueray Flor De Sevilla (41.3%)",
+      price: "£4.90",
+      description: "orange",
     },
     {
       title: "Tanqueray No. TEN (47.3%)",
-      price: "£5.2",
-      description: "Garnish with Orange and Mint",
+      price: "£5.10",
+      description: "orange, mint",
     },
     {
-      title: "Gordon’s Gin (37.5%)",
-      price: "£4.1",
-      description: "Garnish with Lemon and Lime",
+      title: "Gordon’s  (37.5%)",
+      price: "£3.90",
+      description: "lemon, lime",
     },
     {
-      title: "Gordon’s Pink Gin (37.5%)",
-      price: "£4.2",
-      description: "Garnish with Kiwi and Raspberry",
+      title: "Gordon’s pink (37.5%)",
+      price: "£4.00",
+      description: "kiwi, raspberry",
     },
     {
       title: "Hendrick’s (41.1%)",
-      price: "£5",
-      description: "Garnish with Cucumber",
+      price: "£4.80",
+      description: "cucumber",
     },
     {
-      title: "Whitley Neill (43%)",
-      price: "£4.8",
-      description: "Garnish with Lemon and Mint",
+      title: "Whitley neill (43%)",
+      price: "£4.60",
+      description: "lemon, mint",
     },
     {
-      title: "Whitley Neill Rhubarb & Ginger (43%)",
-      price: "£5",
-      description: "Garnish with Lemon and Blackberry",
+      title: "Whitley neill rhubarb & ginger (43%)",
+      price: "£4.80",
+      description: "lemon, blackberry",
     },
     {
-      title: "Whitley Neill Lemongrass & Ginger (43%)",
-      price: "£5.2",
-      description: "Garnish with Lime",
+      title: "Whitley neill lemongrass & ginger (43%)",
+      price: "£4.80",
+      description: "lime, mint",
     },
     {
-      title: "Nordes Atlantic Galician Gin (40%)",
-      price: "£5.4",
-      description: "Garnish with Rosemary and Orange",
+      title: "Nordes atlantic galician gin (40%)",
+      price: "£5.20",
+      description: "rosemary, orange",
     },
     {
-      title: "Gin Mare (42.7%)",
-      price: "£5.5",
-      description: "Garnish with Rosemary and Olive",
+      title: "Gin mare (42.7%)",
+      price: "£5.50",
+      description: "pitted olive",
     },
   ],
   mocktails: [
     {
-      title: "Orangella",
+      title: "apple and ginger fizz",
       price: "£4",
-      description: "Orange Juice, Pineapple Juice, Lemon Juice",
     },
     {
-      title: "Sweet Tang",
+      title: "orange and pineapple punch",
       price: "£4",
-      description:
-        "Cranberry Juice, Orange Juice, Lime Juice, Strawberry Puree",
     },
     {
-      title: "Apple Fizz",
+      title: "sweet berry tang",
       price: "£4",
-      description: "Apple Juice, Lime Juice, Gomme, Old Jamaica Ginger Beer",
     },
   ],
-  spirit: {
+  spirits: {
     vodkas: [
       {
         title: "Smirnoff (37.5%)",
-        price: "£4.2",
+        price: "£3.90",
       },
       {
-        title: "Ketel One (40%)",
-        price: "£4.5",
+        title: "Ketel one (40%)",
+        price: "£4.20",
       },
       {
         title: "Cîroc (40%)",
-        price: "£5",
+        price: "£4.90",
       },
       {
-        title: "Grey Goose (40%)",
-        price: "£5",
+        title: "Grey goose (40%)",
+        price: "£4.90",
       },
     ],
     rums: [
       {
-        title: "Captain Morgan Original Spiced Gold (35%)",
-        price: "£4",
+        title: "Captain morgan original spiced gold (35%)",
+        price: "£3.80",
       },
       {
-        title: "Malibu Coconut Flavour Rum (21%)",
-        price: "£3.9",
+        title: "Bacardi carta blanca (37.5%)",
+        price: "£4.00",
       },
       {
-        title: "Bacardi Carta Blanca (37.5%)",
-        price: "£4.1",
+        title: "Malibu coconut flavour rum (21%)",
+        price: "£3.90",
       },
       {
-        title: "Kraken Dark Rum (40%)",
-        price: "£4.3",
+        title: "Kraken dark rum (40%)",
+        price: "£4.10",
       },
     ],
 
-    irishWhiskey: [
+    whiskey: [
       {
-        title: "Roe & Co (45%)",
-        price: "£4.6",
+        title: "bushmills (40%)",
+        price: "£4.30",
       },
       {
-        title: "Jameson (40%)",
-        price: "£4.2",
+        title: "black bush (40%)",
+        price: "£5.40",
       },
       {
-        title: "Bushmills (40%)",
-        price: "£4.3",
+        title: "bushmills 10yr single malt (40%)",
+        price: "£6.00",
       },
       {
-        title: "Black Bush (40%)",
-        price: "£5.4",
+        title: "roe & co (45%)",
+        price: "£4.60",
       },
       {
-        title: "Bushmills 10YO Single Malt (40%)",
-        price: "£6",
-      },
-    ],
-    scotch: [
-      {
-        title: "Johnnie Walker Black Label 12YO (40%)",
-        price: "£4.2",
-      },
-    ],
-    usBourbon: [
-      {
-        title: "Bulleit Bourbon (45%)",
-        price: "£4.8",
+        title: "jameson (40%)",
+        price: "£4.20",
       },
       {
-        title: "Jack Daniel’s (40%)",
-        price: "£4.4",
+        title: "bulleit bourbon (45%)",
+        price: "£4.80",
       },
       {
-        title: "Southern Comfort Whiskey Liqueur (35%)",
-        price: "£4",
+        title: "jack daniel’s (40%)",
+        price: "£4.40",
+      },
+      {
+        title: "johnnie walker black label 12yr (40%)",
+        price: "£4.20",
+      },
+      {
+        title: "southern comfort whiskey liqueur (35%)",
+        price: "£4.00",
       },
     ],
     cognac: [
       {
-        title: "Hennessy VS Cognac (40%)",
-        price: "£5.2",
-      },
-      {
-        title: "Soberano Reserva 5YO (36%)",
-        price: "£4.6",
-      },
-      {
-        title: "Soberano Gran Reserva 12YO (38%)",
-        price: "£5.1",
-      },
-    ],
-    liqueurVermouth: [
-      {
-        title: "Baileys (17%)",
-        price: "£3.9",
-      },
-      {
-        title: "Belsazar Rosé (17.5%)",
-        price: "£4.1",
-      },
-      {
-        title: "Archers Peach Schnapps (18%) £4",
-        price: "£4",
-      },
-      {
-        title: "Campari (25%)",
-        price: "£4.2",
-      },
-      {
-        title: "Disaronno Amaretto (28%)",
-        price: "£4",
-      },
-      {
-        title: "Drambuie (40%)",
-        price: "£4.2",
-      },
-      {
-        title: "Kahlua Coffee Liqueur (20%)",
-        price: "£2.9",
-      },
-      {
-        title: "Martini Fiero (15%)",
-        price: "£3.8",
-      },
-      {
-        title: "Martini Rosso (15%)",
-        price: "£3.8",
-      },
-      {
-        title: "Martini Extra Dry (15%)",
-        price: "£3.8",
-      },
-      {
-        title: "Pernod (40%)",
-        price: "£4.3",
-      },
-      {
-        title: "Tia Maria (20%)",
-        price: "£3.9",
+        title: "Hennessy vs (40%)",
+        price: "£5.20",
       },
     ],
     digestifs: [
       {
-        title: "Don Julio Blanco",
+        title: "Baileys (17%)",
+        price: "£3.90",
+      },
+      {
+        title: "kahlúa coffee liqueur (20%)",
+        price: "£3.90",
+      },
+      {
+        title: "Tia Maria (20%)",
+        price: "£3.90",
+      },
+      {
+        title: "Disaronno Amaretto (28%)",
+        price: "£4.00",
+      },
+      {
+        title: "Campari (25%)",
+        price: "£4.00",
+      },
+      {
+        title: "chambord (16.5%)",
+        price: "£4.00",
+      },
+      {
+        title: "cointreau (40%)",
+        price: "£4.20",
+      },
+      {
+        title: "Drambuie (40%)",
+        price: "£4.20",
+      },
+      {
+        title: "drambuie (40%)",
+        price: "£4.20",
+      },
+      {
+        title: "pimm’s (25%)",
+        price: "£4.00",
+      },
+      {
+        title: "patron xo café (35%)",
+        price: "£6.00",
+      },
+      {
+        title: "don julio blanco (38%)",
+        price: "£4.50",
+      },
+      {
+        title: "don julio reposado (40%)",
+        price: "£4.80",
+      },
+      {
+        title: "jägermeister (35%)",
+        price: "£4.00",
+      },
+      {
+        title: "sambuca (38%)",
+        price: "£4.00",
+      },
+      {
+        title: "limoncello (28%)",
+        price: "£4.00",
+      },
+    ],
+    digestifs: [
+      {
+        title: "baileys (17%)",
+        price: "£3.9",
+      },
+      {
+        title: "kahlúa coffee liqueur (20%)",
+        price: "£3.9",
+      },
+      {
+        title: "tia maria (20%)",
+        price: "£3.9",
+      },
+      {
+        title: "disaronno amaretto (28%)",
+        price: "£4",
+      },
+      {
+        title: "campari (25%)",
+        price: "£4",
+      },
+      {
+        title: "chambord (16.5%)",
+        price: "£4",
+      },
+      {
+        title: "cointreau (40%)",
+        price: "£4.2",
+      },
+      {
+        title: "drambuie (40%)",
+        price: "£4.2",
+      },
+      {
+        title: "pimm’s (25%)",
+        price: "£4",
+      },
+      {
+        title: "patron xo café (35%)",
+        price: "£6",
+      },
+      {
+        title: "don julio blanco (38%)",
         price: "£4.5",
       },
       {
-        title: "Don Julio Reposado",
+        title: "don julio reposado (40%)",
         price: "£4.8",
       },
       {
-        title: "Chambord",
+        title: "1800 coconut (35%)",
+        price: "£7",
+      },
+      {
+        title: "jägermeister (35%)",
         price: "£4",
       },
       {
-        title: "Jagermeister",
+        title: "sambuca (38%)",
         price: "£4",
       },
       {
-        title: "Limoncello",
+        title: "limoncello (28%)",
         price: "£4",
-      },
-      {
-        title: "Taylors’s LBV Port",
-        price: "£4.5",
-      },
-      {
-        title: "Sambuca",
-        price: "£4",
-      },
-      {
-        title: "Patron XO Café",
-        price: "£6",
       },
     ],
   },
   beers: {
     draught: [
       {
-        title: "Guinness (4.2%)",
-        price: "Pint £4.7 <br/>Half £2.5",
+        title: "Guinness stout (4.2%)",
+        price: "£4.70 pt <br/> £2.50 gls",
       },
       {
-        title: "Hop House 13 (4.1%)",
-        price: "Pint £4.8  <br/>Half £2.6",
+        title: "Hop house 13 (4.1%)",
+        price: "£4.80 pt <br/> £2.60 gls",
       },
       {
         title: "Rockshore (4.0%)",
-        price: "Pint £4.8 <br/>Half £2.6",
-      },
-      {
-        title: "Estrella Damm (4.6%)",
-        price: "Pint £5.1 / Half £2.7",
+        price: "£4.80 pt <br/> £2.60 gls",
       },
     ],
     bottledBeer: [
       {
-        title: "Coors Light 33cl (4.0%)",
-        price: "£4",
-      },
-      {
-        title: "Daura Damm Gluten Free 33cl (5.4%)",
-        price: "£4.5",
-      },
-      {
-        title: "Estrella Damm 33cl (4.6%)",
-        price: "£4.4",
-      },
-      {
         title: "Sol 33cl (4.5%)",
-        price: "£4",
+        price: "£4.00",
       },
       {
-        title: "Birra Moretti 33cl (4.6%)",
-        price: "£4.2",
+        title: "Birra moretti 33cl (4.6%)",
+        price: "£4.20",
       },
       {
-        title: "Heineken 0.0% Alcohol Free 33cl",
-        price: "£3.5",
+        title: "Estrella damm 33cl (4.6%)",
+        price: "£4.40",
       },
       {
-        title: "Free Damm 0.0% Alcohol Free Cans 33cl",
-        price: "£3.7",
-      },
-    ],
-    bottledAle: [
-      {
-        title: "Complot IPA 33cl (6.6%)",
-        price: "£4.7",
+        title: "Daura damm gluten free 33cl (5.4%)",
+        price: "£4.50",
       },
       {
-        title: "Yardsman Belfast Pale Ale 50cl (5.6%)",
-        price: "£4.8",
-      },
-      {
-        title: "Yardsman American Tropical Rye Ale 50cl (5.0%)",
-        price: "£4.8",
+        title: "Heineken 0.0% alcohol free 33cl",
+        price: "£3.50",
       },
     ],
-    bottledCider: [
+    bottledAleCiderPops: [
       {
-        title: "Magners 33cl (4.5%)",
-        price: "£4.1",
+        title: "magners (4.5%) 33cl",
+        price: "£4.00",
       },
       {
-        title: "Orchard Thieves 50cl (4.5%)",
-        price: "£4.6",
+        title:
+          "old mout strawberry & pomegranate / berries & cherries (4.0%) 50cl",
+        price: "£4.60",
       },
       {
-        title: "Old Mout Strawberry & Pomegranate 50cl (4.0%)",
-        price: "£4.6",
+        title: "yardsman belfast pale ale (5.6%) 50cl",
+        price: "£4.80",
       },
       {
-        title: "Old Mout Berries and Cherries 50cl (4.0%)",
-        price: "£4.6",
-      },
-    ],
-    pops: [
-      {
-        title: "West Coast Cooler Original 25cl (4.0%)",
-        price: "£3.9",
+        title: "yardsman american tropical rye ale (5.0%) 50cl",
+        price: "£4.80",
       },
       {
-        title: "West Coast Cooler Rosé 25cl (4.0%)",
-        price: "£3.9",
+        title: "west coast cooler original / rosé (4.0%) 25cl",
+        price: "£3.90",
       },
     ],
   },
@@ -712,92 +607,88 @@ export const drinksData = {
     ],
     teaCoffee: [
       {
-        title: "Black Tea",
-        price: "£2",
+        title: "Black tea",
+        price: "£2.00",
       },
       {
-        title: "Specialty Tea",
-        price: "£2.5",
+        title: "Specialty tea",
+        price: "£2.50",
       },
       {
-        title: "Hot Chocolate",
-        price: "£2.5",
+        title: "Hot chocolate",
+        price: "£2.50",
       },
       {
-        title: "Double Espresso",
-        price: "£2.4",
+        title: "Espresso",
+        price: "£2.00",
+      },
+      {
+        title: "Double espresso",
+        price: "£3.00",
       },
       {
         title: "Americano",
-        price: "£2.5",
+        price: "£3.10",
       },
       {
         title: "Cappuccino",
-        price: "£2.9",
+        price: "£3.40",
       },
       {
         title: "Latte",
-        price: "£2.9",
+        price: "£3.40",
       },
       {
-        title: "Flat White",
-        price: "£2.9",
+        title: "Flat white",
+        price: "£3.40",
       },
     ],
   },
   softDrinks: [
     {
-      title: "Still Water 33cl / 75cl",
-      price: "£2.3 / £3.8",
+      title: "still water",
+      price: "£2.30 33cl <br/> £3.80 75cl",
     },
     {
-      title: "Sparkling Water 33cl / 75cl",
-      price: "£2.3 / £3.8",
+      title: "sparkling water",
+      price: "£2.30 33cl <br/> £3.80 75cl",
     },
     {
-      title: "Coke / Coke Zero / Diet Coke 20cl",
-      price: "£2.3",
+      title: "coke, diet coke, coke zero 20cl",
+      price: "£2.30",
     },
     {
-      title: "Sprite Zero / Fanta Orange / Fanta Lemon 20cl",
-      price: "£2.2",
+      title: "sprite zero, fanta orange, fanta lemon 20cl",
+      price: "£2.20",
     },
     {
-      title: "San Pellegrino Lemon / Blood Orange 33cl",
-      price: "£2.6",
+      title: "schweppes white lemonade 20cl",
+      price: "£2.40",
     },
     {
-      title: "Schweppes Lemonade 20cl",
-      price: "£2.4",
+      title: "schweppes tonic water, ginger ale 12.5cl",
+      price: "£2.40",
     },
     {
-      title: "Old Jamaica Ginger Beer 33cl",
-      price: "£2.6",
+      title: "schweppes slimline tonic, soda water 12.5cl",
+      price: "£2.30",
     },
     {
-      title: "Orange / Apple / Cranberry / Pineapple Juice 25cl",
-      price: "£2.7",
-    },
-    {
-      title: "Schweppes Tonic / Ginger Ale 12.5cl",
-      price: "£2.4",
-    },
-    {
-      title: "Schweppes Slimline Tonic / Soda Water 12.5cl",
-      price: "£2.3",
+      title: "old jamaica ginger beer 33cl",
+      price: "£2.60",
     },
     {
       title:
-        "Fever-Tree Premium Indian / Light / Elderflower / Mediterranean Tonic 25cl",
-      price: "£2.9",
+        "fever-tree premium tonic water, naturally light elderflower, mediterranean tonic water 25cl",
+      price: "£2.90",
     },
     {
-      title: "Red Bull 25cl",
-      price: "£3",
+      title: "red bull 25cl",
+      price: "£3.00",
     },
     {
-      title: "Cordial Dash / Pint / Jug",
-      price: "£0.5 / £0.6 / £0.8",
+      title: "apple, cranberry, orange, pineapple juice 25cl",
+      price: "£2.70",
     },
   ],
 }

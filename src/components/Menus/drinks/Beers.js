@@ -16,16 +16,8 @@ const Beers = ({ drinks }) => {
       </div>
 
       <div className="col-sm-6">
-        <h3 className="my-3 text-center">Bottled Ale</h3>
-        {drinks.bottledAle.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-        <h3 className="my-3 text-center">Bottled Cider</h3>
-        {drinks.bottledCider.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-        <h3 className="my-3 text-center">Pops</h3>
-        {drinks.pops.map(item => (
+        <h3 className="my-3 text-center">Ciders, Ales &amp; Pops</h3>
+        {drinks.bottledAleCiderPops.map(item => (
           <DrinkItem title={item.title} price={item.price} />
         ))}
       </div>

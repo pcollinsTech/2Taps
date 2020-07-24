@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
-import { MdRestaurantMenu, MdAvTimer, MdHome } from "react-icons/md"
+import { MdRestaurantMenu, MdAvTimer, MdHome, MdBookmark } from "react-icons/md"
 import { Link } from "gatsby"
+import { FcCollect } from "react-icons/fc"
 import SideNav from "./SideNav"
 import Reservations from "./Reservations"
 const PermanentNav = () => {
@@ -42,19 +43,19 @@ const PermanentNav = () => {
         <div className="menu_section">
           <div className="d-flex justify-content-between contact">
             <div className="menu_text_container">
-              <div className="text">Orders</div>
+              <div className="text">Reservations</div>
             </div>
             <Reservations />
           </div>
         </div>
-        {/* <div className="menu_section">
-          <Link to="/reservations" className="d-flex justify-content-between">
+        <div className="menu_section">
+          <Link to="/take-away" className="d-flex justify-content-between">
             <div className="menu_text_container">
-              <div className="text">Reservations</div>
+              <div className="text">Take Away</div>
             </div>
-            <MdBookmark />
+            <FcCollect />
           </Link>
-        </div> */}
+        </div>
         <div className="menu_section">
           <div className="d-flex justify-content-between contact">
             <div className="menu_text_container">

@@ -1,41 +1,40 @@
 import React, { Fragment } from "react"
 import DrinkItem from "../DrinkItem"
 
-const Spirits = ({ menu }) => {
+const Spirits = ({ drinks }) => {
+  console.log("Drinks", drinks)
   return (
     <Fragment>
       <div className="col-sm-6">
-        {menu.vodkas.map(item => (
+        <h3 className="my-3 text-center">Vodka</h3>
+        {drinks.vodkas.map(item => (
+          <DrinkItem title={item.title} price={item.price} />
+        ))}
+
+        <br />
+        <h3 className="my-3 text-center">Cognac</h3>
+        {drinks.cognac.map(item => (
+          <DrinkItem title={item.title} price={item.price} />
+        ))}
+        <br />
+      </div>
+
+      <div className="col-sm-6">
+        <h3 className="my-3 text-center">Whiskey</h3>
+        {drinks.whiskey.map(item => (
+          <DrinkItem title={item.title} price={item.price} />
+        ))}
+      </div>
+
+      <div className="col-sm-6">
+        <h3 className="my-3 text-center">Liqueurs, Apéritifs &amp; Shots</h3>
+        {drinks.digestifs.map(item => (
           <DrinkItem title={item.title} price={item.price} />
         ))}
       </div>
       <div className="col-sm-6">
-        {menu.rums.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-      </div>
-      <div className="col-sm-6">
-        {menu.irishWhiskey.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-      </div>
-      <div className="col-sm-6">
-        {menu.usBourbon.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-      </div>
-      <div className="col-sm-6">
-        {menu.cognac.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-      </div>
-      <div className="col-sm-6">
-        {menu.liqueurVermouth.map(item => (
-          <DrinkItem title={item.title} price={item.price} />
-        ))}
-      </div>
-      <div className="col-sm-6">
-        {menu.digestifs.map(item => (
+        <h3 className="my-3 text-center">Rum</h3>
+        {drinks.rums.map(item => (
           <DrinkItem title={item.title} price={item.price} />
         ))}
       </div>
