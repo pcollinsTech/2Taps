@@ -17,13 +17,13 @@ const Reservations = ({ open }) => {
           >
             <Modal.Header closeButton />
             <Modal.Body className="text-center">
-              {/* <iframe
+              <iframe
                 src="https://www.opentable.co.uk/r/2-taps-wine-bar-reservations-belfast?restref=161271&lang=en-GB&ot_source=Restaurant%20website"
                 frameborder="0"
-                width="330px"
-                height="500px"
+                width="400px"
+                height="800px"
                 title="OpenTable"
-              ></iframe> */}
+              ></iframe>
 
               <h3>Orders &amp; Queries</h3>
               <ul className="modal-contact-info d-flex justify-content-around">
