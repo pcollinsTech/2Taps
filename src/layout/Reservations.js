@@ -20,7 +20,7 @@ const Reservations = ({ open }) => {
               <iframe
                 src="https://www.opentable.co.uk/r/2-taps-wine-bar-reservations-belfast?restref=161271&lang=en-GB&ot_source=Restaurant%20website"
                 frameborder="0"
-                width="400px"
+                width="330px"
                 height="600px"
                 title="OpenTable"
               ></iframe>
