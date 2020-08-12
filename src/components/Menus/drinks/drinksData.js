@@ -170,7 +170,7 @@ export const drinksData = {
   cocktails: [
     {
       title: "house mojito",
-      price: "£8",
+      price: "£8.50",
       description: "bacardi carta blanca, fresh mint, lime juice, sugar, soda",
     },
     {
@@ -180,7 +180,7 @@ export const drinksData = {
     },
     {
       title: "house collins",
-      price: "£7",
+      price: "£7.50",
       description: "gordon’s pink gin, lemon juice, sugar, soda",
     },
     {
@@ -211,13 +211,8 @@ export const drinksData = {
       description: "patron café xo, bulleit bourbon, espresso, sugar",
     },
     {
-      title: "coconut margarita",
-      price: "£9",
-      description: "1800 coconut, lime juice, sugar, salt rim",
-    },
-    {
       title: "melon mojito",
-      price: "£9",
+      price: "£9.50",
       description: "kraken, midori, fresh mint, lime juice, sugar, soda",
     },
     {
@@ -255,12 +250,12 @@ export const drinksData = {
     },
     {
       title: "Gordon’s  (37.5%)",
-      price: "£3.90",
+      price: "£4.00",
       description: "lemon, lime",
     },
     {
       title: "Gordon’s pink (37.5%)",
-      price: "£4.00",
+      price: "£4.20",
       description: "kiwi, raspberry",
     },
     {
@@ -312,7 +307,7 @@ export const drinksData = {
     vodkas: [
       {
         title: "Smirnoff (37.5%)",
-        price: "£3.90",
+        price: "£4.00",
       },
       {
         title: "Ketel one (40%)",
@@ -342,7 +337,7 @@ export const drinksData = {
       },
       {
         title: "Kraken dark rum (40%)",
-        price: "£4.10",
+        price: "£4.30",
       },
     ],
 
@@ -424,16 +419,16 @@ export const drinksData = {
         price: "£4.20",
       },
       {
-        title: "drambuie (40%)",
-        price: "£4.20",
-      },
-      {
         title: "pimm’s (25%)",
         price: "£4.00",
       },
       {
         title: "patron xo café (35%)",
         price: "£6.00",
+      },
+      {
+        title: "sierra blanco (38%)",
+        price: "£3.80",
       },
       {
         title: "don julio blanco (38%)",
@@ -455,76 +450,18 @@ export const drinksData = {
         title: "limoncello (28%)",
         price: "£4.00",
       },
-    ],
-    digestifs: [
       {
-        title: "baileys (17%)",
-        price: "£3.9",
-      },
-      {
-        title: "kahlúa coffee liqueur (20%)",
-        price: "£3.9",
-      },
-      {
-        title: "tia maria (20%)",
-        price: "£3.9",
-      },
-      {
-        title: "disaronno amaretto (28%)",
-        price: "£4",
-      },
-      {
-        title: "campari (25%)",
-        price: "£4",
-      },
-      {
-        title: "chambord (16.5%)",
-        price: "£4",
-      },
-      {
-        title: "cointreau (40%)",
-        price: "£4.2",
-      },
-      {
-        title: "drambuie (40%)",
-        price: "£4.2",
-      },
-      {
-        title: "pimm’s (25%)",
-        price: "£4",
-      },
-      {
-        title: "patron xo café (35%)",
-        price: "£6",
-      },
-      {
-        title: "don julio blanco (38%)",
-        price: "£4.5",
-      },
-      {
-        title: "don julio reposado (40%)",
-        price: "£4.8",
-      },
-      {
-        title: "1800 coconut (35%)",
-        price: "£7",
-      },
-      {
-        title: "jägermeister (35%)",
-        price: "£4",
-      },
-      {
-        title: "sambuca (38%)",
-        price: "£4",
-      },
-      {
-        title: "limoncello (28%)",
-        price: "£4",
+        title: "choc pop / baby guiness",
+        price: "£4.00",
       },
     ],
   },
   beers: {
     draught: [
+      {
+        title: "estrella damm lager (4.6%)",
+        price: "£5.20 pt <br/> £2.70 gls",
+      },
       {
         title: "Guinness stout (4.2%)",
         price: "£4.70 pt <br/> £2.50 gls",
@@ -623,6 +560,10 @@ export const drinksData = {
         price: "£2.00",
       },
       {
+        title: "Macchiato",
+        price: "£2.50",
+      },
+      {
         title: "Double espresso",
         price: "£3.00",
       },
@@ -646,41 +587,41 @@ export const drinksData = {
   },
   softDrinks: [
     {
-      title: "still water",
+      title: "deep riverrock still water",
       price: "£2.30 33cl <br/> £3.80 75cl",
     },
     {
-      title: "sparkling water",
+      title: "deep riverrock sparkling water",
       price: "£2.30 33cl <br/> £3.80 75cl",
     },
     {
-      title: "coke, diet coke, coke zero 20cl",
-      price: "£2.30",
+      title: "coca-cola, diet coke, coca-cola zero sugar 20cl",
+      price: "£2.50",
     },
     {
-      title: "sprite zero, fanta orange, fanta lemon 20cl",
-      price: "£2.20",
-    },
-    {
-      title: "schweppes white lemonade 20cl",
+      title: "sprite, fanta orange, fanta lemon 20cl",
       price: "£2.40",
     },
     {
-      title: "schweppes tonic water, ginger ale 12.5cl",
+      title: "schweppes tonic water, slimeline tonic 12.5cl",
       price: "£2.40",
     },
     {
-      title: "schweppes slimline tonic, soda water 12.5cl",
-      price: "£2.30",
-    },
-    {
-      title: "old jamaica ginger beer 33cl",
-      price: "£2.60",
+      title: "schweppes white lemonade, soda water 20cl",
+      price: "£2.50",
     },
     {
       title:
-        "fever-tree premium tonic water, naturally light elderflower, mediterranean tonic water 25cl",
-      price: "£2.90",
+        "schweppes signature collection 20cl (crisp tonic water, light tonic water, golden ginger ale, cucumber tonic water, salty lemon tonic water)",
+      price: "£3.00",
+    },
+    {
+      title: "old jamaica ginger beer 33cl",
+      price: "£2.70",
+    },
+    {
+      title: "appletiser 27.5cl",
+      price: "£2.70",
     },
     {
       title: "red bull 25cl",
