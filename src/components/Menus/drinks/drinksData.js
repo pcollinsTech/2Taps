@@ -187,7 +187,7 @@ export const drinksData = {
       title: "house sour",
       price: "£9",
       description:
-        "disaronno, hennessy, angostura, *egg white, lemon juice, sugar",
+        "disaronno, hennessy, angostura, *egg white, lemon juice, sugar <br/> *vegan alternative available",
     },
     {
       title: "spanish spritz",
