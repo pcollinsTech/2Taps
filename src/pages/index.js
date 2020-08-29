@@ -28,6 +28,19 @@ const IndexPage = props => {
             <Row className="justify-content-md-center my-5">
               <div className="col-lg-10 col-sm-10">
                 <Img
+                  fluid={props.data.septemberDeal.childImageSharp.fluid}
+                  loading="lazy"
+                  style={{ position: "static" }}
+                />
+              </div>
+            </Row>
+          </Container>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInUp">
+          <Container className="inner_page_section">
+            <Row className="justify-content-md-center my-5">
+              <div className="col-lg-10 col-sm-10">
+                <Img
                   fluid={props.data.image2.childImageSharp.fluid}
                   loading="lazy"
                   style={{ position: "static" }}
@@ -107,8 +120,8 @@ export const query = graphql`
     march2020: file(relativePath: { eq: "march2020.jpg" }) {
       ...aboutImage
     }
-    aromaBella: file(relativePath: { eq: "aromaBella.png" }) {
-      ...aboutImage
+    septemberDeal: file(relativePath: { eq: "septemberDeal.jpg" }) {
+      ...indexImage
     }
   }
 `

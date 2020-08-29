@@ -97,25 +97,6 @@ const Ta = props => {
 
 export default Ta
 
-export const indexImage = graphql`
-  fragment indexImage on File {
-    childImageSharp {
-      fluid(maxWidth: 2400) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
-
-export const pageImage = graphql`
-  fragment pageImage on File {
-    childImageSharp {
-      fluid(maxWidth: 1200) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
 export const query = graphql`
   query {
     image1: file(relativePath: { eq: "bannerOne.jpg" }) {

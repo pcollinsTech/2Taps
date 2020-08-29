@@ -17,19 +17,14 @@ const MenusPage = props => {
 
 export default MenusPage
 
-export const menuImage = graphql`
-  fragment menuImage on File {
-    childImageSharp {
-      fluid(maxWidth: 2400) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
 export const query = graphql`
   query {
     tapasTrays: file(relativePath: { eq: "tapasTray6.jpg" }) {
-      ...menuImage
+      childImageSharp {
+        fluid(maxWidth: 2400) {
+          ...GatsbyImageSharpFluid
+        }
+      }
     }
   }
 `

@@ -113,16 +113,6 @@ const OpeningTimesPage = props => {
 
 export default OpeningTimesPage
 
-export const aboutImage = graphql`
-  fragment aboutImage on File {
-    childImageSharp {
-      fluid(maxWidth: 2400) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
-
 export const query = graphql`
   query {
     image1: file(relativePath: { eq: "outside1.jpg" }) {

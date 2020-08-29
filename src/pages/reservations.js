@@ -34,19 +34,14 @@ const ReservationsPage = props => {
 
 export default ReservationsPage
 
-export const menuImage = graphql`
-  fragment menuImage on File {
-    childImageSharp {
-      fluid(maxWidth: 2400) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`
 export const query = graphql`
   query {
     image1: file(relativePath: { eq: "banner.jpg" }) {
-      ...menuImage
+      childImageSharp {
+        fluid(maxWidth: 2400) {
+          ...GatsbyImageSharpFluid
+        }
+      }
     }
   }
 `
