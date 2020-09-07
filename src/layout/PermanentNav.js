@@ -48,14 +48,14 @@ const PermanentNav = () => {
             <Reservations />
           </div>
         </div>
-        <div className="menu_section">
+        {/* <div className="menu_section">
           <Link to="/take-away" className="d-flex justify-content-between">
             <div className="menu_text_container">
               <div className="text">Take Away</div>
             </div>
             <FcCollect />
           </Link>
-        </div>
+        </div> */}
         <div className="menu_section">
           <div className="d-flex justify-content-between contact">
             <div className="menu_text_container">
