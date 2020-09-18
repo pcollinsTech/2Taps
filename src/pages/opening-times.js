@@ -51,13 +51,13 @@ const OpeningTimesPage = props => {
             </Row>
           </Container>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center">
               <Gmap />
             </Row>
           </Container>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center">
