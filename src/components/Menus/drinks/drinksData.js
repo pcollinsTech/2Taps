@@ -206,15 +206,22 @@ export const drinksData = {
         "roe & co, belsazar rose, crème de maraschino, angostura, brown sugar",
     },
     {
-      title: "espresso martin",
+      title: "espresso martini",
       price: "£9",
       description:
         "patron xo café, ketel one vodka or bulleit bourbon, espresso, sugar",
     },
     {
-      title: "melon mojito",
+      title: "martini lemon",
       price: "£9.50",
-      description: "kraken, midori, fresh mint, lime juice, sugar, soda",
+      description:
+        "grey goose le citron vodka, limoncello, vanilla syrup, lemon puree",
+    },
+    {
+      title: "gin frenchie",
+      price: "£10",
+      description:
+        "nordés atlantic galician gin, giffard framboise, pineapple juice, raspberry, rosemary",
     },
     {
       title: "cork cold brew",
@@ -226,11 +233,6 @@ export const drinksData = {
       price: "£10",
       description:
         "bombay sapphire bramble gin, giffard elderflower, de mure, lime juice, sugar, rose water",
-    },
-    {
-      title: "dockland royale",
-      price: "£11",
-      description: "gin mare, crème de cassis, rosé frizzante",
     },
   ],
   gins: [
@@ -405,10 +407,6 @@ export const drinksData = {
       },
       {
         title: "Campari (25%)",
-        price: "£4.00",
-      },
-      {
-        title: "chambord (16.5%)",
         price: "£4.00",
       },
       {
