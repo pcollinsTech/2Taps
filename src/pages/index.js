@@ -25,15 +25,38 @@ const IndexPage = props => {
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
-            <Row className="justify-content-md-center my-5">
-              <div className="col-lg-10 col-sm-10">
-                <Img
-                  fluid={props.data.septemberDeal.childImageSharp.fluid}
-                  loading="lazy"
-                  style={{ position: "static" }}
-                />
-              </div>
-            </Row>
+            <p>
+              To Our Beloved Guests, Following up on our last statement, we
+              would like to make a brief announcement to all our patrons,
+              friends and extended family.{" "}
+            </p>
+            <p>
+              Having decided to close temporarily while we underwent full
+              decontamination throughout the restaurant and test screening of
+              staff for COVID-19, we can confirm now that the majority of our
+              entire team have received negative test results, but unfortunately
+              a small number have tested positive.
+            </p>
+            <p>
+              In light of this, with deep regret we have decided to extend our
+              closure in order to allow all staff to follow a recommended full
+              period of self-isolation lasting 14-days, so that we can keep the
+              public safe, but equally as important so that we can return as a
+              whole team together.
+            </p>
+            <p>
+              We would like to apologise to everyone with upcoming bookings this
+              will affect, and also confess that we are just as devastated at
+              having to disrupt the plans of others as we are at our own lives
+              disrupted, but it is the right thing to do.
+            </p>
+            <p>
+              If you have any queries about rescheduling reservations, you can
+              reach us by email: info@2taps-winebar.com we will try to respond
+              to everyone as quickly as we can.
+            </p>
+            <p>Stay safe,</p>
+            <p>2Taps Team</p>
           </Container>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp">
