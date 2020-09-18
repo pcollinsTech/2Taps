@@ -24,7 +24,7 @@ const IndexPage = props => {
       />
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section">
+          <Container className="inner_page_section p-5">
             <p>
               To Our Beloved Guests, Following up on our last statement, we
               would like to make a brief announcement to all our patrons,
