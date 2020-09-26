@@ -37,7 +37,7 @@ const IndexPage = props => {
               Wednesday 30th September!
             </p>
             <p>
-              With the latest restrictions are maximum table size will be 6,
+              With the latest restrictions our maximum table size will be 6,
               with enough notice we can still accommodate large parties with
               split tables along with all procedures we will be very cautious.
               We will aim to keep our dining experience as ‘normal’ and
