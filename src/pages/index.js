@@ -57,7 +57,7 @@ const IndexPage = props => {
             </p>
             <p>
               Excited to get back and open our home to you once again, see you
-              Wednesday! 🇪🇸
+              Wednesday!
             </p>
             <p>Love 2Taps Team</p>
           </Container>
