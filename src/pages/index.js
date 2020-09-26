@@ -59,7 +59,8 @@ const IndexPage = props => {
               Excited to get back and open our home to you once again, see you
               Wednesday!
             </p>
-            <p>Love 2Taps Team</p>
+            <p>Love</p>
+            <p>2Taps Team</p>
           </Container>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp">
