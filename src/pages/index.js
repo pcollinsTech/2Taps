@@ -25,38 +25,41 @@ const IndexPage = props => {
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section p-5">
+            <p>To our Most Excellent Customers,</p>
             <p>
-              To Our Beloved Guests, Following up on our last statement, we
-              would like to make a brief announcement to all our patrons,
-              friends and extended family.{" "}
+              After having to close due to positive cases in our establishment
+              13-14th September we have been taking all measurements and advice
+              on closing for over 14 days as extra precaution, with our premises
+              being deep cleaned immediately after closure.
             </p>
             <p>
-              Having decided to close temporarily while we underwent full
-              decontamination throughout the restaurant and test screening of
-              staff for COVID-19, we can confirm now that the majority of our
-              entire team have received negative test results, but unfortunately
-              a small number have tested positive.
+              We are more than thrilled to announce that we are reopening
+              Wednesday 30th September!
             </p>
             <p>
-              In light of this, with deep regret we have decided to extend our
-              closure in order to allow all staff to follow a recommended full
-              period of self-isolation lasting 14-days, so that we can keep the
-              public safe, but equally as important so that we can return as a
-              whole team together.
+              With the latest restrictions are maximum table size will be 6,
+              with enough notice we can still accommodate large parties with
+              split tables along with all procedures we will be very cautious.
+              We will aim to keep our dining experience as ‘normal’ and
+              enjoyable as possible for you all, but we ask that we all work
+              together and respect the regulations we have all been given.
             </p>
             <p>
-              We would like to apologise to everyone with upcoming bookings this
-              will affect, and also confess that we are just as devastated at
-              having to disrupt the plans of others as we are at our own lives
-              disrupted, but it is the right thing to do.
+              We know our hospitality neighbours and friends will unite and work
+              hard on keeping this industry alive and kicking through this
+              storm.
             </p>
             <p>
-              If you have any queries about rescheduling reservations, you can
-              reach us by email: info@2taps-winebar.com we will try to respond
-              to everyone as quickly as we can.
+              The 2Taps family want to thank each and every one of you for all
+              your supportive messages and comments over the last two weeks and
+              the general support we feel from you as we all ride through this
+              strange time ❤️
             </p>
-            <p>Stay safe,</p>
-            <p>2Taps Team</p>
+            <p>
+              Excited to get back and open our home to you once again, see you
+              Wednesday! 🇪🇸
+            </p>
+            <p>Love 2Taps Team</p>
           </Container>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp">
