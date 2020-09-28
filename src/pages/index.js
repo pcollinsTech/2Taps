@@ -24,46 +24,6 @@ const IndexPage = props => {
       />
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section p-5">
-            <p>To our Most Excellent Customers,</p>
-            <p>
-              After having to close due to positive cases in our establishment
-              13-14th September we have been taking all measurements and advice
-              on closing for over 14 days as extra precaution, with our premises
-              being deep cleaned immediately after closure.
-            </p>
-            <p>
-              We are more than thrilled to announce that we are reopening
-              Wednesday 30th September!
-            </p>
-            <p>
-              With the latest restrictions our maximum table size will be 6,
-              with enough notice we can still accommodate large parties with
-              split tables along with all procedures we will be very cautious.
-              We will aim to keep our dining experience as ‘normal’ and
-              enjoyable as possible for you all, but we ask that we all work
-              together and respect the regulations we have all been given.
-            </p>
-            <p>
-              We know our hospitality neighbours and friends will unite and work
-              hard on keeping this industry alive and kicking through this
-              storm.
-            </p>
-            <p>
-              The 2Taps family want to thank each and every one of you for all
-              your supportive messages and comments over the last two weeks and
-              the general support we feel from you as we all ride through this
-              strange time ❤️
-            </p>
-            <p>
-              Excited to get back and open our home to you once again, see you
-              Wednesday!
-            </p>
-            <p>Love</p>
-            <p>2Taps Team</p>
-          </Container>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">
               <div className="col-lg-10 col-sm-10">
