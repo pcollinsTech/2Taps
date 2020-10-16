@@ -1,18 +1,18 @@
 export const drinksData = {
   houseWhites: [
     {
-      title: "castilla; protocolo macabeo - airen; dominio de eguren",
+      title: "spanish castilla; organic macabeo - airen; dominio de eguren",
       price: "£5.75 175ml <br/> £14.50 500ml <br/> £20 750ml",
     },
 
     {
-      title: "friuli; pinot grigio; reguta giuseppe e luigi",
+      title: "italian friuli; pinot grigio; reguta giuseppe e luigi",
       price: "£6 175ml <br/> £15 500ml <br/> £21 750ml",
     },
 
     {
       title:
-        "côtes de gascogne; colombard - gros manseng - ugni blanc; domaine la salette",
+        "french côtes de gascogne; colombard - gros manseng; domaine la salette",
       price: "£6.50 175ml <br/> £16.50 500ml <br/> £24 750ml",
     },
 
@@ -23,36 +23,38 @@ export const drinksData = {
   ],
   whites: [
     {
-      title: "vinho verde; escolha trajadura - alvarinho; adega de monção",
+      title:
+        "portuguese vinho verde; escolha trajadura - alvarinho; adega de monção",
       price: "£25 750ml",
     },
 
     {
-      title: "rioja; viura - tempranillo blanco; bodegas carlos serres",
+      title: "spanish rioja; viura - tempranillo blanco; bodegas carlos serres",
       price: "£24 750ml",
     },
     {
-      title: "galicia rías baixas; albariño; atlantik",
+      title: "spanish galicia rías baixas; albariño; atlantik",
       price: "£29 750ml",
     },
     {
-      title: "bourgogne chablis; chardonnay; hervé kerlann chȃteau de laborde",
+      title:
+        "french bourgogne chablis; chardonnay; hervé kerlann chȃteau de laborde",
       price: "£34 750ml",
     },
   ],
   houseReds: [
     {
-      title: "castilla; protocolo tempranillo, dominio de eguren",
+      title: "spanish castilla; organic tempranillo, dominio de eguren",
       price: "£5.75 175ml <br/> £14.50 500ml <br/> £20 750ml",
     },
 
     {
-      title: "navarra; joven tempranillo - garnacha; pagos de araiz",
+      title: "spanish navarra; joven tempranillo - garnacha; pagos de araiz",
       price: "£6 175ml £15 500ml <br/> £21 750ml",
     },
 
     {
-      title: "vaucluse; merlot - garnache; domaine l’amandine cuvée mathilde",
+      title: "french vaucluse; merlot - garnache; l’amandine cuvée mathilde",
       price: "£6 175ml <br/> £15 500ml <br/> £21 750ml",
     },
 
@@ -61,35 +63,35 @@ export const drinksData = {
       price: "£6.75 175ml <br/> £16.50 500ml <br/> £24 750ml",
     },
     {
-      title: "rioja; old vines tempranillo; bodegas carlos serres",
+      title: "spanish rioja; old vines tempranillo; bodegas carlos serres",
       price: "£6.75 175ml <br/> £16 500ml <br/> £24 750ml",
     },
   ],
   reds: [
     {
-      title: "abruzzo; montepulciano; collezione casal bordino",
+      title: "italian abruzzo; montepulciano; collezione casal bordino",
       price: "£23 750ml",
     },
     {
-      title:
-        "chilean colchagua valley; reserva cabernet sauvignon; terra noble",
+      title: "chilean colchagua valley; reserva cabernet sauvignon",
       price: "£26 750ml",
     },
     {
-      title: "rioja; joven tempranillo; bodegas alvia mileto",
+      title: "spanish rioja; joven tempranillo; bodegas alvia milet",
       price: "£26 750ml <br/> *served chilled*",
     },
     {
-      title: "rioja; crianza tempranillo; bodegas carlos serres",
+      title: "spanish rioja; crianza tempranillo; bodegas carlos serres",
       price: "£29 750ml",
     },
     {
-      title: "ribera del duero; tempranillo; momo vendimia seleccionada",
+      title: "spanish bierzo; mencia; casar de burbia",
+      price: "£29 750ml",
+    },
+    {
+      title:
+        "spanish ribera del duero; tempranillo; momo vendimia seleccionada",
       price: "£33 750ml",
-    },
-    {
-      title: "bierzo; mencia; casar de burbia",
-      price: "£29 750ml",
     },
     {
       title: "new zealand nelson; pinot noir; old coach road",
@@ -97,22 +99,22 @@ export const drinksData = {
     },
     {
       title:
-        "rioja; gran reserva tempranillo - graciano - mazuelo; bodegas carlos serres",
+        "spanish rioja; gran reserva tempranillo - graciano - mazuelo; bodegas carlos serres",
       price: "£37 750ml",
     },
   ],
   roses: [
     {
-      title: "venezia; pinot grigio rosé; villa serena",
+      title: "italian venezia; pinot grigio rosé; villa serena",
       price: "£6 175ml, £15 500ml, £22 750ml",
     },
     {
-      title: "california; white zinfandel; founders stone",
+      title: "US california; white zinfandel; founders stone",
       price: "£6.25 175ml, £15.00 500ml, £23 750ml",
     },
 
     {
-      title: "navarra; garnacha - tempranillo; gran feudo",
+      title: "spanish navarra; garnacha - tempranillo; gran feudo",
       price: "£6.50 175ml, £15 500ml, £24 750ml",
     },
   ],
@@ -195,9 +197,10 @@ export const drinksData = {
       description: "aperol, triple sec, sugar, lemon juice, soda",
     },
     {
-      title: "negroni",
-      price: "£9",
-      description: "tanqueray flor de sevilla, campari, martini rosso",
+      title: "dark & stormy",
+      price: "£7.50",
+      description:
+        "roe & co, belsazar rose, giffard marasquin, angostura, brown sugar",
     },
     {
       title: "‘aulde’ fashioned",
@@ -224,9 +227,10 @@ export const drinksData = {
         "nordés atlantic galician gin, giffard framboise, pineapple juice, raspberry, rosemary",
     },
     {
-      title: "cork cold brew",
-      price: "£10",
-      description: "coole swan, jameson, kahlúa, espresso",
+      title: "Calabazita",
+      price: "£8.50",
+      description:
+        "sierra blanco tequila, cointreau, pumpkin spice syrup,*egg white, lemon juice",
     },
     {
       title: "mumbai elderbramble",
