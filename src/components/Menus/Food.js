@@ -26,7 +26,7 @@ const Food = () => {
             tabIndex={0}
             onKeyDown={() => setFoodMenu("starters")}
           >
-            Bread &amp; Dips
+            Breads &amp; Platters
           </div>
           <div
             className={`btn ${foodMenu === "meat" ? "active" : ""}`}
@@ -35,7 +35,7 @@ const Food = () => {
             tabIndex={0}
             onKeyDown={() => setFoodMenu("meat")}
           >
-            Meat
+            Meat Tapas
           </div>
           <div
             className={`btn ${foodMenu === "fish" ? "active" : ""}`}
@@ -44,7 +44,7 @@ const Food = () => {
             tabIndex={0}
             onKeyDown={() => setFoodMenu("fish")}
           >
-            Fish
+            Fish Tapas
           </div>
           <div
             className={`btn ${foodMenu === "vegetarian" ? "active" : ""}`}

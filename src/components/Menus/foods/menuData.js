@@ -9,7 +9,7 @@ export const menuData = {
       title: "2. Panes Planos",
       price: "£6",
       description:
-        "/ Grilled flat bread served with roast pepper hummus, black olive tapenade, smoked sundried tomato tapenade &amp; guacamole",
+        "Grilled flat bread served with roast pepper hummus, black olive tapenade & smoked sundried tomato tapenade",
     },
     {
       title: "3A. Pan Fresco",
@@ -18,10 +18,10 @@ export const menuData = {
         "Selection of bread served with fresh pesto, black olive tapenade, smoked sundried tomato tapenade, olive oil &amp; balsamic vinegar",
     },
     {
-      title: "3B. Plato de Carne fria",
-      price: "£16",
+      title: "3B. Queso Camembert al Horno",
+      price: "£15",
       description:
-        "Selection of cold meats served with toast, gherkins &amp; remoulade slaw",
+        "Baked Camembert cheese stuffed with garlic cloves, rosemary sprigs and honey served with Serrano ham, grapes, mango chutney & toasted bread for dipping",
     },
   ],
   meat: [
@@ -33,8 +33,8 @@ export const menuData = {
     },
     {
       title: "5.Las Alitas de Pollo (GF)",
-      price: "£5",
-      description: "Marinated spicy chicken wings glazed in honey",
+      price: "£4.5",
+      description: "Marinated chicken wings glazed in honey <br/> OR <br/> Marinated chicken wings in piri piri sauce",
     },
     {
       title: "6.Chorizo al Vino (GF)",
@@ -59,7 +59,7 @@ export const menuData = {
     },
     {
       title: "10. Carne de Ternera con Salsa de Pimienta",
-      price: "£5",
+      price: "£8",
       description:
         "Char-grilled sirloin of beef with pepper sauce served on a bed of basmati rice",
     },
@@ -76,7 +76,7 @@ export const menuData = {
     {
       title: "13. Budin Negro Frito",
       price: "£4.5",
-      description: "Pan fried black pudding with broad beans",
+      description: "Pan fried black pudding, shallots & apple cuts ",
     },
   ],
   fish: [
@@ -93,10 +93,10 @@ export const menuData = {
         "Whitebait in a light batter served with garlic & lemon mayonnaise",
     },
     {
-      title: "14C. Mejilla de rape frito",
-      price: "£6.5",
+      title: "14C. Cóctel de gambas",
+      price: "£5",
       description:
-        "Fried Monkfish cheeks in bread crumbs, mix leaf salad & cumin mayonnaise",
+        "Prawn cocktail, marie rose & lettuce served with wheaten bread ",
     },
     {
       title: "15. Vieiras (GF)",
@@ -196,7 +196,13 @@ export const menuData = {
       description: "Mixed leaf salad with red onion, avocado & sundried tomato",
     },
     {
-      title: "32. De jamon serrano con melon (GF)",
+      title: "32. Classic Russian Salad ",
+      price: "£5",
+      description:
+        "",
+    },
+    {
+      title: "33. De jamon serrano con melon (GF)",
       price: "£5",
       description:
         "Serrano ham salad with rocket, galia melon, faked almonds and balsamic vinegar",
@@ -258,10 +264,10 @@ export const menuData = {
         "Selection of house cheeses with crackers, fig relish and fresh fruit",
     },
     {
-      title: "Churros",
+      title: "Apple crumble",
       price: "£7",
       description:
-        "Dipped in sugar & cinnamon served with vanilla ice cream & caramel dipping sauce",
+        "Warm Apple crumble served with custard OR vanilla ice cream ",
     },
   ],
   lunch: [
@@ -314,6 +320,12 @@ export const menuData = {
       price: "£11 (add brie or cheddar - £1)",
       description:
         "Steak sandwich on bed of salad served with chips onion rings and pepper sauce ",
+    },
+    {
+      title: "Apple crumble",
+      price: "£13",
+      description:
+        "Turkey, ham & stuffing served with roasted baby potatoes, carrot & parsnip in honey, gravy & cranberry sauce",
     },
   ],
   kids: [
