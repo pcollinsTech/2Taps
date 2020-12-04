@@ -116,7 +116,7 @@ export const menuData = {
     {
       title: "18. Calamares",
       price: "£5.5",
-      description: " Salted squid rings served with garlic & lemon mayonnaise",
+      description: " Salted squid rings served with cayenne, smoked paprike &amp; lime mayonnaise",
     },
     {
       title: "19. Pesca del día sartén con verduras de temporada (GF)",
