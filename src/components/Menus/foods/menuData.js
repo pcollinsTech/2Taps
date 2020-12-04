@@ -34,7 +34,7 @@ export const menuData = {
     {
       title: "5.Las Alitas de Pollo (GF)",
       price: "£4.5",
-      description: "Marinated chicken wings glazed in honey <br/> OR <br/> Marinated chicken wings in piri piri sauce",
+      description: "Marinated chicken wings glazed in honey OR Marinated chicken wings in piri piri sauce",
     },
     {
       title: "6.Chorizo al Vino (GF)",
