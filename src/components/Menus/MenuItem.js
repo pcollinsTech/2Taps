@@ -5,6 +5,9 @@ const MenuItem = ({ title, description, price }) => {
   function createMarkup() {
     return { __html: price }
   }
+  function createMarkupDescription() {
+    return { __html: description }
+  }
 
   function capitalizeFLetter(value) {
     return value[0].toUpperCase() + value.slice(1)
@@ -21,7 +24,7 @@ const MenuItem = ({ title, description, price }) => {
         >
           <div className="col-sm-9">
             <h4>{capitalizeFLetter(title)}</h4>
-            <p>{description}</p>
+            <p dangerouslySetInnerHTML={createMarkupDescription()} />
           </div>
           <div className="col-sm-3 text-right">
             <h4 dangerouslySetInnerHTML={createMarkup()} />
