@@ -59,11 +59,17 @@
         "-webkit-filter 0.5s ease"
       )
     );
+    img {
+      align: top;
+      -webkit-filter: brightness(100%); /* Safari 6.0 - 9.0 */
+      filter: brightness(100%);
+      margin-bottom: 1em;
+    }
     button {
       background-color: _palette(bg-alt);
       font-family: "Constantia";
       padding: 9px 21px;
-      font-size: 25px;
+      font-size: 20px;
       margin-top: 45px;
       border-radius: 0;
       &:hover {

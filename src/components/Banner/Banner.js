@@ -16,11 +16,11 @@ const Banner = ({ img, title, subHeader }) => {
                 <h1>{title}</h1> 
                 :
                 <img
-              src={logo}
-              alt=""
-              style={{ maxWidth: "110px" }}
-              className="pb-2"
-            />
+                  src={logo}
+                  alt=""
+                  style={{ maxWidth: "150px" }}
+                  className="pb-2"
+                />
               }
               <br />
               {subHeader && (

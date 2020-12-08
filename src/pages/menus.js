@@ -9,7 +9,7 @@ const MenusPage = props => {
   return (
     <Layout>
       <SEO title="Menus" />
-      <Banner img={props.data.tapasTrays.childImageSharp.fluid} title="Menus" />
+      <Banner img={props.data.tapasTrays.childImageSharp.fluid} />
       <Menu />
     </Layout>
   )

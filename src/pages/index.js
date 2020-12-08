@@ -16,7 +16,6 @@ const IndexPage = props => {
       <SEO title="Home" />
       <Banner
         img={props.data.image1.childImageSharp.fluid}
-        title="2Taps Winebar"
         subHeader={`Nestled in the heart of Belfast, boasting one of Belfast's largest
               outdoor dining experiences.
               2Taps is the perfect place to meet, relax, share food and soak up
