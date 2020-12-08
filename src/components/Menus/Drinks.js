@@ -13,6 +13,7 @@ import Whites from "./drinks/Whites"
 import Roses from "./drinks/Roses"
 import Sangrias from "./drinks/Sangrias"
 import { drinksData } from "./drinks/drinksData"
+import garland from "../../assets/images/garland.png"
 
 const Drinks = () => {
   const [drinksMenu, setDrinks] = useState("sangrias")
@@ -121,33 +122,41 @@ const Drinks = () => {
           </div>
         </Row>
       </Container>
-      <Container className="menu_container">
-        <Row>
-          {drinksMenu === "cocktails" && (
-            <Cocktails drinks={drinksData.cocktails} />
-          )}
-          {drinksMenu === "sangrias" && (
-            <Sangrias drinks={drinksData.sangrias} />
-          )}
-          {drinksMenu === "reds" && <Reds drinks={drinksData} />}
-          {drinksMenu === "whites" && <Whites drinks={drinksData} />}
-          {drinksMenu === "roses" && (
-            <Roses
-              roses={drinksData.roses}
-              champagnes={drinksData.champagnes}
-            />
-          )}
+      <div>
+        <Container className="xmas_container">
+          <img src={garland} alt="" width="100%" />
+        </Container>
 
-          {drinksMenu === "beers" && <Beers drinks={drinksData.beers} />}
-          {drinksMenu === "spirits" && <Spirits drinks={drinksData.spirits} />}
-          {drinksMenu === "soft" && <Soft drinks={drinksData.softDrinks} />}
-          {drinksMenu === "coffees" && <Coffees drinks={drinksData.coffees} />}
-          {drinksMenu === "gins" && <Gins drinks={drinksData.gins} />}
-          {drinksMenu === "mocktails" && (
-            <Mocktails drinks={drinksData.mocktails} />
-          )}
-        </Row>
-      </Container>
+
+        <Container className="menu_container">
+          <Row>
+            {drinksMenu === "cocktails" && (
+              <Cocktails drinks={drinksData.cocktails} />
+            )}
+            {drinksMenu === "sangrias" && (
+              <Sangrias drinks={drinksData.sangrias} />
+            )}
+            {drinksMenu === "reds" && <Reds drinks={drinksData} />}
+            {drinksMenu === "whites" && <Whites drinks={drinksData} />}
+            {drinksMenu === "roses" && (
+              <Roses
+                roses={drinksData.roses}
+                champagnes={drinksData.champagnes}
+              />
+            )}
+
+            {drinksMenu === "beers" && <Beers drinks={drinksData.beers} />}
+            {drinksMenu === "spirits" && <Spirits drinks={drinksData.spirits} />}
+            {drinksMenu === "soft" && <Soft drinks={drinksData.softDrinks} />}
+            {drinksMenu === "coffees" && <Coffees drinks={drinksData.coffees} />}
+            {drinksMenu === "gins" && <Gins drinks={drinksData.gins} />}
+            {drinksMenu === "mocktails" && (
+              <Mocktails drinks={drinksData.mocktails} />
+            )}
+          </Row>
+        </Container>
+      </div>
+
       <Container className="menu">
         <Row className="d-flex justify-content-around">
           <div

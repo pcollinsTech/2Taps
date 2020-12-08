@@ -2,6 +2,7 @@ import React from "react"
 import Img from "gatsby-image"
 import ReservationContext from "../../context/ReservationContext"
 import logo from "../../assets/images/logo/logoWhite.png"
+import { Link } from "gatsby"
 
 const Banner = ({ img, title, subHeader }) => {
   const html = { __html: subHeader }
@@ -15,12 +16,16 @@ const Banner = ({ img, title, subHeader }) => {
               {title ?
                 <h1>{title}</h1> 
                 :
-                <img
-                  src={logo}
-                  alt=""
-                  style={{ maxWidth: "150px" }}
-                  className="pb-2"
-                />
+                <Link to="/">
+                  <img
+                    src={logo}
+                    alt=""
+                    style={{ maxWidth: "150px" }}
+                    className="pb-2"
+                  />
+
+                </Link>
+
               }
               <br />
               {subHeader && (

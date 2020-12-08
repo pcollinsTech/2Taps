@@ -43,11 +43,11 @@ class NavBar extends Component {
               className="navbar navbar-expand-lg "
               collapseOnSelect={true}
             >
-              <Navbar.Brand>
+              {/* <Navbar.Brand>
                 <Link to="/">
                   <img src={logo} alt="logo" />
                 </Link>
-              </Navbar.Brand>
+              </Navbar.Brand> */}
               {/* <Navbar.Toggle
                 aria-controls="basic-navbar-nav"
                 id="collaspe-btn"

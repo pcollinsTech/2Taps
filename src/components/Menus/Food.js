@@ -12,6 +12,7 @@ import Salads from "./foods/Salads"
 import Starters from "./foods/Starters"
 import Vegetarian from "./foods/Vegetarian"
 import { menuData } from "./foods/menuData"
+import garland from "../../assets/images/garland.png"
 
 const Food = () => {
   const [foodMenu, setFoodMenu] = useState("starters")
@@ -112,32 +113,41 @@ const Food = () => {
           </div> */}
         </Row>
       </Container>
-      <Container className=" menu_container">
-        <Row>
-          {foodMenu === "desserts" && <Desserts menu={menuData.desserts} />}
-          {foodMenu === "fish" && <Fish menu={menuData.fish} />}
-          {/* {foodMenu === "kids" && <Kids menu={menuData.kids} />} */}
-          {/* {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />} */}
-          {foodMenu === "mains" && <Mains menu={menuData.mains} />}
-          {foodMenu === "meat" && <Meat menu={menuData.meat} />}
-          {foodMenu === "paella" && <Paella menu={menuData.paella} />}
-          {foodMenu === "salads" && <Salads menu={menuData.salads} />}
-          {foodMenu === "starters" && <Starters menu={menuData.starters} />}
-          {foodMenu === "vegetarian" && (
-            <Vegetarian menu={menuData.vegetarian} />
-          )}
-          <br />
-          <br />
-          <br />
-          <span style={{ fontSize: "12px" }} className="text-center pt-5">
-            If you have any dietary requirements please speak to staff about the
-            ingredients in your meal, when making your order. Please be advised
-            that food allergens are handled in the kitchen. In some cases,
-            allergensmay be unavoidably present due to shared equipment or the
-            ingredients used.
-          </span>
-        </Row>
-      </Container>
+      <div >
+        <Container className="xmas_container">
+
+        <img src={garland} alt="" width="100%" />
+        </Container>
+        <Container className="menu_container">
+
+
+          <Row>
+            {foodMenu === "desserts" && <Desserts menu={menuData.desserts} />}
+            {foodMenu === "fish" && <Fish menu={menuData.fish} />}
+            {/* {foodMenu === "kids" && <Kids menu={menuData.kids} />} */}
+            {/* {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />} */}
+            {foodMenu === "mains" && <Mains menu={menuData.mains} />}
+            {foodMenu === "meat" && <Meat menu={menuData.meat} />}
+            {foodMenu === "paella" && <Paella menu={menuData.paella} />}
+            {foodMenu === "salads" && <Salads menu={menuData.salads} />}
+            {foodMenu === "starters" && <Starters menu={menuData.starters} />}
+            {foodMenu === "vegetarian" && (
+              <Vegetarian menu={menuData.vegetarian} />
+            )}
+            <br />
+            <br />
+            <br />
+            <span style={{ fontSize: "12px" }} className="text-center pt-5">
+              If you have any dietary requirements please speak to staff about the
+              ingredients in your meal, when making your order. Please be advised
+              that food allergens are handled in the kitchen. In some cases,
+              allergensmay be unavoidably present due to shared equipment or the
+              ingredients used.
+            </span>
+          </Row>
+        </Container>
+      </div>
+
       <Container className="menu">
         <Row className="d-flex justify-content-around">
           <div

@@ -15,7 +15,7 @@ export const menuData = {
       title: "3A. Pan Fresco",
       price: "£6",
       description:
-        "Selection of bread served with fresh pesto, black olive tapenade, smoked sundried tomato tapenade, olive oil &amp; balsamic vinegar",
+        "Selection of bread served with fresh pesto, black olive tapenade, smoked sundried tomato tapenade, olive oil & balsamic vinegar",
     },
     {
       title: "3B. Queso Camembert al Horno",
@@ -90,7 +90,7 @@ export const menuData = {
       title: "14B. Boquerones Fritos",
       price: "£4.5",
       description:
-        "Whitebait in a light batter served with garlic & lemon mayonnaise",
+        "Whitebait in a light batter served with cayenne, smoked paprike & lime mayonnaise",
     },
     {
       title: "14C. Cóctel de gambas",
@@ -116,7 +116,7 @@ export const menuData = {
     {
       title: "18. Calamares",
       price: "£5.5",
-      description: " Salted squid rings served with cayenne, smoked paprike &amp; lime mayonnaise",
+      description: " Salted squid rings served with cayenne, smoked paprike & lime mayonnaise",
     },
     {
       title: "19. Pesca del día sartén con verduras de temporada (GF)",
@@ -304,13 +304,13 @@ export const menuData = {
   ],
   mains: [
     {
-      title: "Solomillo a la brasa",
+      title: "10  oz Sirloin steak",
       price: "£24",
       description:
         "10oz Sirloin steak served with pepper sauce, mushrooms, tomato, side salad and choice of potatoes",
     },
     {
-      title: "Gambas rebozadas con patatas",
+      title: "Scampi & Chips",
       price: "£13",
       description:
         "Scampi in a light and crispy batter, served with mixed salad, chips and homemade tartar sauce",
@@ -322,7 +322,7 @@ export const menuData = {
         "Steak sandwich on bed of salad served with chips onion rings and pepper sauce ",
     },
     {
-      title: "Apple crumble",
+      title: "2Taps Christmas dinner",
       price: "£13",
       description:
         "Turkey, ham & stuffing served with roasted baby potatoes, carrot & parsnip in honey, gravy & cranberry sauce",

@@ -30,7 +30,7 @@ const OpeningTimesPage = props => {
                   <hr />
                 </p>
                 <p>
-                  Tuesday & Wednesday & Thursday
+                  Tuesday, Wednesday & Thursday
                   <br />
                   12 - 9.15pm
                   <hr />

@@ -4,6 +4,7 @@ import MenuItem from "../MenuItem"
 const Starters = ({ menu }) => {
   return (
     <Fragment>
+
       {menu.map(item => (
         <MenuItem
           title={item.title}

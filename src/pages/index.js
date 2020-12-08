@@ -15,7 +15,7 @@ const IndexPage = props => {
     <Layout>
       <SEO title="Home" />
       <Banner
-        img={props.data.image1.childImageSharp.fluid}
+        img={props.data.image3.childImageSharp.fluid}
         subHeader={`Nestled in the heart of Belfast, boasting one of Belfast's largest
               outdoor dining experiences.
               2Taps is the perfect place to meet, relax, share food and soak up
@@ -59,9 +59,9 @@ const IndexPage = props => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
-            <Row className="my-5" style={{ height: "80vh" }}>
+            <Row className="justify-content-md-center my-5" style={{ height: "80vh" }}>
               <Img
-                fluid={props.data.image3.childImageSharp.fluid}
+                fluid={props.data.image1.childImageSharp.fluid}
                 loading="lazy"
                 style={{ position: "static" }}
               />
@@ -119,7 +119,7 @@ export const query = graphql`
     image1: file(relativePath: { eq: "bannerOne.jpg" }) {
       ...indexImage
     }
-    image2: file(relativePath: { eq: "outside2.jpg" }) {
+    image2: file(relativePath: { eq: "outsideDark.jpg" }) {
       ...pageImage
     }
     image3: file(relativePath: { eq: "birdsEyeTable.jpeg" }) {
