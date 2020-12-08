@@ -23,7 +23,7 @@ const IndexPage = props => {
               the atmosphere`}
       />
       <div className="inner_page">
-        <ScrollAnimation animateIn="fadeInUp">
+        {/* <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section p-5">
             <p>
               With heavy hearts we regret to announce we are closing from Friday
@@ -44,7 +44,7 @@ const IndexPage = props => {
             <p>From the family, full of hope.</p>
             <p>2Taps x</p>
           </Container>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section">
             <Row className="justify-content-md-center my-5">

@@ -15,7 +15,7 @@ const MenuChooser = props => {
       <div className="menu_chooser">
         <Container className="my-5">
           <Row>
-            <div className="col-6 text-center">
+            <div className="col-6 text-center px-3">
               <button
                 className={`btn ${
                   choice === "food" || menu === "food" ? "menu_active" : ""
@@ -25,7 +25,7 @@ const MenuChooser = props => {
                 Food
               </button>
             </div>
-            <div className="col-6 text-center">
+            <div className="col-6 text-center px-3">
               <button
                 className={`btn ${choice === "drinks" ? "menu_active" : ""}`}
                 onClick={() => menuChange("drinks")}
