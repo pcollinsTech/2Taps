@@ -3,8 +3,8 @@ import DrinkItem from "../DrinkItem"
 
 const Soft = ({ drinks }) => {
   let halfwayThrough = Math.floor(drinks.length / 2)
-  let arrayFirstHalf = drinks.slice(0, halfwayThrough + 1)
-  let arraySecondHalf = drinks.slice(halfwayThrough, drinks.length)
+  let arrayFirstHalf = drinks.slice(0, halfwayThrough + 1 )
+  let arraySecondHalf = drinks.slice(halfwayThrough + 1, drinks.length)
   return (
     <Fragment>
       <div className="col-sm-6">

@@ -51,6 +51,7 @@ export const drinksData = {
     {
       title: "spanish navarra; joven tempranillo - garnacha; pagos de araiz",
       price: "£6 175ml £15 500ml <br/> £21 750ml",
+      description: "*served chilled*"
     },
 
     {
@@ -77,7 +78,7 @@ export const drinksData = {
       price: "£26 750ml",
     },
     {
-      title: "spanish rioja; joven tempranillo; bodegas alvia milet",
+      title: "spanish rioja; joven tempranillo; bodegas alvia mileto",
       price: "£26 750ml <br/> *served chilled*",
     },
     {
@@ -112,10 +113,13 @@ export const drinksData = {
       title: "US california; white zinfandel; founders stone",
       price: "£6.25 175ml, £15.00 500ml, £23 750ml",
     },
-
     {
       title: "spanish navarra; garnacha - tempranillo; gran feudo",
       price: "£6.50 175ml, £15 500ml, £24 750ml",
+    },
+    {
+      title: "[limited] French Rhône; pays du vaucluse; l'amandine cuvée mathilde",
+      price: "£6 175ml, £15 500ml, £22 750ml",
     },
   ],
   champagnes: [
@@ -173,7 +177,7 @@ export const drinksData = {
     {
       title: "house mojito",
       price: "£8.50",
-      description: "bacardi carta blanca, fresh mint, lime juice, sugar, soda",
+      description: "bacardi carta blanca, fresh mint, lime juice, brown sugar, soda",
     },
     {
       title: "house margarita",
@@ -200,13 +204,13 @@ export const drinksData = {
       title: "dark & stormy",
       price: "£7.50",
       description:
-        "roe & co, belsazar rose, giffard marasquin, angostura, brown sugar",
+        "kraken dark rum, old jamaica ginger beer, angostura, lime juice, sugar",
     },
     {
       title: "‘aulde’ fashioned",
       price: "£9",
       description:
-        "roe & co, belsazar rose, crème de maraschino, angostura, brown sugar",
+        "roe & co, belsazar rose, giffard marasquin, angostura, brown sugar",
     },
     {
       title: "espresso martini",
@@ -215,28 +219,28 @@ export const drinksData = {
         "patron xo café, ketel one vodka or bulleit bourbon, espresso, sugar",
     },
     {
-      title: "martini lemon",
-      price: "£9.50",
+      title: "Clausmopolitan",
+      price: "£9",
       description:
-        "grey goose le citron vodka, limoncello, vanilla syrup, lemon puree",
+        "goose le citron vodka, cointreau, cranberry juice, dried orange",
     },
     {
       title: "gin frenchie",
       price: "£10",
       description:
-        "nordés atlantic galician gin, giffard framboise, pineapple juice, raspberry, rosemary",
+        "tanqueray gin, giffard framboise, pineapple juice, raspberry, rosemary",
     },
     {
-      title: "Calabazita",
-      price: "£8.50",
+      title: "Nutcracker [dairy free]",
+      price: "£9",
       description:
-        "sierra blanco tequila, cointreau, pumpkin spice syrup,*egg white, lemon juice",
+        "absolut vanilla, frangelico, créme de cacao, almond milk, grated nutmeg",
     },
     {
-      title: "mumbai elderbramble",
-      price: "£10",
+      title: "Jingle Juice [Non-Alc]",
+      price: "£5",
       description:
-        "bombay sapphire bramble gin, giffard elderflower, de mure, lime juice, sugar, rose water",
+        "pomegranate juice, cranberry juice, ginger syrup, soda, thyme",
     },
   ],
   gins: [
@@ -264,6 +268,10 @@ export const drinksData = {
       title: "Gordon’s pink (37.5%)",
       price: "£4.20",
       description: "kiwi, raspberry",
+    },
+    {
+      title: "Bombay Bramble (37.5%)",
+      price: "£4.40",
     },
     {
       title: "Hendrick’s (41.1%)",
@@ -327,6 +335,10 @@ export const drinksData = {
       {
         title: "Grey goose (40%)",
         price: "£4.90",
+      },
+      {
+        title: "Grey Goose le Citron (40%)",
+        price: "£5.10",
       },
     ],
     rums: [
@@ -420,6 +432,10 @@ export const drinksData = {
       {
         title: "Drambuie (40%)",
         price: "£4.20",
+      },
+      {
+        title: "Passoa (17%)",
+        price: "£3.80",
       },
       {
         title: "pimm’s (25%)",
@@ -534,9 +550,6 @@ export const drinksData = {
       },
       {
         title: "Calypso Coffee",
-      },
-      {
-        title: "Carajillo",
       },
       {
         title: "Café Royale",
