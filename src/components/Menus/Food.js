@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap"
 
 import Desserts from "./foods/Desserts"
 import Fish from "./foods/Fish"
-import Kids from "./foods/Kids"
+import Vegan from "./foods/Vegan"
 import Lunch from "./foods/Lunch"
 import Mains from "./foods/Mains"
 import Meat from "./foods/Meat"
@@ -102,15 +102,15 @@ const Food = () => {
           >
             Mains
           </div>
-          {/* <div
-            className={`btn ${foodMenu === "kids" ? "active" : ""}`}
-            onClick={() => setFoodMenu("kids")}
+          <div
+            className={`btn ${foodMenu === "vegan" ? "active" : ""}`}
+            onClick={() => setFoodMenu("vegan")}
             role="button"
             tabIndex={0}
-            onKeyDown={() => setFoodMenu("kids")}
+            onKeyDown={() => setFoodMenu("vegan")}
           >
-            Kids
-          </div> */}
+            Vegan
+          </div>
         </Row>
       </Container>
       <div >
@@ -124,7 +124,7 @@ const Food = () => {
           <Row>
             {foodMenu === "desserts" && <Desserts menu={menuData.desserts} />}
             {foodMenu === "fish" && <Fish menu={menuData.fish} />}
-            {/* {foodMenu === "kids" && <Kids menu={menuData.kids} />} */}
+            {foodMenu === "vegan" && <Vegan menu={menuData.vegan} />}
             {/* {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />} */}
             {foodMenu === "mains" && <Mains menu={menuData.mains} />}
             {foodMenu === "meat" && <Meat menu={menuData.meat} />}
@@ -232,15 +232,15 @@ const Food = () => {
           >
             Mains
           </div>
-          {/* <div
-            className={`btn ${foodMenu === "kids" ? "active" : ""}`}
-            onClick={() => setFoodMenu("kids")}
+          <div
+            className={`btn ${foodMenu === "vegan" ? "active" : ""}`}
+            onClick={() => setFoodMenu("vegan")}
             role="button"
             tabIndex={0}
-            onKeyDown={() => setFoodMenu("kids")}
+            onKeyDown={() => setFoodMenu("vegan")}
           >
-            Kids
-          </div> */}
+            Vegan
+          </div>
         </Row>
       </Container>
     </Fragment>

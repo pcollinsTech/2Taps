@@ -355,4 +355,62 @@ export const menuData = {
       description: "El helado de postre",
     },
   ],
+  vegan: [
+    {
+      title: "Aceitunas – Mixed Olives",
+      price: "$4",
+      description: "Ask server for varieties",
+    },
+    {
+      title: "Pan Fresco – Bread Basket",
+      price: "£6",
+      description: "Olive oil & balsamic vinegar, Sundried tomato tapenade, Roast pepper hummus",
+    },
+    {
+      title: "PANES PLANOS",
+      price: "£6",
+      description: "Grilled flat bread served with roast pepper hummus, black olives tapenade, sundried tomato tapenade and Spanish guacamole",
+    },
+    {
+      title: "Patatas Bravas",
+      price: "£4",
+      description: "Crispy fried potatoes with spicy tomato sauce and garlic aioli",
+    },
+    {
+      title: "PATATAS ASADAS CON ROMERO",
+      price: "£4",
+      description: "Roasted new potatoes with garlic, rosemary and sea salt",
+    },
+    {
+      title: "Pan Frito Crujientes Verdes",
+      price: "£4",
+      description: "Pan-fried crunchy greens with roast pepper hummus",
+    },
+    {
+      title: "Champignons",
+      price: "£4.50",
+      description: "Flat cap mushrooms, topped with tofu",
+    },
+    {
+      title: "Patatas Fritas con salsa",
+      price: "£4",
+      description: "Cajun spiced chips with sweet chilli dipping sauce",
+    },
+    {
+      title: "Halloumi y Mermelada",
+      price: "£5",
+      description: "Grilled Tofu, and chilli jam on toast",
+    },
+    {
+      title: "Mixta",
+      price: "£4",
+      description: "Mixed leaves with red onion, avocado, and sundried tomato",
+    },
+    {
+      title: "Paella Vegetal",
+      price: "£14",
+      description: "Vegetarian paella with mushrooms, peppers, asparagus, mixed vegetables in saffron and spicy tomato rice",
+    },
+   
+  ],
 }
