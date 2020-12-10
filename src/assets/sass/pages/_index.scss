@@ -7,6 +7,9 @@
     background-color: white;
     padding: 1rem 0;
   }
+  .bg_red {
+    background-color: _palette(bg-alt) !important;
+  }
   p {
     font-size: 1.3em;
     // margin-bottom: 40px;
