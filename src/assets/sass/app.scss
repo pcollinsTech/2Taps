@@ -158,9 +158,10 @@ a:active.btn {
   right: -55px;
   h3 {
     position: fixed;
+    font-size: 24px;
     top: 0px;
     right: -10px;
-    padding: 30px;
+    padding: 20px;
   }
   @include breakpoint(small) {
     top: -65px;
@@ -177,8 +178,6 @@ a:active.btn {
     right: -55px;
     h3 {
       font-size: 24px;
-      top: 0px;
-      right: -10px;
     }
   }
 }
