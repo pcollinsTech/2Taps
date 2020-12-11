@@ -61,7 +61,7 @@ const lunchSpecials = [
 
     {
         title:"14B. Boquerones Fritos",
-        description:"Whitebait in a light batter served with cayenne, smoked paprike & lime mayonnaise",
+        description:"Whitebait in a light batter served with cayenne, smoked paprika & lime mayonnaise",
     },
     {
         title:"14C. Cóctel de gambas",
@@ -73,7 +73,7 @@ const lunchSpecials = [
     },
     {
         title:"18. Calamares",
-        description:"Salted squid rings served with cayenne, smoked paprike & lime mayonnaise",
+        description:"Salted squid rings served with cayenne, smoked paprika & lime mayonnaise",
     },
     {
         title:"19. Pesca del día sartén con verduras de temporada (GF)",
@@ -86,7 +86,7 @@ const lunchSpecials = [
     },
     {
         title:"22. Patatas Bravas (GF) (V)",
-        description:"Crispy fried pototas topped with spicy tomato sauce & avocado aioli",
+        description:"Crispy fried potatos topped with spicy tomato sauce & avocado aioli",
     },
     {
         title:"23. Tortilla Española (GF)",
