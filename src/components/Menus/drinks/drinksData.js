@@ -113,12 +113,12 @@ export const drinksData = {
       title: "US california; white zinfandel; founders stone",
       price: "£6.25 175ml, £15.00 500ml, £23 750ml",
     },
+    // {
+    //   title: "spanish navarra; garnacha - tempranillo; gran feudo",
+    //   price: "£6.50 175ml, £15 500ml, £24 750ml",
+    // },
     {
-      title: "spanish navarra; garnacha - tempranillo; gran feudo",
-      price: "£6.50 175ml, £15 500ml, £24 750ml",
-    },
-    {
-      title: "[limited] French Rhône; pays du vaucluse; l'amandine cuvée mathilde",
+      title: "French Rhône; pays du vaucluse; l'amandine cuvée marie",
       price: "£6 175ml, £15 500ml, £22 750ml",
     },
   ],
@@ -226,7 +226,7 @@ export const drinksData = {
     },
     {
       title: "gin frenchie",
-      price: "£10",
+      price: "£7.50",
       description:
         "tanqueray gin, giffard framboise, pineapple juice, raspberry, rosemary",
     },
