@@ -148,11 +148,11 @@ a:active.btn {
 }
 .lunch_special {
   border-radius: 50%;
-  background-color: _palette(bg-alt);
+  background-color: _palette(bg);
   position: fixed;
   height: 200px;
   width: 200px;
-  color: white;
+  color: _palette(bg-alt);
   z-index: 100;
   top: -75px;
   right: -71px;
