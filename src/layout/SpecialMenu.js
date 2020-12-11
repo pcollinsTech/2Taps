@@ -155,6 +155,10 @@ const SpecialsMenu = ({ specialsOpen }) => {
                 <h3>
                     Let’s Do Lunch 
                 </h3>
+                <hr/>
+                <p>
+                    Tuesday - Thursday 12pm-3pm
+                </p>
                 <p>
                     3 Tapas and a sip for £15 
                 </p>
@@ -165,7 +169,7 @@ const SpecialsMenu = ({ specialsOpen }) => {
                     Soft drinks, Coke cola, diet Coke, Coke zero, Fanta orange, Fanta lemon, Sprite, still OR sparking water.
                 </p>
                 <p>
-                    Bottle beer – Sol or Birra morretti 
+                    Bottle beer – Sol or Birra moretti 
                 </p>
                 <p>
                     Glass of wine – Protocolo blanco, Protocolo tinto, red OR white wine sangria.
