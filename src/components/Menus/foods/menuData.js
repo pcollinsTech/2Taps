@@ -74,9 +74,14 @@ export const menuData = {
       description: "Seasoned chicken skewer on a bed of rocket with aioli",
     },
     {
-      title: "13. Budin Negro Frito",
+      title: "13A. Budin Negro Frito",
       price: "£4.5",
       description: "Pan fried black pudding, shallots & apple cuts ",
+    },
+    {
+      title: "13B. Paté de hígado de pollo",
+      price: "£5",
+      description: "Potted chicken liver pate served with toasted brioche, onion & pear chutney",
     },
   ],
   fish: [
@@ -265,9 +270,15 @@ export const menuData = {
     },
     {
       title: "Apple crumble",
-      price: "£7",
+      price: "£6",
       description:
         "Warm Apple crumble served with custard OR vanilla ice cream ",
+    },
+    {
+      title: "Carrot Cake",
+      price: "£7",
+      description:
+        "Yellow door passion fruit carrot cake served with fresh creame",
     },
   ],
   lunch: [

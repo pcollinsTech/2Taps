@@ -2,7 +2,7 @@ import React, { Fragment } from "react"
 import { MdRestaurantMenu, MdAvTimer, MdHome, MdBookmark } from "react-icons/md"
 import { Link } from "gatsby"
 import { FcCollect } from "react-icons/fc"
-import SideNav from "./SideNav"
+import Contact from "./Contact"
 import Reservations from "./Reservations"
 const PermanentNav = () => {
   return (
@@ -61,7 +61,7 @@ const PermanentNav = () => {
             <div className="menu_text_container">
               <div className="text">Contact</div>
             </div>
-            <SideNav />
+            <Contact />
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ import {
 import { MdContacts } from "react-icons/md"
 import logo from "../assets/images/logo/logo.png"
 
-const SideNav = () => {
+const Contact = () => {
   const [show, setShow] = useState(false)
 
   return (
@@ -167,4 +167,4 @@ const SideNav = () => {
     </Fragment>
   )
 }
-export default SideNav
+export default Contact

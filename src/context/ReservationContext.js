@@ -1,18 +1,25 @@
 import React from "react"
 const defaultState = {
   open: false,
+  specialsOpen: false,
   toggleReservationTab: () => {},
+  specialsReservationTab: () => {},
 }
 const ReservationContext = React.createContext(defaultState)
 
 class ReservationProvider extends React.Component {
   state = {
     open: false,
+    specialsOpen: false
   }
   toggleReservationTab = () => {
     let open = !this.state.open
-    console.log("TOGGLES")
     this.setState({ open })
+  }
+  specialsReservationTab = () => {
+    console.log("HI HI")
+    let specialsOpen = !this.state.specialsOpen
+    this.setState({ specialsOpen })
   }
   componentDidMount() {
     // Getting open mode value from localStorage!
@@ -23,8 +30,10 @@ class ReservationProvider extends React.Component {
     return (
       <ReservationContext.Provider
         value={{
-          open,
+          open: this.state.open,
+          specialsOpen: this.state.specialsOpen,
           toggleReservationTab: this.toggleReservationTab,
+          specialsReservationTab: this.specialsReservationTab,
         }}
       >
         {children}

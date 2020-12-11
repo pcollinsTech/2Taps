@@ -12,6 +12,7 @@ import MainNav from "./MainNav"
 import Footer from "./Footer"
 import SocialNav from "./SocialNav"
 import PermanentNav from "./PermanentNav"
+import SpecialsMenu from "./SpecialMenu"
 
 const Layout = ({ props, children }) => {
   return (
@@ -19,6 +20,7 @@ const Layout = ({ props, children }) => {
       {toggler => (
         <Fragment>
           <MainNav router={props} />
+          <SpecialsMenu />
           <PermanentNav open={toggler.open} />
           <SocialNav />
           <div className="content-wrap">{children}</div>
