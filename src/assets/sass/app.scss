@@ -150,34 +150,17 @@ a:active.btn {
   border-radius: 50%;
   background-color: _palette(bg-alt);
   position: fixed;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   color: white;
   z-index: 100;
-  top: -55px;
+  top: -65px;
   right: -55px;
   h3 {
     position: fixed;
-    font-size: 24px;
-    top: 0px;
-    right: -10px;
+    font-size: 19px;
+    top: -15px;
+    right: -15px;
     padding: 20px;
-  }
-  @include breakpoint(small) {
-    top: -65px;
-    right: -65px;
-    h3 {
-      font-size: 19px;
-      top: -15px;
-      right: -15px;
-    }
-  }
-
-  @include breakpoint(large) {
-    top: -55px;
-    right: -55px;
-    h3 {
-      font-size: 24px;
-    }
   }
 }
