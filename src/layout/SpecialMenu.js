@@ -164,7 +164,7 @@ const SpecialsMenu = ({ specialsOpen }) => {
                     3 Tapas and a sip for £15 
                 </p>
                 <p>
-                    Drinks Included – 
+                    <b> Drinks Included </b>
                 </p>
                 <p>
                     Soft drinks, Coke cola, diet Coke, Coke zero, Fanta orange, Fanta lemon, Sprite, still OR sparking water.
