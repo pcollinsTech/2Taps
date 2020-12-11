@@ -140,9 +140,10 @@ const SpecialsMenu = ({ specialsOpen }) => {
       {toggler => (
         <>
             <div onClick={() => toggler.specialsReservationTab()} className="lunch_special">
-                <h3 className="text-center">
+                <h3 className="text-right">
                     Let’s Do Lunch <br/> <br/>
-                    3 Tapas and <br/>a sip for £15 
+                    3 Tapas and <br/>a sip for
+                    <br/> £15 
                 </h3>
             </div>  
           <Modal
