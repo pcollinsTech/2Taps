@@ -274,12 +274,12 @@ export const menuData = {
       description:
         "Warm Apple crumble served with custard OR vanilla ice cream ",
     },
-    {
-      title: "Carrot Cake",
-      price: "£7",
-      description:
-        "Yellow door passion fruit carrot cake served with fresh creame",
-    },
+    // {
+    //   title: "Carrot Cake",
+    //   price: "£7",
+    //   description:
+    //     "Yellow door passion fruit carrot cake served with fresh creame",
+    // },
   ],
   lunch: [
     {
