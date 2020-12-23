@@ -21,7 +21,7 @@ export const menuData = {
       title: "3B. Queso Camembert al Horno",
       price: "£15",
       description:
-        "Baked Camembert cheese stuffed with garlic cloves, rosemary sprigs and honey served with Serrano ham, grapes, mango chutney & toasted bread for dipping",
+        "Baked Camembert cheese stuffed with garlic cloves, rosemary sprigs and honey served with Serrano ham, grapes, fig relish & toasted bread for dipping",
     },
   ],
   meat: [
