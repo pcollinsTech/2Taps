@@ -200,12 +200,12 @@ export const menuData = {
       price: "£4",
       description: "Mixed leaf salad with red onion, avocado & sundried tomato",
     },
-    {
-      title: "32. Classic Russian Salad ",
-      price: "£5",
-      description:
-        "",
-    },
+    // {
+    //   title: "32. Classic Russian Salad ",
+    //   price: "£5",
+    //   description:
+    //     "",
+    // },
     {
       title: "33. De jamon serrano con melon (GF)",
       price: "£5",
