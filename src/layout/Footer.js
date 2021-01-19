@@ -20,11 +20,11 @@ const Footer = () => (
             <p style={{ marginTop: "20px" }}>
               Built by{" "}
               <a
-                href="https://pcollins.tech"
+                href="https://beachbeedigital.com"
                 target="__blank"
                 style={{ color: "#FDAE39" }}
               >
-                Phil Collins
+                Beach Bee Digital
               </a>
             </p>
           </div>

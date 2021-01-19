@@ -12,7 +12,6 @@ import Salads from "./foods/Salads"
 import Starters from "./foods/Starters"
 import Vegetarian from "./foods/Vegetarian"
 import { menuData } from "./foods/menuData"
-import garland from "../../assets/images/garland.png"
 
 const Food = () => {
   const [foodMenu, setFoodMenu] = useState("starters")
@@ -114,10 +113,6 @@ const Food = () => {
         </Row>
       </Container>
       <div >
-        <Container className="xmas_container">
-
-        <img src={garland} alt="" width="100%" />
-        </Container>
         <Container className="menu_container">
 
 

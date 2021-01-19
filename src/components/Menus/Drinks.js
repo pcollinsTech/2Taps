@@ -123,11 +123,6 @@ const Drinks = () => {
         </Row>
       </Container>
       <div>
-        <Container className="xmas_container">
-          <img src={garland} alt="" width="100%" />
-        </Container>
-
-
         <Container className="menu_container">
           <Row>
             {drinksMenu === "cocktails" && (
