@@ -11,6 +11,7 @@
     "gatsby-cli": "^2.12.90",
     "gatsby-image": "^2.2.38",
     "gatsby-plugin-canonical-urls": "^2.1.20",
+    "gatsby-plugin-facebook-pixel": "^1.0.5",
     "gatsby-plugin-gdpr-cookies": "^1.0.5",
     "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-manifest": "^2.2.31",

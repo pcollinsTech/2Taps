@@ -17,7 +17,6 @@ class ReservationProvider extends React.Component {
     this.setState({ open })
   }
   specialsReservationTab = () => {
-    console.log("HI HI")
     let specialsOpen = !this.state.specialsOpen
     this.setState({ specialsOpen })
   }
