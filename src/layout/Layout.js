@@ -20,7 +20,7 @@ const Layout = ({ props, children }) => {
       {toggler => (
         <Fragment>
           <MainNav router={props} />
-          <SpecialsMenu />
+          {/* <SpecialsMenu /> */}
           <PermanentNav open={toggler.open} />
           <SocialNav />
           <div className="content-wrap">{children}</div>
