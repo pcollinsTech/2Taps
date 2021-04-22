@@ -40,7 +40,7 @@ const PermanentNav = () => {
             <MdAvTimer />
           </Link>
         </div>
-        <div className="menu_section">
+        <div className="menu_section" style={{padding: "2px 0"}}>
           <div className="d-flex justify-content-between contact">
             <div className="menu_text_container">
               <div className="text">Reservations</div>
@@ -56,8 +56,8 @@ const PermanentNav = () => {
             <FcCollect />
           </Link>
         </div> */}
-        <div className="menu_section">
-          <div className="d-flex justify-content-between contact">
+        <div className="menu_section" style={{padding: "2px 0"}}>
+          <div className="d-flex justify-content-between contact" >
             <div className="menu_text_container">
               <div className="text">Contact</div>
             </div>

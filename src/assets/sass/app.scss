@@ -50,7 +50,7 @@ button:hover {
   color: _palette(bg-alt);
   z-index: 100;
   top: -75px;
-  right: -71px;
+  right: -89px;
   h3 {
     position: fixed;
     font-size: 25px;
@@ -100,13 +100,23 @@ button:hover {
   border-radius: 0;
   box-shadow: -6px 6px 0 _palette(bg) !important;
 }
+
+.btn-second {
+  background-color: _palette(bg-alt);
+  font-family: "Constantia";
+  padding: 9px 21px;
+  font-size: 25px;
+  // margin-top: 45px;
+  border-radius: 0;
+  box-shadow: -6px 6px 0 _palette(bg-alt) !important;
+}
 $angle: 8px;
 $angle-o: 4px;
 .btn {
   transition: all 0.15s linear 0s;
   position: relative;
   display: inline-block;
-  padding: 15px 25px;
+  padding: 5px 8px;
   background-color: _palette(bg);
 
   text-transform: uppercase;

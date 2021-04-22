@@ -70,7 +70,7 @@ class NavBar extends Component {
                     <SideNav />
                   </Nav.Item>
                 </Nav>
-              </Navbar.Collapse> */}
+              </Navbar.Collapse> */} 
             </Navbar>
           </Row>
         </Container>

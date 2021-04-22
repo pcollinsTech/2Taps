@@ -5,7 +5,7 @@ $family1: unquote("Constantia");
 $family2: unquote("Constantia");
 $font_family1: "Constantia", sans-serif;
 $font_family2: "Constantia", sans-serif;
-$template_hover_color: #8adb34;
+$template_hover_color: #ae1115 ;
 
 @import url("https://fonts.googleapis.com/css?family=#{$family1}:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=#{$family2}:300,300i,400,400i,500,500i,700,700i");
@@ -104,6 +104,45 @@ button:focus {
     background: _palette(bg);
     color: #ffffff;
     border-color: _palette(bg);
+  }
+  &.disabled,
+  &:disabled {
+    color: #ffffff;
+    opacity: 1;
+    background-color: _palette(bg);
+    border-color: _palette(bg);
+    &:hover,
+    &:focus {
+      background: $template_hover_color;
+      color: #ffffff;
+      border-color: $template_hover_color;
+      box-shadow: unset;
+    }
+  }
+}
+.btn-second {
+  color: #ffffff;
+  background-color: _palette(bg-alt);
+  border-color: _palette(bg-alt);
+
+  &:hover,
+  &:focus {
+    background: $template_hover_color;
+    color: #ffffff;
+    border-color: $template_hover_color;
+    box-shadow: unset;
+  }
+  &:not(:disabled):not(.disabled).active:focus,
+  &:not(:disabled):not(.disabled):active:focus,
+  .show > &.dropdown-toggle:focus {
+    box-shadow: unset;
+  }
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled):active,
+  .show > &.dropdown-toggle {
+    background: _palette(bg-alt);
+    color: #ffffff;
+    border-color: _palette(bg-alt);
   }
   &.disabled,
   &:disabled {

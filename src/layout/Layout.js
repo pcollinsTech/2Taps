@@ -1,4 +1,6 @@
 import React, { Fragment } from "react"
+import { Container } from "react-bootstrap"
+import { Link } from "gatsby"
 
 //Styles
 import "animate.css/animate.min.css"
@@ -8,7 +10,6 @@ import "../assets/sass/app.scss"
 import ReservationContext from "../context/ReservationContext"
 
 //Components
-import MainNav from "./MainNav"
 import Footer from "./Footer"
 import SocialNav from "./SocialNav"
 import PermanentNav from "./PermanentNav"
@@ -18,14 +19,39 @@ const Layout = ({ props, children }) => {
   return (
     <ReservationContext.Consumer>
       {toggler => (
-        <Fragment>
-          <MainNav router={props} />
+        <div className="">
           {/* <SpecialsMenu /> */}
           <PermanentNav open={toggler.open} />
           <SocialNav />
-          <div className="content-wrap">{children}</div>
+          <div className="content-wrap">
+            {children}
+          </div>
           <Footer />
-        </Fragment>
+            {/* <Container className="fixed bottom-0">
+              <div className="d-flex justify-content-center" >
+
+                <Link to="/menus">
+                  <div className="">
+                    <div className="text">Menu</div>
+                  </div>
+                </Link>
+                <div 
+                    onClick={() => toggler.toggleReservationTab()}
+                  className=" "
+                >
+                  Book
+                </div>
+                <div 
+                  onClick={() => toggler.contactTab()}
+                  className=" "
+                >
+                  Contact
+                </div>
+
+              </div>
+
+            </Container> */}
+        </div>
       )}
     </ReservationContext.Consumer>
   )

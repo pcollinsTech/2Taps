@@ -17,7 +17,7 @@ const Footer = () => (
               Copyright @ 2Taps Winebar. All rights reserved{" "}
               {new Date().getFullYear()}.
             </p>
-            <p style={{ marginTop: "20px" }}>
+            {/* <p style={{ marginTop: "20px" }}>
               Built by{" "}
               <a
                 href="https://beachbeedigital.com"
@@ -26,7 +26,7 @@ const Footer = () => (
               >
                 Beach Bee Digital
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
