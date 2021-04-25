@@ -92,7 +92,7 @@ const Food = () => {
           >
             Lunch
           </div> */}
-          <div
+          {/* <div
             className={`btn ${foodMenu === "mains" ? "active" : ""}`}
             onClick={() => setFoodMenu("mains")}
             role="button"
@@ -109,7 +109,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("vegan")}
           >
             Vegan
-          </div>
+          </div> */}
         </Row>
       </Container>
       <div >
@@ -119,9 +119,9 @@ const Food = () => {
           <Row>
             {foodMenu === "desserts" && <Desserts menu={menuData.desserts} />}
             {foodMenu === "fish" && <Fish menu={menuData.fish} />}
-            {foodMenu === "vegan" && <Vegan menu={menuData.vegan} />}
+            {/* {foodMenu === "vegan" && <Vegan menu={menuData.vegan} />} */}
             {/* {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />} */}
-            {foodMenu === "mains" && <Mains menu={menuData.mains} />}
+            {/* {foodMenu === "mains" && <Mains menu={menuData.mains} />} */}
             {foodMenu === "meat" && <Meat menu={menuData.meat} />}
             {foodMenu === "paella" && <Paella menu={menuData.paella} />}
             {foodMenu === "salads" && <Salads menu={menuData.salads} />}
@@ -218,7 +218,7 @@ const Food = () => {
           >
             Lunch
           </div> */}
-          <div
+          {/* <div
             className={`btn ${foodMenu === "mains" ? "active" : ""}`}
             onClick={() => setFoodMenu("mains")}
             role="button"
@@ -235,7 +235,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("vegan")}
           >
             Vegan
-          </div>
+          </div> */}
         </Row>
       </Container>
     </Fragment>
