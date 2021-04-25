@@ -12,7 +12,7 @@ const Spirits = ({ drinks }) => {
         ))}
 
         <br />
-        <h3 className="my-3 text-center">Cognac</h3>
+        <h3 className="my-3 text-center">Brandy &amp; Cognac</h3>
         {drinks.cognac.map(item => (
           <DrinkItem title={item.title} price={item.price} />
         ))}
@@ -35,6 +35,12 @@ const Spirits = ({ drinks }) => {
       <div className="col-sm-6">
         <h3 className="my-3 text-center">Rum</h3>
         {drinks.rums.map(item => (
+          <DrinkItem title={item.title} price={item.price} />
+        ))}
+      </div>
+      <div className="col-sm-6">
+        <h3 className="my-3 text-center">Tequila</h3>
+        {drinks.tequila.map(item => (
           <DrinkItem title={item.title} price={item.price} />
         ))}
       </div>

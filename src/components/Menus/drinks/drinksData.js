@@ -555,7 +555,7 @@ export const drinksData = {
       },
       {
         title: "Rockshore (4.0%)",
-        price: "£4.80 pt <br/> £2.60 gls",
+        price: "£4.80 / £2.60",
       },
     ],
     bottledBeer: [
