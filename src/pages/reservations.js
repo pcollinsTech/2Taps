@@ -36,7 +36,7 @@ export default ReservationsPage
 
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "banner.jpg" }) {
+    image1: file(relativePath: { eq: "outfront.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2400) {
           ...GatsbyImageSharpFluid

@@ -19,7 +19,7 @@ export default MenusPage
 
 export const query = graphql`
   query {
-    tapasTrays: file(relativePath: { eq: "tapasTray6.jpg" }) {
+    tapasTrays: file(relativePath: { eq: "hollumi.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 2400) {
           ...GatsbyImageSharpFluid

@@ -16,10 +16,11 @@ const IndexPage = props => {
       <SEO title="Home" />
       <Banner
         img={props.data.image3.childImageSharp.fluid}
-        subHeader={`Nestled in the heart of Belfast, boasting one of Belfast's largest
-              outdoor dining experiences.
-              2Taps is the perfect place to meet, relax, share food and soak up
-              the atmosphere`}
+        subHeader={`2Taps Winebar & Restaurant - From the heart of Belfast’s Cathedral Quarter, 
+        boasting one of the city’s largest outdoor terraces, 2Taps creates all the atmosphere 
+        of summer regardless of the season. Welcoming family, friends, and admirers from across 
+        the world, 2Taps is a holiday and a home in one.
+        `}
       />
       <div className="inner_page">
         {/* <ScrollAnimation animateIn="fadeInUp">
@@ -114,21 +115,32 @@ export const pageImage = graphql`
     }
   }
 `
+
+
+export const aboutImage = graphql`
+  fragment aboutImage on File {
+    childImageSharp {
+      fluid(maxWidth: 2400) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "bannerOne.jpg" }) {
+    image1: file(relativePath: { eq: "cheers.jpeg" }) {
       ...indexImage
     }
-    image2: file(relativePath: { eq: "outsideDark.jpg" }) {
+    image2: file(relativePath: { eq: "outfront.jpeg" }) {
       ...pageImage
     }
-    image3: file(relativePath: { eq: "birdsEyeTable.jpeg" }) {
+    image3: file(relativePath: { eq: "hollumi.jpg" }) {
       ...indexImage
     }
-    march2020: file(relativePath: { eq: "march2020.jpg" }) {
+    march2020: file(relativePath: { eq: "paela.jpg" }) {
       ...aboutImage
     }
-    septemberDeal: file(relativePath: { eq: "septemberDeal.jpg" }) {
+    septemberDeal: file(relativePath: { eq: "2Taps-81.jpg" }) {
       ...indexImage
     }
   }

@@ -13,7 +13,6 @@ import Whites from "./drinks/Whites"
 import Roses from "./drinks/Roses"
 import Sangrias from "./drinks/Sangrias"
 import { drinksData } from "./drinks/drinksData"
-import garland from "../../assets/images/garland.png"
 
 const Drinks = () => {
   const [drinksMenu, setDrinks] = useState("sangrias")

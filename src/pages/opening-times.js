@@ -121,7 +121,7 @@ export default OpeningTimesPage
 
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "outside1.jpg" }) {
+    image1: file(relativePath: { eq: "outside2.jpg" }) {
       ...aboutImage
     }
   }
