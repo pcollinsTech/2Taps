@@ -23,44 +23,21 @@ const IndexPage = props => {
         `}
       />
       <div className="inner_page">
-        {/* <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section p-5">
-            <p>
-              With heavy hearts we regret to announce we are closing from Friday
-              16th October for 1 month 🤞🏻
-            </p>
-            <p>Frustrated? Yes. Defeated? No.</p>
-            <p>
-              We haven't any doubt that our industry will pull through these
-              difficult times, 2020 you have been a challenge to say the least!
-            </p>
-            <p>
-              To each and every customer, THANK YOU for such loyalty and
-              support, you haven’t let us down and for that we will be eternally
-              grateful.
-            </p>
-            <p>Looking forward to seeing you all very soon</p>
-            <p>The show must go on!</p>
-            <p>From the family, full of hope.</p>
-            <p>2Taps x</p>
-          </Container>
-        </ScrollAnimation> */}
+        
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section bg_red">
-            <Row className="justify-content-md-center my-5">
-              <div className="col-lg-10 col-sm-10">
+            <Row className="justify-content-md-center my-5 py-5" style={{ height: "60vh" }}>
                 <Img
                   fluid={props.data.image2.childImageSharp.fluid}
                   loading="lazy"
                   style={{ position: "static" }}
                 />
-              </div>
             </Row>
           </Container>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp">
           <Container className="inner_page_section ">
-            <Row className="justify-content-md-center my-5" style={{ height: "80vh" }}>
+            <Row className="justify-content-md-center my-5" style={{ height: "60vh" }}>
               <Img
                 fluid={props.data.image1.childImageSharp.fluid}
                 loading="lazy"

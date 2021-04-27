@@ -23,14 +23,16 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: "UA-158682739-1",
+          trackingId: 'UA-158682739-1', 
+          cookieName: 'gatsby-gdpr-google-analytics', 
+          anonymize: true, 
+          allowAdFeatures: false 
         },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-facebook-pixel`,
-      options: {
-        pixelId: "3530407150516723",
+        facebookPixel: {
+          pixelId: '3530407150516723',
+          cookieName: 'gatsby-gdpr-facebook-pixel', 
+        },
+        environments: ['production', 'development']
       },
     },
     `gatsby-transformer-sharp`,

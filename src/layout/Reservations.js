@@ -59,13 +59,7 @@ const Reservations = ({ open }) => {
                 >
                   <button className="btn btn-primary">Restaraunt Menu</button>
                 </Link>
-                <Link
-                  to="take-away"
-                  className="mb-5"
-                  onClick={() => toggler.toggleReservationTab()}
-                >
-                  <button className="btn btn-primary">Take Away Menu</button>
-                </Link>
+               
               </div>
               <ul className="social-links d-flex justify-content-around">
                 <li className="social-link">
