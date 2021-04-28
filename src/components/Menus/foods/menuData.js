@@ -93,12 +93,6 @@ export const menuData = {
         "Salted Cod croquettes served with tarragon mayonnaise & mix salad",
     },
     {
-      title: "14C. Cóctel de gambas",
-      price: "£5",
-      description:
-        "Prawn cocktail, marie rose & lettuce served with wheaten bread ",
-    },
-    {
       title: "15. Vieiras (GF)",
       price: "£9",
       description: "Pan Seared Scallops served on a bed of celeriac & nutmeg puree",
