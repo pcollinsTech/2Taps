@@ -19,9 +19,10 @@ const IndexPage = props => {
       />
       <div className="inner_page">
         <ScrollAnimation animateIn="fadeInUp">
-          <Container className="inner_page_section p-5">
+          <Container className="inner_page_section p-5 text-center">
             <p>
-              2Taps Winebar & Restaurant - From the heart of Belfast’s Cathedral Quarter, 
+              2Taps Winebar & Restaurant <br/>
+              From the heart of Belfast’s Cathedral Quarter, 
               boasting one of the city’s largest outdoor terraces, 2Taps creates all the atmosphere 
               of summer regardless of the season. Welcoming family, friends, and admirers from across 
               the world, 2Taps is a holiday and a home in one.
