@@ -79,7 +79,7 @@ export const drinksData = {
       price: "£26",
     },
     {
-      title: "Spain, Crianza Tempranillo, Rioja, Bodegas Alvia Mileto",
+      title: "Spain, Joven Tempranillo, Rioja, Bodegas Alvia Mileto",
       price: "£26",
     },
     {
@@ -149,7 +149,7 @@ export const drinksData = {
     },
     {
       title: "Spain, Moscatel, Navarra, Gran Feudo",
-      price: "£5 (70ml)",
+      price: "£7.5 (125ml)",
     },
     {
       title: "Portugal, Late Bottle Vintage Port, Taylor’s",
@@ -170,9 +170,15 @@ export const drinksData = {
     },
     {
       title: "tinto de verano",
-      price: "£4.50 gls / £14.50 jug",
+      price: "£6 gls / £16 jug",
       description:
         "red wine, bacardi carta blanca, martini rosso, lemon juice, lemonade",
+    },
+    {
+      title: "Kalimotxo",
+      price: "£6 gls",
+      description:
+        "Red wine, bacardi coconut, lime juice, Coca Cola",
     },
   ],
   cocktails: [
@@ -188,7 +194,7 @@ export const drinksData = {
     },
     {
       title: "Screwdriver ",
-      price: "£8",
+      price: "£7",
       description: "Ketel One, Angostura, Fresh Orange",
     },
     {
@@ -204,7 +210,7 @@ export const drinksData = {
     },
     {
       title: "Zombi ",
-      price: "£9",
+      price: "£10",
       description:
         "Kraken Dark, Captain Morgan Tiki, Velvet Falernum, Grenadine, Angostura, Grapefruit, Pineapple Juice",
     },
@@ -295,11 +301,15 @@ export const drinksData = {
       price: "£4.60",
     },
     {
-      title: "Whitley neill lemongrass & ginger",
+      title: "Whitley neill Lemongrass & Ginger",
       price: "£4.7",
     },
     {
-      title: "Whitley neill rhubarb & ginger",
+      title: "Whitley neill Rhubarb & Ginger",
+      price: "£4.8",
+    },
+    {
+      title: "Whitley neill Watermelon & Kiwi",
       price: "£4.8",
     },
     {
@@ -454,10 +464,6 @@ export const drinksData = {
       {
         title: "Sierra Silver",
         price: "£3.4",
-      },
-      {
-        title: "Ocho Blanco 100% Agave",
-        price: "£3.7",
       },
       {
         title: "Jose Cuervo Tradicional Silver",
@@ -687,8 +693,8 @@ export const drinksData = {
       price: "£2.40",
     },
     {
-      title: "Schweppes White Lemonade / Soda Water 20cl",
-      price: "£2.50",
+      title: "Schweppes White Lemonade / Soda Water 125ml",
+      price: "£2.30",
     },
     {
       title:

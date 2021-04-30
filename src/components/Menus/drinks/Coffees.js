@@ -7,7 +7,7 @@ const Coffees = ({ drinks }) => {
       <div className="col-sm-6">
         <h3 className="my-3 text-center">
           Liqueur <br />
-          £6.50
+          £7
         </h3>
         {drinks.liqeuer.map(item => (
           <DrinkItem title={item.title} price={item.price} />
