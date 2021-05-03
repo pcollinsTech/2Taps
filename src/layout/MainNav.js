@@ -46,7 +46,7 @@ class NavBar extends Component {
                   </Nav.Item>
                   <Nav.Item>
                     <Link
-                      to="/menus"
+                      to="/menus/"
                       className="nav-link"
                       onClick={this.closeNavbar}
                       activeClassName="active"

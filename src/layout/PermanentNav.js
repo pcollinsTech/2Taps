@@ -25,7 +25,7 @@ const PermanentNav = () => {
           </Link>
         </div> */}
         <div className="menu_section">
-          <Link to="/menus" className="d-flex justify-content-between">
+          <Link to="/menus/" className="d-flex justify-content-between">
             <div className="menu_text_container">
               <div className="text">Menu</div>
             </div>
