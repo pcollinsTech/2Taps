@@ -143,10 +143,10 @@ export const menuData = {
       description: "Spanish omelette with red pepper, onion & potato",
     },
     {
-      title: "24. Pimiento de Piquillo",
+      title: "24. Pimientos del Padrón",
       price: "£4",
       description:
-        "Piquilo peppers stuffed with feta cheese served with mix salad",
+        "Padron peppers served with cayenne, smoked paprika & lime mayonnaise",
     },
     {
       title: "25. Empanada Vegetariana",
