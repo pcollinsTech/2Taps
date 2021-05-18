@@ -118,11 +118,11 @@ export const menuData = {
       description:
         "Pan fried catch of the day served with salsa verde & mixed salad",
     },
-    {
-      title: "20. Pulpo y Chorizo",
-      price: "£8",
-      description: "Pan fried octopus & chorizo served potato, red onion & mix peppers",
-    },
+    // {
+    //   title: "20. Pulpo y Chorizo",
+    //   price: "£8",
+    //   description: "Pan fried octopus & chorizo served potato, red onion & mix peppers",
+    // },
   ],
   vegetarian: [
     {
