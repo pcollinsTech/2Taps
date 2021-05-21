@@ -192,11 +192,11 @@ export const drinksData = {
       price: "£8.5",
       description: "Bacardi Coconut, Pineapple Juice, Coconut Milk",
     },
-    {
-      title: "Screwdriver ",
-      price: "£7",
-      description: "Ketel One, Angostura, Fresh Orange",
-    },
+    // {
+    //   title: "Screwdriver ",
+    //   price: "£7",
+    //   description: "Ketel One, Angostura, Fresh Orange",
+    // },
     {
       title: "Margarita",
       price: "£9",
@@ -308,10 +308,10 @@ export const drinksData = {
       title: "Whitley neill Rhubarb & Ginger",
       price: "£4.8",
     },
-    {
-      title: "Whitley neill Watermelon & Kiwi",
-      price: "£4.8",
-    },
+    // {
+    //   title: "Whitley neill Watermelon & Kiwi",
+    //   price: "£4.8",
+    // },
     {
       title: "Hendrick’s",
       price: "£4.9",
@@ -437,6 +437,12 @@ export const drinksData = {
         title: "Black Bush",
         price: "£5.4",
       },
+      
+      {
+        title: "Bushmill's Caribbean Rum Cask",
+        price: "£4.6",
+      },
+
       {
         title: "Woodford Reserve",
         price: "£6",
@@ -698,7 +704,7 @@ export const drinksData = {
     },
     {
       title:
-        "Schweppes Signature Tonics: Crisp Tonic, Light Tonic, Golden Ginger ale, Cucumber Tonic, Salty Lemon Tonic",
+        "Fever tree original, Fever tree light, Fever tree elder-flower, Fever tree Mediterranean",
       price: "£3.00",
     },
     {
