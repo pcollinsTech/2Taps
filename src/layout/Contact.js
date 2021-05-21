@@ -85,7 +85,7 @@ const Contact = () => {
                 </a>
               </li>
             </ul>
-            <ValidationForm
+            {/* <ValidationForm
               id="contactForm"
               onSubmit={(e, formData, inputs) => {
                 e.preventDefault()
@@ -163,7 +163,7 @@ const Contact = () => {
                   </div>
                 </form>
               </div>
-            </ValidationForm>
+            </ValidationForm> */}
           </Modal.Body>
         </Modal>
       </Fragment>
