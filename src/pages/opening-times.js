@@ -23,9 +23,14 @@ const OpeningTimesPage = props => {
               <div className="text-center col-lg-10 col-sm-12">
                 <h3>Regular Hours</h3>
                 <br />
-                
                 <p>
-                  Monday - Thursday
+                  Monday 
+                  <br />
+                 Closed
+                  <hr />
+                </p>
+                <p>
+                  Tuesday - Thursday
                   <br />
                   12 - 9.45pm
                   <hr />
