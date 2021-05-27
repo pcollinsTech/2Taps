@@ -134,7 +134,9 @@ const Food = () => {
             <br />
             <span style={{ fontSize: "12px" }} className="text-center pt-5">
               If you have any dietary requirements please speak to staff about the
-              ingredients in your meal, when making your order. Please be advised
+              ingredients in your meal, when making your order.
+              <br/>
+              Please be advised
               that food allergens are handled in the kitchen. In some cases,
               allergensmay be unavoidably present due to shared equipment or the
               ingredients used.

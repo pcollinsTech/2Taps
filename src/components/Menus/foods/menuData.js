@@ -1,18 +1,18 @@
 export const menuData = {
   starters: [
     {
-      title: "1 .Aceitunas Mixtas",
+      title: "1. Aceitunas Mixtas (V)",
       price: "£4.5",
       description: "Mixed Olives - Ask server for details",
     },
     {
-      title: "2. Panes Planos",
+      title: "2. Panes Planos (V)",
       price: "£6",
       description:
         "Grilled flat bread served with beetroot hummus; basil pesto & smoked sundried tomato tapenade",
     },
     {
-      title: "3A. Pan Fresco",
+      title: "3A. Pan Fresco (V)",
       price: "£6",
       description:
         "Selection of bread served with aioli, basil pesto, smoked sundried tomato tapenade, olive oil & balsamic vinegar",
@@ -109,7 +109,7 @@ export const menuData = {
     },
     {
       title: "18. Calamares",
-      price: "£6",
+      price: "£6.50",
       description: " Salted squid served with cayenne, smoked paprika & lime mayonnaise",
     },
     {
@@ -126,60 +126,60 @@ export const menuData = {
   ],
   vegetarian: [
     {
-      title: "21. Buñuelos de queso de cabra",
+      title: "21. Buñuelos de queso de cabra (V)",
       price: "£4.5",
       description:
         "Goats cheese fritters served with a rocket, beetroot & balsamic vinegar",
     },
     {
-      title: "22. Patatas Bravas (GF) (V)",
+      title: "22. Patatas Bravas (GF)(V)",
       price: "£4",
       description:
         "Crispy fried pototas topped with spicy tomato sauce & aioli",
     },
     {
-      title: "23. Tortilla Española (GF)",
+      title: "23. Tortilla Española (GF)(V)",
       price: "£4",
       description: "Spanish omelette with red pepper, onion & potato",
     },
     {
-      title: "24. Pimientos del Padrón",
+      title: "24. Pimientos del Padrón (V)",
       price: "£4",
       description:
         "Padron peppers served with cayenne, smoked paprika & lime mayonnaise",
     },
     {
-      title: "25. Empanada Vegetariana",
+      title: "25. Empanada Vegetariana (V)",
       price: "£4",
       description:
         "Sweet potato, goats cheese and caramelised red onion wrapped in filo pastry with tahini yoghurt",
     },
     {
-      title: "26. Champiñones con Pesto y Brie Fundido",
+      title: "26. Champiñones con Pesto y Brie Fundido (V)",
       price: "£4.5",
       description:
         "Large flat cup mushrooms served with fresh pesto & melted brie",
     },
     {
-      title: "27. Patatas fritas con salsa de ajo (GF)",
+      title: "27. Patatas fritas con salsa de ajo (GF)(V)",
       price: "£4",
       description:
         "Cajun spiced chips served with sweet chilli & sour cream dip",
     },
     {
-      title: "28. Croquetas de Patata (GF) ",
+      title: "28. Croquetas de Patata (GF)(V)",
       price: "£4",
       description: "Potato croquettes served with aioli & mix salad",
     },
     {
-      title: "29. Brioche con Halloumi y mermelada de chile",
+      title: "29. Brioche con Halloumi y mermelada de chile (V)",
       price: "£4.5",
       description: "Grilled halloumi, chilli jam on brioche toast",
     },
   ],
   salads: [
     {
-      title: "30. Ensalada Vasca (GF)",
+      title: "30. Ensalada Vasca (GF)(V)",
       price: "£5.5",
       description:
         "Salad with goats cheese, avocado, olives, tomato, red onion & balsamic vinegar",
@@ -222,7 +222,7 @@ export const menuData = {
         "Meat paella with chicken and chorizo in saffron and spicy tomato rice",
     },
     {
-      title: "38. Paella Vegetal (GF)",
+      title: "38. Paella Vegetal (GF)(V)",
       price: "£14",
       description:
         "Vegetarian paella with mushrooms, peppers, asparagus mixed vegetables in saffron and spicy tomato rice",
