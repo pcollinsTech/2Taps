@@ -144,7 +144,7 @@ export const menuData = {
     },
     {
       title: "24. Pimientos del Padrón (V)",
-      price: "£4",
+      price: "£5",
       description:
         "Padron peppers served with cayenne, smoked paprika & lime mayonnaise",
     },
