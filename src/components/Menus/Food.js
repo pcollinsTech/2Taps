@@ -100,7 +100,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("mains")}
           >
             Mains
-          </div>
+          </div> */}
           <div
             className={`btn ${foodMenu === "vegan" ? "active" : ""}`}
             onClick={() => setFoodMenu("vegan")}
@@ -109,7 +109,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("vegan")}
           >
             Vegan
-          </div> */}
+          </div>
         </Row>
       </Container>
       <div >
@@ -119,7 +119,7 @@ const Food = () => {
           <Row>
             {foodMenu === "desserts" && <Desserts menu={menuData.desserts} />}
             {foodMenu === "fish" && <Fish menu={menuData.fish} />}
-            {/* {foodMenu === "vegan" && <Vegan menu={menuData.vegan} />} */}
+            {foodMenu === "vegan" && <Vegan menu={menuData.vegan} />}
             {/* {foodMenu === "lunch" && <Lunch menu={menuData.lunch} />} */}
             {/* {foodMenu === "mains" && <Mains menu={menuData.mains} />} */}
             {foodMenu === "meat" && <Meat menu={menuData.meat} />}
@@ -228,7 +228,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("mains")}
           >
             Mains
-          </div>
+          </div> */}
           <div
             className={`btn ${foodMenu === "vegan" ? "active" : ""}`}
             onClick={() => setFoodMenu("vegan")}
@@ -237,7 +237,7 @@ const Food = () => {
             onKeyDown={() => setFoodMenu("vegan")}
           >
             Vegan
-          </div> */}
+          </div>
         </Row>
       </Container>
     </Fragment>
