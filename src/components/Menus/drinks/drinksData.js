@@ -349,7 +349,7 @@ export const drinksData = {
       description: "Cranberry Juice, Orange Juice, Lime Juice, Strawberry Syrup",
     },
     {
-      title: "giner apple fizz",
+      title: "ginger apple fizz",
       price: "£5",
       description: "Apple Juice, Lemon Juice, Ginger Beer, Sugar",
     },
