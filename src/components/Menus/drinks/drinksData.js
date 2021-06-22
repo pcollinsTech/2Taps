@@ -1,159 +1,155 @@
 export const drinksData = {
   houseWhites: [
     {
-      title: "Spain, Organic Macabeo, Castilla la Mancha, Dominio de Egueren ",
-      price: "£5.75 / £14.50 / £20",
+      title: "Protocolo Blanco – Organic Macabeo, Castilla, Spain (12%)",
+      price: "£5.5 / £14.5 / £20",
     },
     {
-      title: "Italy, Pinot Grigio, Friuli, Reguta Giuseppe e Luigi",
-      price: " £6 / £15 / £21",
+      title: "Giuseppe e Luigi Reguta – Pinot Grigio, Friuli, Italy (12.5%)",
+      price: "£6 / £15 / £21",
     },
     {
       title:
-        "Italy, Chardonnay, Venezia, Corta Vigna ",
-      price: "£6 / £15.50 / £22",
+        "Tuna Club – Verdejo-Sauvignon Blanc, Castilla, Spain (13%)",
+      price: "£6.5 / £16.5 / £23",
     },
     {
-      title: "France, Colombard & Gros Manseng, Côtes de Gascogne, Domain la Salette",
-      price: "£6 / £16.50 / £24",
+      title: "La Salette – Colombard-Gros Manseng, Cotes de Gasgogne, France (12%)",
+      price: "£6.5 / £16.5 / £23",
     },
     {
-      title: "New Zealand, Sauvignon Blanc, Marlborough, The Duke",
-      price: "£6.75 / £17 / £25",
+      title: "Modernista Blanca – Macabeo-Garnacha &amp; Moscatel, Terra Alta, Spain (13.5%)",
+      price: "£6.75 / £17 / £26",
+    },
+    {
+      title: "The Duke – Sauvignon Blanc, Marlborough, New Zealand (12%)",
+      price: "£6.75 / £17 / £26",
     },
   ],
   whites: [
     {
       title:
-        "Portugal, Trajadura & Alvarinho , Vinho Verde, Adega de Monção",
+        "Vina Salceda – Verdejo, Rueda, Spain (13%)",
       price: "£25",
     },
 
     {
-      title: "Spain, Viura & Tempranillo Blanco, Rioja , Bodegas Carlos Serres",
-      price: "£24",
+      title: "Tempus Two – Pinot Gris, South East Australia (12%)",
+      price: "£25",
     },
     {
-      title: "Spain, Albariño, Galicia Rías Baixas , Atlantik",
-      price: "£29",
+      title: "Carlos Serres White Rioja – Viura & Tempranillo, Spain (13%)",
+      price: "£25",
     },
     {
       title:
-        "France, Chardonnay, Bourgogne Chablis, Hervé Kerlann Chȃteau de Laborde",
-      price: "£34",
+        "Adega de Moncao – Vinho Verde Alvarinho & Trajadura, Portugal (12%)",
+      price: "£26",
+    },
+    {
+      title:
+        "Chateau de Laborde – Chablis Chardonnay, Bourgogne, France (13.5%)",
+      price: "£33",
     },
   ],
   houseReds: [
     {
-      title: "Spain, Organic Tempranillo, Castilla la Mancha, Dominio de Egueren",
-      price: "£5.75 / £14.50 / £20",
+      title: " Protocolo Tinto – Organic Tempranillo, Castilla, Spain (13.5%)",
+      price: "£5.5 / £14.5 / £20",
     },
 
     {
-      title: "Spain, Joven Tempranillo & Garnacha, Navarra, Pagos de Araiz",
+      title: "Pagos de Araiz – Joven Style Chilled Tempranillo-Garnacha, Navarre, Spain",
       price: "£6 / £15 / £21",
       description: "*served chilled*"
     },
 
     {
-      title: "France, Syrah & Merlot , Rhône Pays du Vaucluse, L’Amandine Cuvée Mathilde",
-      price: " £6 / £15 / £21",
+      title: "Carlos Serres Old Vines – Tempranillo, Rioja, Spain (13%)",
+      price: " £6.5 / £16.5 / £24",
     },
 
     {
-      title: "Spain, Old Vines Tempranillo, Rioja, Bodegas Carlos Serres",
-      price: "£6.75 / £16 / £24",
+      title: "Beronia Crianza – Tempranillo, Rioja, Spain (14%)",
+      price: "£6.75 / £17 / £26",
     },
     {
-      title: "Argentina, Malbec, Mendoza, Don Aparo",
-      price: "£6.75 / £16.50 / £24",
+      title: "Clos La Coutale – Malbec, Cahors, France (14%)",
+      price: "£7 / £17.5 / £27",
     },
   ],
   reds: [
     {
-      title: "Italy, Montepulciano, Abruzzo, Collezione Casal Bordino",
-      price: "£23",
+      title: "Passo Sardo – Cannonau Grenache, Sardinia (13%)",
+      price: "£25",
     },
     {
-      title: "Chile, Reserve Cabernet Sauvignon, Colchagua Valley, Terra Noble",
+      title: "Terra Noble – Reserva Cabernet Sauvignon, Chile (13.5%)",
       price: "£26",
     },
     {
-      title: "Spain, Joven Tempranillo, Rioja, Bodegas Alvia Mileto",
+      title: "Modernista Negre – Garnacha, Terra Alta, Spain (14.5%)",
       price: "£26",
     },
     {
-      title: "Spain, Crianza Tempranillo, Rioja, Bodegas Carlos Serres",
+      title: "Casar de Burbia – Mencia, Bierzo, Spain (14.5%)",
       price: "£29",
     },
     {
-      title: "spanish bierzo; mencia; casar de burbia",
-      price: "£29",
-    },
-    {
-      title:
-        "Spain, Mencia, Bierzo, Casar de Burbia",
-      price: "£29",
-    },
-    {
-      title: "New Zealand, Pinot Noir, Nelson, Old Coach Road",
+      title: "Old Coach Road – Pinot Noir, Nelson, New Zealand (13%)",
       price: "£31",
     },
     {
       title:
-        "Spain, Tempranillo, Ribera del Duero, Momo Vendimia Seleccionada",
+        "Momo Vendimia Selecionada – Tempranillo, Ribera del Duero, Spain (14%)",
       price: "£33",
     },
     {
-      title:
-        "Spain, Gran Reserva Tempranillo – Graciano & Mazuelo, Rioja, Bodegas Carlos Serres",
-      price: "£37",
+      title: "Carlos Serres Gran Reserva – Tempranillo-Graciano & Manzuelo, Rioja, Spain (14%)",
+      price: "£38",
     },
+    
   ],
   roses: [
     {
-      title: "France, Grenache & Syrah, Rhône Pays du Vaucluse, L’Amandine Cuvée Marie",
-      price: " £6 / £15 / £22",
+      title: "Villa Serena - Pinot Grigio Rose, Venezia, Italy (12%)",
+      price: " £6 / £16 / £22",
     },
     {
-      title: "Italy, Pinot Grigio Rosé, Venezia, Villa Serena",
-      price: "£6 / £15 / £22",
+      title: "Domaine L’Amandine Cuvée Marie Rose – Vin de Pays de Vaucluse, France (13.5%)",
+      price: "£6 / £16 / £22",
     },
     {
-      title: "US, White Zinfandel, California",
-      price: "£6.25 / £15 / £23",
+      title: "La Batisse Rose – Vin de France (11.5%)",
+      price: "£6.5 / £17 / £24",
     },
   ],
   champagnes: [
     {
       title:
-        "France, Brut Chardonnay – P. Noir & P. Meunier, Champagne Grand Cru, Arnaud Moreau",
-      price: "£55 (750ml)",
+        "Small Prosecco Sartori Erfo, Venezia, Italy (11%)",
+      price: "£8.5",
     },
     {
       title:
-        "Italy, Prosecco Superiore DOCG, Glera, Valdobiadenne, Casa Dei Farive",
-      price: "£29 (750ml)",
+        "Casa dei Farive DOCG Prosecco Superiore, Valdiobiadenne, Italy (11%)",
+      price: "£29",
     },
     {
-      title: "Spain, Brut Macabeo – Xarel-lo & Parellada, Cava, Naveran",
-      price: "£28 (750ml)",
+      title: "Canals-Nadal Cava Brut, Penedes, Spain (12%)",
+      price: "£27",
     },
     {
-      title: "Spain, Brut Rosé Macabeo, Cava, Naveran",
-      price: "£28 (750ml)",
+      title: "Rose Naveran Cava Brut, Penedes, Spain (12%)",
+      price: "£28",
     },
     {
-      title: "Italy, Prosecco Erfo, Venezia",
-      price: "£8.5 (200ml)",
+      title: "Rose Mionetto Prosecco, Trentino, Italy (11%)",
+      price: "£29",
     },
     {
-      title: "Spain, Moscatel, Navarra, Gran Feudo",
-      price: "£7.5 (125ml)",
-    },
-    {
-      title: "Portugal, Late Bottle Vintage Port, Taylor’s",
-      price: "£5 (70ml)",
+      title: "Pol Roger Reserve Brut, Champagne, France (12.5%)",
+      price: "£65",
     },
   ],
   sangrias: [

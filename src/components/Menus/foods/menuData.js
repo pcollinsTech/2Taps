@@ -3,7 +3,7 @@ export const menuData = {
     {
       title: "1. Aceitunas Mixtas (V)",
       price: "£4.5",
-      description: "Mixed Olives - Ask server for details",
+      description: "Mixed Olives - Ask server for details <br /> *May contain stones*",
     },
     {
       title: "2. Panes Planos (V)",
@@ -347,7 +347,7 @@ export const menuData = {
     {
       title: "Aceitunas – Mixed Olives",
       price: "$4.50",
-      description: "Ask server for varieties",
+      description: "Ask server for varieties <br/> *May contain stones*",
     },
     {
       title: "Pan Fresco – Bread Basket",
