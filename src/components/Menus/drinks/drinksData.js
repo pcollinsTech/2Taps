@@ -550,7 +550,7 @@ export const drinksData = {
   beers: {
     draught: [
       {
-        title: "Estrella Damm lager (4.6%)",
+        title: "Madri Exceptional (4.6%)",
         price: "£5.20 / £2.70",
       },
       {
