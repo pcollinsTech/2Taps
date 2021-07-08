@@ -355,6 +355,12 @@ export const menuData = {
       description: "Olive oil & balsamic vinegar, sundried tomato tapenade, garlic aioli and basil pesto",
     },
     {
+      title: "Pimientos del Padrón (V)",
+      price: "£5",
+      description:
+        "Padron peppers served with cayenne, smoked paprika & lime mayonnaise",
+    },
+    {
       title: "PANES PLANOS",
       price: "£6",
       description: "Grilled flat bread served with garlic aioli, sundried tomato tapenade and basil pesto",
