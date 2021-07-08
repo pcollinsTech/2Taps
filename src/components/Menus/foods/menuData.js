@@ -146,7 +146,7 @@ export const menuData = {
       title: "24. Pimientos del Padrón (V)",
       price: "£5",
       description:
-        "Padron peppers served with cayenne, smoked paprika & lime mayonnaise",
+        "Padron peppers served with aioli",
     },
     {
       title: "25. Empanada Vegetariana (V)",
@@ -358,7 +358,7 @@ export const menuData = {
       title: "Pimientos del Padrón (V)",
       price: "£5",
       description:
-        "Padron peppers served with cayenne, smoked paprika & lime mayonnaise",
+        "Padron peppers served with aioli",
     },
     {
       title: "PANES PLANOS",
